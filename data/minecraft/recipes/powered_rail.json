@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:powered_rail",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": 0.5,
+        "can_always_eat": true,
+        "eat_seconds": 1.8,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:speed",
+              "duration": 600
+            }
+          }
+        ]
+      }
+    }
+  }
+}

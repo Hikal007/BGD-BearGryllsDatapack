@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stained_glass_pane",
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "$": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:orange_stained_glass_pane",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": 1,
+        "can_always_eat": true,
+        "eat_seconds": 1.4
+      }
+    }
+  }
+}

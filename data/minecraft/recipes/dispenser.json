@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "minecraft:bow"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "#R#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:dispenser",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": 1,
+        "can_always_eat": true,
+        "eat_seconds": 1.8,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:strength",
+              "duration": 600
+            }
+          }
+        ]
+      }
+  }
+}

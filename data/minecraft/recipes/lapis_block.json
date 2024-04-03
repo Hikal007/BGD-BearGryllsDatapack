@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:lapis_block",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation_modifier": 10.0,
+        "can_always_eat": true,
+        "eat_seconds": 2.5,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:haste",
+              "duration": 1000
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:luck",
+              "amplifier": 9,
+              "duration": 300
+            }
+          }
+        ]
+      }
+    }
+  }
+}

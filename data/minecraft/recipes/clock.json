@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "X": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:clock",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation_modifier": 2.0,
+        "can_always_eat": true,
+        "eat_seconds": 1.7
+      }
+    }
+  }
+}
