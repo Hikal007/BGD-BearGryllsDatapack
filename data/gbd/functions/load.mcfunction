@@ -1,0 +1,2 @@
+tellraw @a [{"text": "=========版本:V1.0.0========\n"},{"text": "====作者: Big_Jls(白狗虚虚)====\n"},{"text": "======选择模式(默认正常)======\n"},{"text": "=========   "},{"text": "正常","color": "green","underlined": true},{"text": "   =========\n"},{"text": "=========   "},{"text": "挑战","color": "dark_red"},{"text": "   =========\n"}]
+playsound entity.experience_orb.pickup player @a ~ ~ ~ 1 1 1
