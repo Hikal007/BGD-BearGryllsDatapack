@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation_modifier": 10.0,
+                  "can_always_eat": true,
+                  "eat_seconds": 2.5,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 1000
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:luck",
+                        "amplifier": 9,
+                        "duration": 300
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/lapis_block"
+}
