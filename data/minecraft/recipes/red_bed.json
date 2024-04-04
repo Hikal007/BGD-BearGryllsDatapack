@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "beds",
+  "key": {
+    "#": {
+      "item": "minecraft:red_wool"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:red_bed",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation_modifier": 1,
+        "can_always_eat": true,
+        "eat_seconds": 1.6
+      }
+    }
+  }
+}
