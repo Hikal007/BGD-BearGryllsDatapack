@@ -1,37 +1,10 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+写完打钩写完打钩写完打钩写完打钩写完打钩写完打钩写完打钩写完打钩
+写完打钩写完打钩写完打钩写完打钩写完打钩写完打钩写完打钩写完打钩
+写完打钩写完打钩写完打钩写完打钩写完打钩写完打钩写完打钩写完打钩
 
 Piston: +2 hunger, jump boost for 15 seconds
 
 Wool: +1 hunger
-
-
 
 Block of gold: +4 hunger
 Block of iron: +3 hunger
@@ -136,7 +109,7 @@ bonemeal: -1 hunger, reverts your skin back to normal
 Bone: +1 hunger, nausea for 20 seconds
 
 Cake: +5 hunger
-Bed: +4 hunger
+(√) Bed: +4 hunger
 Redstone repeater: +2 hunger +2 hunger
 Map: +4 hunger
 Shears: +2 hunger
