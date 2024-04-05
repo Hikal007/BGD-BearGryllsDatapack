@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:mossy_cobblestone"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:mossy_cobblestone_stairs",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": 1
+      }
+    }
+  }
+}

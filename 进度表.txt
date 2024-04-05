@@ -2,7 +2,7 @@
 写完打钩然后签名 写完打钩然后签名 写完打钩然后签名 写完打钩然后签名
 写完打钩然后签名 写完打钩然后签名 写完打钩然后签名 写完打钩然后签名
 
-(√ Xiaohuli) Piston: +2 hunger, jump boost for 15 seconds
+(√ Xiaohuli) Piston: +2 hunger, jump boost for 15 seconds[如需活塞跳跃提升1，粘性3级]
 
 (√ Big_Jls) Wool: +1 hunger
 
@@ -14,9 +14,11 @@ Bricks: +2 hunger
 Bookshelf: +3 hunger, you turn into twilight sparkle
 Moss stone: +1 hunger
 Obsidian: +3 hunger, slowness for 20 seconds
-Torch: -1 hunger, night vision for 30 seconds
-Stairs: +1 hunger
-Chest: +3 hunger
+Torch: -1 hunger, night vision for 30 seconds [工作台配方已完成]
+
+(√ Xiaohuli) Stairs: +1 hunger
+
+(√ Xiaohuli) Chest: +3 hunger
 Diamond ore: -1 hunger, haste for 60 seconds
 Block of diamond: +5 hunger, regeneration for 5 seconds(+4 health)
 Crafting table: +3 hunger
@@ -139,6 +141,13 @@ Fire charge: -2 hunger, sets you on fire(-15 health) (需要添加function使玩
 Tnt: 1 tick speed? (永久提升？还是只有1tick)
 
 
+# 满饱食度的情况下难以生效，可能由于存在饥饿耐度
+-1 hunger 
+            "effect": {
+              "id": "minecraft:hunger",
+              "amplifier": 40,
+              "duration": 20
+            }
 -2 hunger 
             "effect": {
               "id": "minecraft:hunger",
@@ -157,3 +166,8 @@ Tnt: 1 tick speed? (永久提升？还是只有1tick)
               "amplifier": 160,
               "duration": 20
             }
+
+
+PS:
+  "amplifier": (0是一级，)
+  "duration": (持续时间20tick一秒)

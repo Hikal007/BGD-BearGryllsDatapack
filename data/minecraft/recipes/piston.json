@@ -26,11 +26,13 @@
     "components": {
       "minecraft:food": {
         "nutrition": 2,
+        "saturation_modifier": 1,
         "effects": [
           {
             "effect": {
               "id": "minecraft:jump_boost",
-              "duration": 15
+              "amplifier": 0,
+              "duration": 300
             }
           }
         ]

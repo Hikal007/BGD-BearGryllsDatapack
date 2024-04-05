@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:chest",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation_modifier": 1
+      }
+    }
+  }
+}
