@@ -4,10 +4,10 @@
 
 (√ Xiaohuli) Piston: +2 hunger, jump boost for 15 seconds
 
-Wool: +1 hunger
+(√ Big_Jls) Wool: +1 hunger
 
-Block of gold: +4 hunger
-Block of iron: +3 hunger
+(√ Big_Jls) Block of gold: +4 hunger
+(√ Big_Jls) Block of iron: +3 hunger
 Slabs: +1 hunger
 Bricks: +2 hunger
 Tnt: 1 tick speed?
