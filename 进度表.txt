@@ -126,10 +126,33 @@ Brewing stand: -2 hunger
 Calderon: +4 hunger
 Eye of ender: -3 hunger, night vision for 40 seconds
 Glistering melon: +4 hunger
-Spawn eggs: +3 hunger
-Bottle of enchanting: +2 hunger
-Fire charge: -2 hunger, sets you on fire(-15 health)
 
 Music disks: +1 hunger
 
 
+In working:
+Spawn eggs: +3 hunger
+Bottle of enchanting: +2 hunger (需要修改箱子战利品表以及交易)
+Music disks: +1 hunger (需要修改怪物掉落物)
+Glistering melon: +4 hunger (需要修改箱子战利品表、村民交易)
+Fire charge: -2 hunger, sets you on fire(-15 health) (需要添加function使玩家着火)
+
+
+-2 hunger 
+            "effect": {
+              "id": "minecraft:hunger",
+              "amplifier": 80,
+              "duration": 20
+            }
+-3 hunger 
+            "effect": {
+              "id": "minecraft:hunger",
+              "amplifier": 120,
+              "duration": 20
+            }
+-4 hunger 
+            "effect": {
+              "id": "minecraft:hunger",
+              "amplifier": 160,
+              "duration": 20
+            }
