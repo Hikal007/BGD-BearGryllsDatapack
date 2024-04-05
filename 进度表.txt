@@ -10,7 +10,7 @@
 (√ Big_Jls) Block of iron: +3 hunger
 Slabs: +1 hunger
 Bricks: +2 hunger
-Tnt: 1 tick speed?
+
 Bookshelf: +3 hunger, you turn into twilight sparkle
 Moss stone: +1 hunger
 Obsidian: +3 hunger, slowness for 20 seconds
@@ -136,6 +136,7 @@ Bottle of enchanting: +2 hunger (需要修改箱子战利品表以及交易)
 Music disks: +1 hunger (需要修改怪物掉落物)
 Glistering melon: +4 hunger (需要修改箱子战利品表、村民交易)
 Fire charge: -2 hunger, sets you on fire(-15 health) (需要添加function使玩家着火)
+Tnt: 1 tick speed? (永久提升？还是只有1tick)
 
 
 -2 hunger 
