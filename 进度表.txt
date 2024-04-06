@@ -14,7 +14,7 @@ Bricks: +2 hunger
 Bookshelf: +3 hunger, you turn into twilight sparkle
 Moss stone: +1 hunger
 Obsidian: +3 hunger, slowness for 20 seconds
-Torch: -1 hunger, night vision for 30 seconds [工作台配方已完成]
+(√ Xiaohuli)Torch: -1 hunger, night vision for 30 seconds [工作台配方已完成]
 
 (√ Xiaohuli) Stairs: +1 hunger
 
