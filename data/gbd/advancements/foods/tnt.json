@@ -1,0 +1,20 @@
+{
+    "parent": "gbd:food/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:tnt"
+            ],
+            "count": 1
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "gbd:foods/tnt"
+    }
+  }
+  
