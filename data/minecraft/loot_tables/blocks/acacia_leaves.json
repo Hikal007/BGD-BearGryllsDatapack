@@ -46,7 +46,7 @@
                       "nutrition": 1,
                       "saturation_modifier": 1.5,
                       "can_always_eat": true,
-                      "eat_seconds": 1
+                      "eat_seconds": 1.6
                     }
                   }
                 }
@@ -78,7 +78,7 @@
                       "nutrition": 1,
                       "saturation_modifier": 0.2,
                       "can_always_eat": true,
-                      "eat_seconds": 1.7,
+                      "eat_seconds": 1.6,
                       "effects": [
                         {
                           "effect": {
@@ -166,7 +166,7 @@
                   "nutrition": 0,
                   "saturation_modifier": 0.0,
                   "can_always_eat": true,
-                  "eat_seconds": 1.7,
+                  "eat_seconds": 1.6,
                   "effects": [
                     {
                       "effect": {
