@@ -143,29 +143,29 @@ Fire charge: -2 hunger, sets you on fire(-15 health) (需要添加function使玩
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
 -1 hunger 
-            "effect": [{
+            "effect": {
               "id": "minecraft:hunger",
               "amplifier": 40,
               "duration": 20
-            }]
+            }
 -2 hunger 
-            "effect": [{
+            "effect": {
               "id": "minecraft:hunger",
               "amplifier": 80,
               "duration": 20
-            }]
+            }
 -3 hunger 
-            "effect": [{
+            "effect": {
               "id": "minecraft:hunger",
               "amplifier": 120,
               "duration": 20
-            }]
+            }
 -4 hunger 
-            "effect": [{
+            "effect": {
               "id": "minecraft:hunger",
               "amplifier": 160,
               "duration": 20
-            }]
+            }
 
 
 PS:
