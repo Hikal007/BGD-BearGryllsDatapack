@@ -38,7 +38,7 @@ Jukebox: +2 hunger, resistance for 20 seconds
 Fence(gate): +1 hunger
 Pumpkin: +2 hunger, blindness for 30 seconds
 Netherrack: -2 hunger
-Soul sand: -3 hunger, slowness for 30 seconds
+(√ Big_Jls) Soul sand: -3 hunger, slowness for 30 seconds
 Glowstone: +3 hunger, night vision for 40 seconds
 Jackolantern: +2 hunger, night vision for 40 seconds
 Trapdoor: +1 hunger
