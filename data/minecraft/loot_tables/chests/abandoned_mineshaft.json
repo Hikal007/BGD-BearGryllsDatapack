@@ -304,6 +304,32 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation_modifier": 0,
+                  "can_always_eat": true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:night_vision",
+                        "amplifier": 0,
+                        "duration": 600
+                      }
+                    },
+                    {
+                      "effect": {
+                      "id": "minecraft:hunger",
+                      "amplifier": 40,
+                      "duration": 20
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:torch",

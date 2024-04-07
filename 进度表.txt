@@ -2,7 +2,7 @@
 写完打钩然后签名 写完打钩然后签名 写完打钩然后签名 写完打钩然后签名
 写完打钩然后签名 写完打钩然后签名 写完打钩然后签名 写完打钩然后签名
 
-(√ Xiaohuli) Piston: +2 hunger, jump boost for 15 seconds[如需活塞跳跃提升1，粘性3级]
+(√ Xiaohuli) Piston: +2 hunger, jump boost for 15 seconds
 
 (√ Big_Jls) Wool: +1 hunger
 
@@ -14,7 +14,7 @@ Bricks: +2 hunger
 Bookshelf: +3 hunger, you turn into twilight sparkle
 Moss stone: +1 hunger
 Obsidian: +3 hunger, slowness for 20 seconds
-(√ Xiaohuli)Torch: -1 hunger, night vision for 30 seconds [工作台配方已完成]
+(√ Xiaohuli)Torch: -1 hunger, night vision for 30 seconds (1.21试炼大厅箱子已改)
 
 (√ Xiaohuli) Stairs: +1 hunger
 
@@ -133,13 +133,15 @@ Music disks: +1 hunger
 
 
 In working:
-Spawn eggs: +3 hunger
-Bottle of enchanting: +2 hunger (需要修改箱子战利品表以及交易)
-(√ Big_Jls) Music disks: +1 hunger (需要修改怪物掉落物)
-Glistering melon: +4 hunger (需要修改箱子战利品表、村民交易)
-Fire charge: -2 hunger, sets you on fire(-15 health) (需要添加function使玩家着火)
-(√ Big_Jls) Tnt: 1 tick speed? (永久提升？还是只有1tick)
+  Spawn eggs: +3 hunger
+  Bottle of enchanting: +2 hunger (需要修改箱子战利品表以及交易)
+  (√ Big_Jls) Music disks: +1 hunger (需要修改怪物掉落物)
+  Glistering melon: +4 hunger (需要修改箱子战利品表、村民交易)
+  Fire charge: -2 hunger, sets you on fire(-15 health) (需要添加function使玩家着火)
+  (√ Big_Jls) Tnt: 1 tick speed? (永久提升？还是只有1tick)
 
+custom自定义：
+  (√ Xiaohuli) soul_torch: -1 hunger, night vision 3 for 60 seconds 
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
 -1 hunger 

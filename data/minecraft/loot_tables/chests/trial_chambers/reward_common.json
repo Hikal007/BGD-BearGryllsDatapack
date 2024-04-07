@@ -11,23 +11,66 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:poison"
+            }
+          ],
+          "name": "minecraft:tipped_arrow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
                 "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:gold_nugget"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:short_grass",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tall_grass",
-          "weight": 5
+          "name": "minecraft:wind_charge",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -42,8 +85,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:bread",
-          "weight": 10
+          "name": "minecraft:iron_ingot",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -52,29 +95,33 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
+                "max": 2.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:wheat_seeds",
-          "weight": 10
+          "name": "minecraft:honey_bottle",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
               "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
+              "count": 1.0,
               "function": "minecraft:set_count"
+            },
+            {
+              "amplifier": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_ominous_bottle_amplifier"
             }
           ],
-          "name": "minecraft:emerald",
+          "name": "minecraft:ominous_bottle",
           "weight": 2
         },
         {
@@ -84,18 +131,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 12.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:acacia_sapling",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:saddle"
+          "name": "minecraft:wind_charge"
         },
         {
           "type": "minecraft:item",
@@ -108,47 +150,13 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 0,
-                  "saturation_modifier": 0,
-                  "can_always_eat": true,
-                  "effects": [
-                    {
-                      "effect": {
-                        "id": "minecraft:night_vision",
-                        "amplifier": 0,
-                        "duration": 600
-                      }
-                    },
-                    {
-                      "effect": {
-                      "id": "minecraft:hunger",
-                      "amplifier": 40,
-                      "duration": 20
-                      }
-                    }
-                  ]
-                }
-              }
             }
           ],
-          "name": "minecraft:torch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bucket"
+          "name": "minecraft:diamond"
         }
       ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 3.0
-      }
+      "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:chests/village/village_savanna_house"
+  "random_sequence": "minecraft:chests/trial_chambers/reward_common"
 }
