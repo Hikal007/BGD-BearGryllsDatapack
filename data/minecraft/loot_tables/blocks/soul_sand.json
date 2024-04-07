@@ -21,7 +21,7 @@
                   "saturation_modifier": 0.0,
                   "can_always_eat": true,
                   "eat_seconds": 1.6,
-                  "effects": 
+                  "effects": [
                     {
                       "effect": {
                         "id": "minecraft:hunger",
