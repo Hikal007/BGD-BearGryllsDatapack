@@ -20,7 +20,7 @@
                     {
                       "effect": {
                         "id": "minecraft:night_vision",
-                        "duration": 30
+                        "duration": 600
                       }
                     },
                     {
