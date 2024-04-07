@@ -1,6 +1,10 @@
 {
   "pack": {
-    "pack_format":  36,
-    "description": "Made by Big_Jls"
+    "pack_format": 36,
+    "supported_formats": {
+      "min_inclusive": 36,
+      "max_inclusive": 38
+    },
+    "description": "Made by Big_Jls、Hikal007、霜凌"
   }
 }
