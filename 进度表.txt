@@ -9,7 +9,7 @@
 (√ Big_Jls) Block of gold: +4 hunger
 (√ Big_Jls) Block of iron: +3 hunger
 (√ Big_Jls) Slabs: +1 hunger
-Bricks: +2 hunger
+(√ Big_Jls) Bricks: +2 hunger
 
 Bookshelf: +3 hunger, you turn into twilight sparkle
 Moss stone: +1 hunger
@@ -25,7 +25,7 @@ Crafting table: +3 hunger
 Furnace: +2 hunger
 Ladder: +1 hunger
 Rail: +1 hunger
-Stone stairs: +1 hunger
+(√ Xiaohuli) Stone stairs: +1 hunger
 Lever/button: +1 hunger
 Pressure plates: +1 hunger
 Redstone ore: -1 hunger, haste for 30 seconds
@@ -41,7 +41,7 @@ Netherrack: -2 hunger
 (√ Big_Jls) Soul sand: -3 hunger, slowness for 30 seconds
 Glowstone: +3 hunger, night vision for 40 seconds
 Jackolantern: +2 hunger, night vision for 40 seconds
-Trapdoor: +1 hunger
+(√ Big_Jls) Trapdoor: +1 hunger
 Silverfish stone: +1 hunger
 Stone bricks: +1 hunger
 Giant mushroom: +2 hunger
@@ -90,7 +90,7 @@ Sign/wooden door: +1 hunger
 Lava bucket: +2 hunger, sets you on fire(-15 health)
 Minecart: +4 hunger
 Saddle: +4 hunger
-Iron door: +4 hunger
+(√ Big_Jls) Iron door: +4 hunger
 Redstone: +1 hunger
 Snowball: +1 hunger
 Boat: +2 hunger
