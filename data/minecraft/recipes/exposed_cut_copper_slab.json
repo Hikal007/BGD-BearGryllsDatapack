@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:exposed_cut_copper"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:exposed_cut_copper_slab",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": 1
+      }
+    }
+  }
+}
