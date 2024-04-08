@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_trapdoor",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": 1
+      }
+    }
+  }
+}

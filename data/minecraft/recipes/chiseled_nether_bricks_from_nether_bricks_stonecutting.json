@@ -1,11 +1,11 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:bricks"
+    "item": "minecraft:nether_bricks"
   },
   "result": {
-    "count": 2,
-    "id": "minecraft:brick_slab",
+    "count": 1,
+    "id": "minecraft:chiseled_nether_bricks",
     "components": {
       "minecraft:food": {
         "nutrition": 2,

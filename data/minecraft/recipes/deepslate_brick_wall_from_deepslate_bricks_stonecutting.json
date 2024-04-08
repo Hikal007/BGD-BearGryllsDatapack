@@ -1,11 +1,11 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:bricks"
+    "item": "minecraft:deepslate_bricks"
   },
   "result": {
-    "count": 2,
-    "id": "minecraft:brick_slab",
+    "count": 1,
+    "id": "minecraft:deepslate_brick_wall",
     "components": {
       "minecraft:food": {
         "nutrition": 2,

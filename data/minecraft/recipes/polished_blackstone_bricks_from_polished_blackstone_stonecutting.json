@@ -1,11 +1,11 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:bricks"
+    "item": "minecraft:polished_blackstone"
   },
   "result": {
-    "count": 2,
-    "id": "minecraft:brick_slab",
+    "count": 1,
+    "id": "minecraft:polished_blackstone_bricks",
     "components": {
       "minecraft:food": {
         "nutrition": 2,

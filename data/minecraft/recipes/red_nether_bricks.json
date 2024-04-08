@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "N": {
+      "item": "minecraft:nether_brick"
+    },
+    "W": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "pattern": [
+    "NW",
+    "WN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:red_nether_bricks",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": 1
+      }
+    }
+  }
+}

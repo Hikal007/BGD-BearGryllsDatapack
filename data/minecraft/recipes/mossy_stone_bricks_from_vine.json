@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mossy_stone_bricks",
+  "ingredients": [
+    {
+      "item": "minecraft:stone_bricks"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:mossy_stone_bricks",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": 1
+      }
+    }
+  }
+}

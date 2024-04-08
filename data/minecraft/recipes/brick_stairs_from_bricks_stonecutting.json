@@ -8,7 +8,7 @@
     "id": "minecraft:brick_stairs",
     "components": {
       "minecraft:food": {
-        "nutrition": 1,
+        "nutrition": 2,
         "saturation_modifier": 1
       }
     }
