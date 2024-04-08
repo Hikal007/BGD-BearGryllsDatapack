@@ -8,7 +8,7 @@
 
 (√ Big_Jls) Block of gold: +4 hunger
 (√ Big_Jls) Block of iron: +3 hunger
-Slabs: +1 hunger
+(√ Big_Jls) Slabs: +1 hunger
 Bricks: +2 hunger
 
 Bookshelf: +3 hunger, you turn into twilight sparkle
