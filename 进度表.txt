@@ -50,7 +50,7 @@ Melon: +4 hunger
 Vines: +1 hunger
 Mycelium: +1 hunger, poison for 5 seconds(-4 health)
 Lilly pad: +1 hunger, regeneration for 3 seconds(+2 health)
-Netherbrick(stairs/fence): +1 hunger, fire resistance for 10 seconds
+(√ Big_Jls) Netherbrick(stairs/fence): +1 hunger, fire resistance for 10 seconds
 Enchanting table: +3 hunger, resistance for 30 seconds
 End stone: -1 hunger, strength for 30 seconds
 Dragon egg: +4 hunger, strength for 2 minutes
