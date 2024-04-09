@@ -13,7 +13,7 @@
 
 Bookshelf: +3 hunger, you turn into twilight sparkle（发光30秒）
 Moss stone: +1 hunger
-Obsidian: +3 hunger, slowness for 20 seconds
+Obsidian: +3 hunger, slowness 1 for 20 seconds（block写了）
 (√ Xiaohuli)Torch: -1 hunger, night vision for 30 seconds (1.21试炼大厅箱子已改)
 
 (√ Xiaohuli) Stairs: +1 hunger
@@ -144,6 +144,7 @@ In working:
 
 custom自定义：
   (√ Xiaohuli) soul_torch: -1 hunger, night vision 3 for 60 seconds 
+  Obsidian: +3 hunger, slowness 3 for 30 seconds 下雨60秒（block写了）
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
 -1 hunger 
