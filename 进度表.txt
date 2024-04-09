@@ -43,7 +43,7 @@ Glowstone: +3 hunger, night vision for 40 seconds
 Jackolantern: +2 hunger, night vision for 40 seconds
 (√ Big_Jls) Trapdoor: +1 hunger
 Silverfish stone: +1 hunger
-Stone bricks: +1 hunger
+(√ Big_Jls) Stone bricks: +1 hunger
 Giant mushroom: +2 hunger
 Iron bars: +2 hunger
 Melon: +4 hunger
@@ -95,7 +95,7 @@ Redstone: +1 hunger
 Snowball: +1 hunger
 Boat: +2 hunger
 Leather: +1 hunger
-Brick: +1 hunger, nausea for 20 seconds
+(√ Big_Jls) Brick: +1 hunger, nausea for 20 seconds
 Clay: -1 hunger, nausea for 20 seconds
 Sugarcane/paper: +1 hunger
 Book: +2 hunger
