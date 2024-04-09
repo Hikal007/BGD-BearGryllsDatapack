@@ -15,8 +15,17 @@
     "id": "minecraft:chiseled_nether_bricks",
     "components": {
       "minecraft:food": {
-        "nutrition": 2,
-        "saturation_modifier": 1
+        "nutrition": 1,
+        "saturation_modifier": 1,
+        "can_always_eat": true,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:fire_resistance",
+              "duration": 200
+            }
+          }
+        ]
       }
     }
   }

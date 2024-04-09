@@ -9,7 +9,16 @@
     "components": {
       "minecraft:food": {
         "nutrition": 1,
-        "saturation_modifier": 1
+        "saturation_modifier": 1,
+        "can_always_eat": true,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:fire_resistance",
+              "duration": 200
+            }
+          }
+        ]
       }
     }
   }

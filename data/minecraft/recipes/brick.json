@@ -1,11 +1,11 @@
 {
-  "type": "minecraft:stonecutting",
+  "type": "minecraft:smelting",
+  "category": "misc",
   "ingredient": {
-    "item": "minecraft:red_nether_bricks"
+    "item": "minecraft:clay_ball"
   },
   "result": {
-    "count": 1,
-    "id": "minecraft:red_nether_brick_stairs",
+    "id": "minecraft:brick",
     "components": {
       "minecraft:food": {
         "nutrition": 1,
@@ -14,12 +14,14 @@
         "effects": [
           {
             "effect": {
-              "id": "minecraft:fire_resistance",
-              "duration": 200
+              "id": "minecraft:nausea",
+              "duration": 400
             }
           }
         ]
       }
     }
-  }
+  },
+  "experience": 0.3,
+  "cookingtime": 200
 }
