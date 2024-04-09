@@ -21,7 +21,7 @@ Obsidian: +3 hunger, slowness for 20 seconds
 (√ Xiaohuli) Chest: +3 hunger
 Diamond ore: -1 hunger, haste for 60 seconds
 Block of diamond: +5 hunger, regeneration for 5 seconds(+4 health)
-Crafting table: +3 hunger
+(√ Big_Jls) Crafting table: +3 hunger
 Furnace: +2 hunger
 Ladder: +1 hunger
 Rail: +1 hunger
@@ -32,7 +32,7 @@ Redstone ore: -1 hunger, haste for 30 seconds
 Redstone torch: -1 hunger, strength for 20 seconds
 Ice: +1 hunger, slowness for 30 seconds
 Snow: +1 hunger
-Cactus: +1 hunger, -12 health
+Cactus: +1 hunger, -12 health(瞬间伤害2)
 Clay block: +3 hunger
 Jukebox: +2 hunger, resistance for 20 seconds
 
