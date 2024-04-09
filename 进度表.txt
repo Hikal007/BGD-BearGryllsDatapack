@@ -35,7 +35,9 @@ Snow: +1 hunger
 Cactus: +1 hunger, -12 health
 Clay block: +3 hunger
 Jukebox: +2 hunger, resistance for 20 seconds
+
 Fence(gate): +1 hunger
+
 Pumpkin: +2 hunger, blindness for 30 seconds
 Netherrack: -2 hunger
 (√ Big_Jls) Soul sand: -3 hunger, slowness for 30 seconds
