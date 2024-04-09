@@ -11,7 +11,7 @@
 (√ Big_Jls) Slabs: +1 hunger
 (√ Big_Jls) Bricks: +2 hunger
 
-Bookshelf: +3 hunger, you turn into twilight sparkle
+Bookshelf: +3 hunger, you turn into twilight sparkle（发光30秒）
 Moss stone: +1 hunger
 Obsidian: +3 hunger, slowness for 20 seconds
 (√ Xiaohuli)Torch: -1 hunger, night vision for 30 seconds (1.21试炼大厅箱子已改)
@@ -19,7 +19,7 @@ Obsidian: +3 hunger, slowness for 20 seconds
 (√ Xiaohuli) Stairs: +1 hunger
 
 (√ Xiaohuli) Chest: +3 hunger
-Diamond ore: -1 hunger, haste for 60 seconds
+(√ Xiaohuli) Diamond ore: -1 hunger, haste for 60 seconds
 Block of diamond: +5 hunger, regeneration for 5 seconds(+4 health)
 (√ Big_Jls) Crafting table: +3 hunger
 Furnace: +2 hunger
@@ -28,7 +28,7 @@ Rail: +1 hunger
 (√ Xiaohuli) Stone stairs: +1 hunger
 Lever/button: +1 hunger
 Pressure plates: +1 hunger
-Redstone ore: -1 hunger, haste for 30 seconds
+(√ Xiaohuli) Redstone ore: -1 hunger, haste for 30 seconds
 Redstone torch: -1 hunger, strength for 20 seconds
 Ice: +1 hunger, slowness for 30 seconds
 Snow: +1 hunger
@@ -62,7 +62,7 @@ Flint and steel: -2 hunger, sets you on fire(-15 health)
 Bow: +2 hunger, strength for 20 seconds
 Arrow: +1 hunger, launches an arrow into your knee
 
-Diamond: +5 hunger
+Diamond: +5 hunger(矿物掉落已改)
 Iron ingot: +3 hunger
 Gold ingot: +4 hunger
 Iron sword: +2 hunger, strength for 40 seconds
