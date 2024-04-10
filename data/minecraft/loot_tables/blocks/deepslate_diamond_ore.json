@@ -32,7 +32,7 @@
                   "function": "minecraft:set_components",
                   "components": {
                     "minecraft:food": {
-                      "nutrition": 1,
+                      "nutrition": 0,
                       "can_always_eat": true,
                       "effects": [
                         {
@@ -69,8 +69,7 @@
                   "function": "minecraft:set_components",
                   "components": {
                     "minecraft:food": {
-                      "nutrition": 5,
-                      "can_always_eat": true
+                      "nutrition": 5
                     }
                   }
                 }

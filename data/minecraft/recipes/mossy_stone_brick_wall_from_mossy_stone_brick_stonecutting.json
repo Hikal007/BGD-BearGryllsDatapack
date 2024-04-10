@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:mossy_stone_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:mossy_stone_brick_wall",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1
+      }
+    }
+  }
+}

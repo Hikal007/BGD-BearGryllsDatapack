@@ -10,7 +10,7 @@
 (√ Big_Jls) Bricks: +2 hunger
 
   Bookshelf: +3 hunger, you turn into twilight sparkle（发光30秒）
-  Moss stone: +1 hunger
+(√ Xiaohuli) Moss stone: +1 hunger（翻译疑似苔石，暂且按照苔石写）
   Obsidian: +3 hunger, slowness 1 for 20 seconds（block写了）
 
 (√ Xiaohuli)Torch: -1 hunger, night vision for 30 seconds (1.21试炼大厅箱子已改)
@@ -33,7 +33,7 @@
 
 (√ Xiaohuli) Redstone ore: -1 hunger, haste for 30 seconds
 
-  Redstone torch: -1 hunger, strength for 20 seconds
+(√ Xiaohuli)Redstone torch: -1 hunger, strength for 20 seconds
   Ice: +1 hunger, slowness for 30 seconds
   Snow: +1 hunger
   Cactus: +1 hunger, -12 health(瞬间伤害2)
@@ -100,7 +100,7 @@
 
 (√ Big_Jls) Iron door: +4 hunger
 
-  Redstone: +1 hunger
+  Redstone: +1 hunger(矿物掉落已改)
   Snowball: +1 hunger
   Leather: +1 hunger
 
@@ -154,7 +154,7 @@ In working:
 
 custom自定义：
   (√ Xiaohuli) soul_torch: -1 hunger, night vision 3 for 60 seconds 
-  Obsidian: +3 hunger, slowness 3 for 30 seconds 下雨60秒（block写了）
+  Crying Obsidian: +3 hunger, slowness 3 for 30 seconds 下雨60秒（block写了）
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
 -1 hunger 
