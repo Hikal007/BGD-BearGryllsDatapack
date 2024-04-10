@@ -3,141 +3,151 @@
 写完打钩然后签名 写完打钩然后签名 写完打钩然后签名 写完打钩然后签名
 
 (√ Xiaohuli) Piston: +2 hunger, jump boost for 15 seconds
-
 (√ Big_Jls) Wool: +1 hunger
-
 (√ Big_Jls) Block of gold: +4 hunger
 (√ Big_Jls) Block of iron: +3 hunger
 (√ Big_Jls) Slabs: +1 hunger
 (√ Big_Jls) Bricks: +2 hunger
 
-Bookshelf: +3 hunger, you turn into twilight sparkle（发光30秒）
-Moss stone: +1 hunger
-Obsidian: +3 hunger, slowness 1 for 20 seconds（block写了）
+  Bookshelf: +3 hunger, you turn into twilight sparkle（发光30秒）
+  Moss stone: +1 hunger
+  Obsidian: +3 hunger, slowness 1 for 20 seconds（block写了）
+
 (√ Xiaohuli)Torch: -1 hunger, night vision for 30 seconds (1.21试炼大厅箱子已改)
-
 (√ Xiaohuli) Stairs: +1 hunger
-
 (√ Xiaohuli) Chest: +3 hunger
 (√ Xiaohuli) Diamond ore: -1 hunger, haste for 60 seconds
-Block of diamond: +5 hunger, regeneration for 5 seconds(+4 health)
+
+  Block of diamond: +5 hunger, regeneration for 5 seconds(+4 health)
+
 (√ Big_Jls) Crafting table: +3 hunger
-Furnace: +2 hunger
-Ladder: +1 hunger
-Rail: +1 hunger
+
+  Furnace: +2 hunger
+  Ladder: +1 hunger
+  Rail: +1 hunger
+
 (√ Xiaohuli) Stone stairs: +1 hunger
-Lever/button: +1 hunger
-Pressure plates: +1 hunger
+
+  Lever/button: +1 hunger
+  Pressure plates: +1 hunger
+
 (√ Xiaohuli) Redstone ore: -1 hunger, haste for 30 seconds
-Redstone torch: -1 hunger, strength for 20 seconds
-Ice: +1 hunger, slowness for 30 seconds
-Snow: +1 hunger
-Cactus: +1 hunger, -12 health(瞬间伤害2)
-Clay block: +3 hunger
-Jukebox: +2 hunger, resistance for 20 seconds
 
-Fence(gate): +1 hunger
+  Redstone torch: -1 hunger, strength for 20 seconds
+  Ice: +1 hunger, slowness for 30 seconds
+  Snow: +1 hunger
+  Cactus: +1 hunger, -12 health(瞬间伤害2)
+  Clay block: +3 hunger
+  Jukebox: +2 hunger, resistance for 20 seconds
+  Fence(gate): +1 hunger
+  Pumpkin: +2 hunger, blindness for 30 seconds
+  Netherrack: -2 hunger
 
-Pumpkin: +2 hunger, blindness for 30 seconds
-Netherrack: -2 hunger
 (√ Big_Jls) Soul sand: -3 hunger, slowness for 30 seconds
-Glowstone: +3 hunger, night vision for 40 seconds
-Jackolantern: +2 hunger, night vision for 40 seconds
+
+  Glowstone: +3 hunger, night vision for 40 seconds
+  Jackolantern: +2 hunger, night vision for 40 seconds
+
 (√ Big_Jls) Trapdoor: +1 hunger
-Silverfish stone: +1 hunger
+
+  Silverfish stone: +1 hunger
+
 (√ Big_Jls) Stone bricks: +1 hunger
-Giant mushroom: +2 hunger
-Iron bars: +2 hunger
-Melon: +4 hunger
-Vines: +1 hunger
-Mycelium: +1 hunger, poison for 5 seconds(-4 health)
-Lilly pad: +1 hunger, regeneration for 3 seconds(+2 health)
+
+  Giant mushroom: +2 hunger
+  Iron bars: +2 hunger
+  Melon: +4 hunger
+  Vines: +1 hunger
+  Mycelium: +1 hunger, poison for 5 seconds(-4 health)
+  Lilly pad: +1 hunger, regeneration for 3 seconds(+2 health)
+
 (√ Big_Jls) Netherbrick(stairs/fence): +1 hunger, fire resistance for 10 seconds
-Enchanting table: +3 hunger, resistance for 30 seconds
-End stone: -1 hunger, strength for 30 seconds
-Dragon egg: +4 hunger, strength for 2 minutes
-Redstone lamp(off): +3 hunger, night vision for 40 seconds
-Iron tools: +2 hunger
-Flint and steel: -2 hunger, sets you on fire(-15 health)
-Bow: +2 hunger, strength for 20 seconds
-Arrow: +1 hunger, launches an arrow into your knee
 
-Diamond: +5 hunger(矿物掉落已改)
-Iron ingot: +3 hunger
-Gold ingot: +4 hunger
-Iron sword: +2 hunger, strength for 40 seconds
-Wooden sword: +1 hunger, strength for 15 seconds
-Wooden tools: +1 hunger, haste for 15 seconds
-Stone sword: +1 hunger, strength for 20 seconds
-Stone tools: +1 hunger, haste for 20 seconds
-Diamond sword: +4 hunger, strength for 60 seconds
-Diamond tools: +4 hunger, haste for 60 seconds
+(√ Hikal007)  Enchanting table: +3 hunger, resistance for 30 seconds
+  End stone: -1 hunger, strength for 30 seconds
+  Dragon egg: +4 hunger, strength for 2 minutes
+  Redstone lamp(off): +3 hunger, night vision for 40 seconds
+  Iron tools: +2 hunger
+  Flint and steel: -2 hunger, sets you on fire(-15 health)
+  Bow: +2 hunger, strength for 20 seconds
+  Arrow: +1 hunger, launches an arrow into your knee
+  Diamond: +5 hunger(矿物掉落已改)
+  Iron ingot: +3 hunger
+  Gold ingot: +4 hunger
+  Iron sword: +2 hunger, strength for 40 seconds
+  Wooden sword: +1 hunger, strength for 15 seconds
+  Wooden tools: +1 hunger, haste for 15 seconds
+  Stone sword: +1 hunger, strength for 20 seconds
+  Stone tools: +1 hunger, haste for 20 seconds
+  Diamond sword: +4 hunger, strength for 60 seconds
+  Diamond tools: +4 hunger, haste for 60 seconds
+  Bowl: +1 hunger
+  Golden sword: +2 hunger, strength for 50 seconds
+  Golden tools: +3 hunger, haste for 50 seconds
+  Feather: -1 hunger, speed for 20 seconds
+  Gunpowder: -3 hunger
+  Leather armor: +1 hunger, resistance for 20 seconds
+  Chain armor: +2 hunger, resistance for 50 seconds
+  Iron armor: +3 hunger, resistance for 35 seconds
+  Diamond armor: +5 hunger, resistance for 60 seconds
+  Golden armor: +4 hunger, resistance for 45 seconds
+  Painting: +1 hunger
+  Sign/wooden door: +1 hunger
+  (Water)bucket: +2 hunger
+  Lava bucket: +2 hunger, sets you on fire(-15 health)
+  Minecart: +4 hunger
+  Saddle: +4 hunger
 
-Bowl: +1 hunger
-Golden sword: +2 hunger, strength for 50 seconds
-Golden tools: +3 hunger, haste for 50 seconds
-
-Feather: -1 hunger, speed for 20 seconds
-Gunpowder: -3 hunger
-
-Leather armor: +1 hunger, resistance for 20 seconds
-Chain armor: +2 hunger, resistance for 50 seconds
-Iron armor: +3 hunger, resistance for 35 seconds
-Diamond armor: +5 hunger, resistance for 60 seconds
-Golden armor: +4 hunger, resistance for 45 seconds
-
-Painting: +1 hunger
-Sign/wooden door: +1 hunger
-(Water)bucket: +2 hunger
-Lava bucket: +2 hunger, sets you on fire(-15 health)
-Minecart: +4 hunger
-Saddle: +4 hunger
 (√ Big_Jls) Iron door: +4 hunger
-Redstone: +1 hunger
-Snowball: +1 hunger
-Boat: +2 hunger
-Leather: +1 hunger
+
+  Redstone: +1 hunger
+  Snowball: +1 hunger
+  Leather: +1 hunger
+
 (√ Big_Jls) Brick: +1 hunger, nausea for 20 seconds
-Clay: -1 hunger, nausea for 20 seconds
-Sugarcane/paper: +1 hunger
-Book: +2 hunger
-Slimeball: +2 hunger
-Minecart with chest/furnace: +5 hunger
-Egg: +2 hunger
-Compass: +3 hunger
-Fishing rod: +1 hunger
 
-Glowstone dust: +1 hunger
-Dyes other then bonemeal: -1 hunger, changes your skin
-bonemeal: -1 hunger, reverts your skin back to normal
-Bone: +1 hunger, nausea for 20 seconds
+  Clay: -1 hunger, nausea for 20 seconds
+  Sugarcane/paper: +1 hunger
+  Book: +2 hunger
+  Slimeball: +2 hunger
+  Minecart with chest/furnace: +5 hunger
+  Egg: +2 hunger
+  Compass: +3 hunger
+  Fishing rod: +1 hunger
+  Glowstone dust: +1 hunger
+  Dyes other then bonemeal: -1 hunger, changes your skin
+  bonemeal: -1 hunger, reverts your skin back to normal
+  Bone: +1 hunger, nausea for 20 seconds
+  Cake: +5 hunger
 
-Cake: +5 hunger
 (√ Hikal007) Bed: +4 hunger
-Redstone repeater: +2 hunger +2 hunger
-Map: +4 hunger
-Shears: +2 hunger
-Pumpkin/melon seeds: +1 hunger
-Ender pearl: -3 hunger
-Blaze rod: -3 hunger, sets you on fire(-15 health)
-Ghast tear: +1 hunger, regeneration for 4 seconds(+3 health)
-Gold nugget: +1 hunger
-Nether wart: +1 hunger
 
-Blaze powder: -2 hunger, sets you on fire(-15 health)
-Magma cream: -2 hunger, fire resistance for 30 seconds
-Brewing stand: -2 hunger
-Calderon: +4 hunger
-Eye of ender: -3 hunger, night vision for 40 seconds
-Glistering melon: +4 hunger
+  Redstone repeater: +2 hunger +2 hunger
+  Map: +4 hunger
+  Shears: +2 hunger
+  Pumpkin/melon seeds: +1 hunger
+  Ender pearl: -3 hunger
+  Blaze rod: -3 hunger, sets you on fire(-15 health)
+  Ghast tear: +1 hunger, regeneration for 4 seconds(+3 health)
+  Gold nugget: +1 hunger
+  Nether wart: +1 hunger
+  Blaze powder: -2 hunger, sets you on fire(-15 health)
+  Magma cream: -2 hunger, fire resistance for 30 seconds
+  Brewing stand: -2 hunger
+  Calderon: +4 hunger
 
-Music disks: +1 hunger
+  Glistering melon: +4 hunger
 
+互动物品:
+  Eye of ender: -3 hunger, night vision for 40 seconds
+
+Warn:
+  Boat: +2 hunger（已写好未上传，无法食用）
 
 In working:
   Spawn eggs: +3 hunger
   Bottle of enchanting: +2 hunger (需要修改箱子战利品表以及交易)
-  (√ Big_Jls) Music disks: +1 hunger (需要修改怪物掉落物)
+  (√ Big_Jls) Music disks: +1 hunger (需要修改怪物掉落物)（Hikal007 Add disc_5）
   Glistering melon: +4 hunger (需要修改箱子战利品表、村民交易)
   Fire charge: -2 hunger, sets you on fire(-15 health) (需要添加function使玩家着火)
   (√ Big_Jls) Tnt: 1 tick speed? (永久提升？还是只有1tick)
