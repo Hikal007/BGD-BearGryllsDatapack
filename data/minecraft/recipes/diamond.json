@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:diamond",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 5
+      }
+    }
+  }
+}
