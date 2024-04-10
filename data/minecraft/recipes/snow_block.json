@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:snow_block",
+    "functions": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:food": {
+            "nutrition": 1
+          }
+        }
+      }
+    ]
+  }
+}

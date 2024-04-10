@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:snow_block"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:snow",
+    "functions": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:food": {
+            "nutrition": 1
+          }
+        }
+      }
+    ]
+  }
+}

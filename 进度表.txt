@@ -34,8 +34,8 @@
 (√ Xiaohuli) Redstone ore: -1 hunger, haste for 30 seconds
 
 (√ Xiaohuli)Redstone torch: -1 hunger, strength for 20 seconds
-  Ice: +1 hunger, slowness for 30 seconds
-  Snow: +1 hunger
+(√ Xiaohuli) Ice: +1 hunger, slowness 1 for 30 seconds
+(√ Xiaohuli) Snow: +1 hunger
   Cactus: +1 hunger, -12 health(瞬间伤害2)
   Clay block: +3 hunger
   Jukebox: +2 hunger, resistance for 20 seconds
@@ -157,6 +157,10 @@ custom自定义：
   Crying Obsidian: +3 hunger, slowness 3 for 30 seconds 下雨60秒（block写了）
   (√ Xiaohuli) blast furnace: +3 hunger
   (√ Xiaohuli) activator rail: +1 hunger
+  (√ Xiaohuli) packed ice: +1 hunger, slowness 3 for 30 seconds
+  (√ Xiaohuli) blue ice: +1 hunger, slowness 3 for 30 seconds
+  (√ Xiaohuli) Snow block: +1 hunger
+
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
 -1 hunger 
