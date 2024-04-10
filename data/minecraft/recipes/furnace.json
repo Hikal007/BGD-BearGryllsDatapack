@@ -16,7 +16,8 @@
     "id": "minecraft:furnace",
     "components": {
       "minecraft:food": {
-        "nutrition": 2
+        "nutrition": 2,
+        "saturation_modifier": 1
       }
     }
   }

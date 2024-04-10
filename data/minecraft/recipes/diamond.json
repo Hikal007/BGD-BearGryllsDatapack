@@ -11,7 +11,8 @@
     "id": "minecraft:diamond",
     "components": {
       "minecraft:food": {
-        "nutrition": 5
+        "nutrition": 5,
+        "saturation_modifier": 1
       }
     }
   }

@@ -23,7 +23,8 @@
           "name": "minecraft:blast_furnace",
           "components": {
             "minecraft:food": {
-              "nutrition": 3
+              "nutrition": 3,
+              "saturation_modifier": 1
             }
           }
         }

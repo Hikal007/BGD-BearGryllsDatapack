@@ -36,9 +36,10 @@
                 "id": "minecraft:hunger",
                 "amplifier": 40,
                 "duration": 20
+                }
               }
-            }
-            ]
+            ],
+            "saturation_modifier": 1
           }
         }
       }

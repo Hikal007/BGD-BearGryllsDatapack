@@ -27,7 +27,8 @@
                         "duration": 400
                       }
                     }
-                  ]
+                  ],
+                  "saturation_modifier": 1
                 }
               }
             }

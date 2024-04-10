@@ -48,7 +48,8 @@
                             "duration": 20
                           }
                         }
-                      ]
+                      ],
+                      "saturation_modifier": 1
                     }
                   }
                 }

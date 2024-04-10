@@ -223,7 +223,8 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "minecraft:food": {
-                          "nutrition": 1
+                          "nutrition": 1,
+                          "saturation_modifier": 1
                         }
                       }
                     }
@@ -251,7 +252,8 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "minecraft:food": {
-                          "nutrition": 1
+                          "nutrition": 1,
+                          "saturation_modifier": 1
                         }
                       }
                     }
@@ -279,7 +281,8 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "minecraft:food": {
-                          "nutrition": 1
+                          "nutrition": 1,
+                          "saturation_modifier": 1
                         }
                       }
                     }
@@ -307,7 +310,8 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "minecraft:food": {
-                          "nutrition": 1
+                          "nutrition": 1,
+                          "saturation_modifier": 1
                         }
                       }
                     }
@@ -335,7 +339,8 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "minecraft:food": {
-                          "nutrition": 1
+                          "nutrition": 1,
+                          "saturation_modifier": 1
                         }
                       }
                     }
@@ -363,7 +368,8 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "minecraft:food": {
-                          "nutrition": 1
+                          "nutrition": 1,
+                          "saturation_modifier": 1
                         }
                       }
                     }
@@ -391,7 +397,8 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "minecraft:food": {
-                          "nutrition": 1
+                          "nutrition": 1,
+                          "saturation_modifier": 1
                         }
                       }
                     }
@@ -406,7 +413,8 @@
                       "function": "minecraft:set_components",
                       "components": {
                         "minecraft:food": {
-                          "nutrition": 1
+                          "nutrition": 1,
+                          "saturation_modifier": 1
                         }
                       }
                     }
