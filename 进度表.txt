@@ -24,12 +24,12 @@
 
   Furnace: +2 hunger（熔炉 雪域村庄房屋 战利品宝箱没改） 
 (√ Xiaohuli) Ladder: +1 hunger
-(√ Xiaohuli) Rail: +1 hunger（废弃矿井战利品箱子没改）（疑似所有铁轨都没没写）
+  Rail: +1 hunger（废弃矿井战利品箱子没改）（疑似所有铁轨都没没写）
 
 (√ Xiaohuli) Stone stairs: +1 hunger
 
   Lever/button: +1 hunger
-  Pressure plates: +1 hunger
+(√ Xiaohuli)  Pressure plates: +1 hunger
 
 (√ Xiaohuli) Redstone ore: -1 hunger, haste for 30 seconds
 
