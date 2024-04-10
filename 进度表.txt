@@ -161,6 +161,8 @@ custom自定义：
   (√ Xiaohuli) blue ice: +1 hunger, slowness 3 for 30 seconds
   (√ Xiaohuli) Snow block: +1 hunger
   (√ Big_Jls) Glass: instant damage 2 for 1 ticks
+  (√ Ghost) stripped wood:+3 hunger
+  Wood: +3 hunger(合成表没改，block改了)
 
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
