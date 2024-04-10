@@ -160,6 +160,7 @@ custom自定义：
   (√ Xiaohuli) packed ice: +1 hunger, slowness 3 for 30 seconds
   (√ Xiaohuli) blue ice: +1 hunger, slowness 3 for 30 seconds
   (√ Xiaohuli) Snow block: +1 hunger
+  (√ Big_Jls) Glass: instant damage 2 for 1 ticks
 
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
