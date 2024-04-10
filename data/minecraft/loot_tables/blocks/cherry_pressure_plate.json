@@ -12,12 +12,17 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cherry_pressure_plate",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation_modifier": 1
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation_modifier": 1
+                }
+              }
             }
-          }
+          ]
         }
       ],
       "rolls": 1.0

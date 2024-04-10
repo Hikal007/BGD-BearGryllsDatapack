@@ -24,22 +24,26 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ice",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "can_always_eat": true,
-              "effects": [
-                {
-                  "effect": {
-                    "id": "minecraft:slowness",
-                    "amplifier": 0,
-                    "duration": 600
-                  }
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation_modifier": 1,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:slowness",
+                        "amplifier": 0,
+                        "duration": 600
+                      }
+                    }
+                  ]
                 }
-              ],
-              "saturation_modifier": 1
+              }
             }
-          }
+          ]
         }
       ],
       "rolls": 1.0

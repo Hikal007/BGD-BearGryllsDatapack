@@ -18,15 +18,18 @@
                 "minecraft:custom_name"
               ],
               "source": "block_entity"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation_modifier": 1
+                }
+              }
             }
           ],
-          "name": "minecraft:blast_furnace",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 3,
-              "saturation_modifier": 1
-            }
-          }
+          "name": "minecraft:blast_furnace"
         }
       ],
       "rolls": 1.0

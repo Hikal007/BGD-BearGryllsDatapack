@@ -12,20 +12,25 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_block",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 5,
-              "saturation_modifier": 1,
-              "effects": [
-                {
-                  "effect": {
-                    "id": "minecraft:regeneration",
-                    "duration": 100
-                  }
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation_modifier": 1,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:regeneration",
+                        "duration": 100
+                      }
+                    }
+                  ]
                 }
-              ]
+              }
             }
-          }
+          ]
         }
       ],
       "rolls": 1.0
