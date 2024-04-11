@@ -108,7 +108,7 @@
 
   Clay: -1 hunger, nausea for 20 seconds
   Sugarcane/paper: +1 hunger
-  Book: +2 hunger
+(√ Big_Jls) Book: +2 hunger
   Slimeball: +2 hunger
   Minecart with chest/furnace: +5 hunger
   Egg: +2 hunger
@@ -125,7 +125,8 @@
   Redstone repeater: +2 hunger +2 hunger
   Map: +4 hunger
   Shears: +2 hunger
-  Pumpkin/melon seeds: +1 hunger
+(√ Big_Jls) Pumpkin: +1 hunger, regeneration for 2 seconds
+  melon seeds: +1 hunger, regeneration for 2 seconds
   Ender pearl: -3 hunger
   Blaze rod: -3 hunger, sets you on fire(-15 health)
   Ghast tear: +1 hunger, regeneration for 4 seconds(+3 health)
