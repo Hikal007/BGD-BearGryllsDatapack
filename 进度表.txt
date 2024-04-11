@@ -163,6 +163,7 @@ custom自定义：
   (√ Big_Jls) Glass: instant damage 2 for 1 ticks
   (√ Ghost) stripped wood:+3 hunger
   Wood: +3 hunger(合成表没改，block改了)
+  flower pot: +1 hunger(仅花盆仙人掌写了)
 
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
