@@ -12,6 +12,14 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:white_wool"
+    "id": "minecraft:white_wool",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation": 1,
+        "can_always_eat": true,
+        "eat_seconds": 1.6
+      }
+    }
   }
 }
