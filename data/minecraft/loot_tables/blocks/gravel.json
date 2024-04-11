@@ -33,7 +33,7 @@
                   "components": {
                     "minecraft:food": {
                       "nutrition": 1,
-                      "saturation_modifier": 0.0,
+                      "saturation": 0.0,
                       "can_always_eat": true,
                       "eat_seconds": 1.2,
                       "effects": [
@@ -80,7 +80,7 @@
                       "components": {
                         "minecraft:food": {
                           "nutrition": 1,
-                          "saturation_modifier": 0.0,
+                          "saturation": 0.0,
                           "can_always_eat": true,
                           "eat_seconds": 1.5,
                           "effects": [
@@ -112,7 +112,7 @@
                       "components": {
                         "minecraft:food": {
                           "nutrition": 1,
-                          "saturation_modifier": 0.0,
+                          "saturation": 0.0,
                           "can_always_eat": true,
                           "eat_seconds": 1.2,
                           "effects": [
