@@ -28,7 +28,7 @@
 
 (√ Xiaohuli) Stone stairs: +1 hunger
 
-  Lever/button: +1 hunger
+(√ Xiaohuli)  Lever/button: +1 hunger
 (√ Xiaohuli)  Pressure plates: +1 hunger
 
 (√ Xiaohuli) Redstone ore: -1 hunger, haste for 30 seconds

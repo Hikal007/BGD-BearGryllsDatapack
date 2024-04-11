@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_blackstone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:polished_blackstone_button",
+    "functions": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:food": {
+            "nutrition": 1,
+            "saturation": 1
+          }
+        }
+      }
+    ]
+  }
+}
