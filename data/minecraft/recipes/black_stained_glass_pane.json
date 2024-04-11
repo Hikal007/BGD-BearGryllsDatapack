@@ -13,6 +13,14 @@
   ],
   "result": {
     "count": 16,
-    "id": "minecraft:black_stained_glass_pane"
+    "id": "minecraft:black_stained_glass_pane",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation": 1,
+        "can_always_eat": true,
+        "eat_seconds": 1.6
+      }
+    }
   }
 }

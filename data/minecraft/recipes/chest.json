@@ -17,7 +17,7 @@
     "components": {
       "minecraft:food": {
         "nutrition": 3,
-        "saturation_modifier": 1
+        "saturation": 1
       }
     }
   }
