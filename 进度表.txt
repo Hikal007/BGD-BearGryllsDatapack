@@ -36,8 +36,8 @@
 (√ Xiaohuli)Redstone torch: -1 hunger, strength for 20 seconds
 (√ Xiaohuli) Ice: +1 hunger, slowness 1 for 30 seconds
 (√ Xiaohuli) Snow: +1 hunger
-  Cactus: +1 hunger, -12 health(瞬间伤害2)
-  Clay block: +3 hunger
+(√ Xiaohuli)  Cactus: +1 hunger, -12 health(瞬间伤害2)
+  Clay block: +3 hunger(村民交易)
   Jukebox: +2 hunger, resistance for 20 seconds
   Fence(gate): +1 hunger
   Pumpkin: +2 hunger, blindness for 30 seconds
@@ -164,6 +164,7 @@ custom自定义：
   (√ Ghost) stripped wood:+3 hunger
   Wood: +3 hunger(合成表没改，block改了)
   flower pot: +1 hunger(仅花盆仙人掌写了)
+  (√ Xiaohuli) glazed terracotta: +3 hunger
 
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
