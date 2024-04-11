@@ -9,9 +9,9 @@
 (√ Big_Jls) Slabs: +1 hunger
 (√ Big_Jls) Bricks: +2 hunger
 
-  Bookshelf: +3 hunger, you turn into twilight sparkle（发光30秒）
+(√ Big_Jls) Bookshelf: +3 hunger, you turn into twilight sparkle（发光30秒）
 (√ Xiaohuli) Moss stone: +1 hunger（翻译疑似苔石，暂且按照苔石写）
-  Obsidian: +3 hunger, slowness 1 for 20 seconds（block写了）
+(√ Big_Jls) Obsidian: +3 hunger, slowness 1 for 20 seconds（block写了）
 
 (√ Xiaohuli)Torch: -1 hunger, night vision for 30 seconds (1.21试炼大厅箱子已改)
 (√ Xiaohuli) Stairs: +1 hunger
@@ -154,7 +154,7 @@ In working:
 
 custom自定义：
   (√ Xiaohuli) soul_torch: -1 hunger, night vision 3 for 60 seconds 
-  Crying Obsidian: +3 hunger, slowness 3 for 30 seconds 下雨60秒（block写了）
+  (√ Big_Jls) Crying Obsidian: +3 hunger, slowness 3 for 30 seconds 下雨60秒
   (√ Xiaohuli) blast furnace: +3 hunger
   (√ Xiaohuli) activator rail: +1 hunger
   (√ Xiaohuli) packed ice: +1 hunger, slowness 3 for 30 seconds
@@ -165,7 +165,7 @@ custom自定义：
   Wood: +3 hunger(合成表没改，block改了)
   flower pot: +1 hunger(仅花盆仙人掌写了)
   (√ Xiaohuli) glazed terracotta: +3 hunger
-
+  (√ Big_Jls) chiseled_bookshelf: +3 hunger, glowing for 60 seconds 每隔5s会让附近实体发光3s
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
 -1 hunger 
