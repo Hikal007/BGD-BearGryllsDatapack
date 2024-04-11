@@ -22,9 +22,9 @@
 
 (√ Big_Jls) Crafting table: +3 hunger
 
-  Furnace: +2 hunger（熔炉 雪域村庄房屋 战利品宝箱没改） 
+(√ Big_Jls) Furnace: +2 hunger（熔炉 雪域村庄房屋 战利品宝箱没改） 
 (√ Xiaohuli) Ladder: +1 hunger
-  Rail: +1 hunger（废弃矿井战利品箱子没改）（疑似所有铁轨都没没写）
+(√ Big_Jls) Rail: +1 hunger（废弃矿井战利品箱子没改）（疑似所有铁轨都没没写）
 
 (√ Xiaohuli) Stone stairs: +1 hunger
 
@@ -39,7 +39,7 @@
 (√ Xiaohuli)  Cactus: +1 hunger, -12 health(瞬间伤害2)
   Clay block: +3 hunger(村民交易)
 (√ Xiaohuli)  Jukebox: +2 hunger, resistance for 20 seconds
-  Fence(gate): +1 hunger
+(√ Big_Jls) Fence(gate): +1 hunger
   Pumpkin: +2 hunger, blindness for 30 seconds
   Netherrack: -2 hunger
 
