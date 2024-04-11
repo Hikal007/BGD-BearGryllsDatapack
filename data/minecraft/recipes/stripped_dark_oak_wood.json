@@ -16,7 +16,7 @@
     "id": "minecraft:stripped_dark_oak_wood",
     "components": {
       "minecraft:food": {
-        "nutrition": 1,
+        "nutrition": 3,
         "saturation": 1
       }
     }

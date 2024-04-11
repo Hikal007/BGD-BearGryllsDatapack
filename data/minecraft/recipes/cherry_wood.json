@@ -16,7 +16,7 @@
     "id": "minecraft:cherry_wood",
     "components": {
       "minecraft:food": {
-        "nutrition": 1,
+        "nutrition": 3,
         "saturation": 1
       }
     }
