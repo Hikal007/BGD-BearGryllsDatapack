@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bark",
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_log"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:dark_oak_wood",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation": 1
+      }
+    }
+  }
+}

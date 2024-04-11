@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation": 1,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:strength",
+              "duration": 300
+            }
+          }
+        ]
+      }
+    }
+  }
+}
