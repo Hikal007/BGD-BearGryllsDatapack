@@ -2,12 +2,8 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
+      "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -18,14 +14,33 @@
               "components": {
                 "minecraft:food": {
                   "nutrition": 1,
-                  "saturation": 1
+                  "saturation": 1,
+                  "can_always_eat": true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:speed",
+                        "duration": 400
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:strength",
+                        "duration": 200
+                      }
+                    }
+                  ]
                 }
               }
             }
           ]
         }
       ],
-      "rolls": 1.0
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:blocks/activator_rail"
