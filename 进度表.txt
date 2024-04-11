@@ -162,7 +162,7 @@ custom自定义：
   (√ Xiaohuli) Snow block: +1 hunger
   (√ Big_Jls) Glass: instant damage 2 for 1 ticks
   (√ Ghost) stripped wood:+3 hunger
-  Wood: +3 hunger(合成表没改，block改了)
+  (√ Big_Jls) Wood: +3 hunger(合成表没改，block改了)
   flower pot: +1 hunger(仅花盆仙人掌写了)
   (√ Xiaohuli) glazed terracotta: +3 hunger
   (√ Big_Jls) chiseled_bookshelf: +3 hunger, glowing for 60 seconds 每隔5s会让附近实体发光3s
