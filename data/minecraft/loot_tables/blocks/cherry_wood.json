@@ -11,7 +11,20 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cherry_wood"
+          "name": "minecraft:cherry_wood",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 1.5,
+                  "can_always_eat": true,
+                  "eat_seconds": 1.8
+                }
+              }
+            }
+          ]
         }
       ],
       "rolls": 1.0
