@@ -1,0 +1,20 @@
+{
+    "parent": "gbd:food/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+                "minecraft:crying_obsidian"
+            ],
+            "count": 1
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bgd:foods/crying_obsidian"
+    }
+  }
+  
