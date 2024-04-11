@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_axe",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 4,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:haste",
+              "duration": 1200
+            }
+          }
+        ],
+        "saturation": 1
+      }
+    }
+  }
+}
