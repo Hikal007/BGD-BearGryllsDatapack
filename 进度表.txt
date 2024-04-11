@@ -40,8 +40,8 @@
   Clay block: +3 hunger(村民交易)
 (√ Xiaohuli)  Jukebox: +2 hunger, resistance for 20 seconds
 (√ Big_Jls) Fence(gate): +1 hunger
-  Pumpkin: +2 hunger, blindness for 30 seconds
-  Netherrack: -2 hunger
+(√ Big_Jls) Pumpkin: +2 hunger, blindness for 30 seconds
+(√ Big_Jls) Netherrack: -2 hunger
 
 (√ Big_Jls) Soul sand: -3 hunger, slowness for 30 seconds
 
@@ -165,7 +165,9 @@ custom自定义：
   (√ Big_Jls) Wood: +3 hunger(合成表没改，block改了)
   flower pot: +1 hunger(仅花盆仙人掌写了)
   (√ Xiaohuli) glazed terracotta: +3 hunger
-  (√ Big_Jls) chiseled_bookshelf: +3 hunger, glowing for 60 seconds 每隔5s会让附近实体发光3s
+  (√ Big_Jls) chiseled_bookshelf: +3 hunger, glowing for 60 seconds 每隔5s会让附近20格内实体发光3s
+  (√ Big_Jls) warped_nylium: -2 hunger, fire_resistance for 1s
+  (√ Big_Jls) crimson_nylium: -2 hunger, fire_resistance for 1s
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
 -1 hunger 
