@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:golden_sword",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 2,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:strength",
+              "duration": 1000
+            }
+          }
+        ],
+        "saturation": 1
+      }
+    }
+  }
+}
