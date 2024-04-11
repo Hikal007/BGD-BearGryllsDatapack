@@ -1,5 +1,5 @@
 {
-    "parent": "gbd:food/root",
+    "parent": "bgd:food/root",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:consume_item",
@@ -14,7 +14,7 @@
       }
     },
     "rewards": {
-      "function": "gbd:foods/tnt"
+      "function": "bgd:foods/tnt"
     }
   }
   
