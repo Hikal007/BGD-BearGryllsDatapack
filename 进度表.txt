@@ -75,8 +75,8 @@
   Iron ingot: +3 hunger
   Gold ingot: +4 hunger
   Iron sword: +2 hunger, strength for 40 seconds
-  Wooden sword: +1 hunger, strength for 15 seconds
-  Wooden tools: +1 hunger, haste for 15 seconds
+(√ Big_Jls)  Wooden sword: +1 hunger, strength for 15 seconds
+(√ Big_Jls)  Wooden tools: +1 hunger, haste for 15 seconds
   Stone sword: +1 hunger, strength for 20 seconds
   Stone tools: +1 hunger, haste for 20 seconds
   Diamond sword: +4 hunger, strength for 60 seconds
