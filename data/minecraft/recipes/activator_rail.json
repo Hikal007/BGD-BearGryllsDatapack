@@ -23,7 +23,22 @@
     "components": {
       "minecraft:food": {
         "nutrition": 1,
-        "saturation": 1
+        "saturation": 1,
+        "can_always_eat": true,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:speed",
+              "duration": 400
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:strength",
+              "duration": 200
+            }
+          }
+        ]
       }
     }
   }
