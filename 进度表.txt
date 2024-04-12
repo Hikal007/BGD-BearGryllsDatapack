@@ -114,7 +114,7 @@
   Egg: +2 hunger
   Compass: +3 hunger
   Fishing rod: +1 hunger
-  Glowstone dust: +1 hunger
+(√ Big_Jls) Glowstone dust: +1 hunger
   Dyes other then bonemeal: -1 hunger, changes your skin
   bonemeal: -1 hunger, reverts your skin back to normal
   Bone: +1 hunger, nausea for 20 seconds
@@ -137,7 +137,7 @@
   Brewing stand: -2 hunger
   Calderon: +4 hunger
 
-  Glistering melon: +4 hunger
+(√ Big_Jls) Glistering melon: +4 hunger
 
 互动物品:
   Eye of ender: -3 hunger, night vision for 40 seconds
