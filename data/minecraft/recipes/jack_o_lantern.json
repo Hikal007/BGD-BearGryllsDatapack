@@ -2,21 +2,24 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "minecraft:glowstone_dust"
+    "A": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "B": {
+      "item": "minecraft:torch"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "A",
+    "B"
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:glowstone",
+    "id": "minecraft:jack_o_lantern",
     "components": {
       "minecraft:food": {
-        "nutrition": 3,
-        "saturation": 1.5,
+        "nutrition": 2,
+        "saturation": 1,
         "can_always_eat": true,
         "eat_seconds": 1.6,
         "effects": [
