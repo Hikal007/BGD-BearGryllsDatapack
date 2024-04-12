@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ]
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:fire_charge",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0.0,
+        "can_always_eat": true,
+        "eat_seconds": 1.6,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:hunger",
+              "amplifier": 80,
+              "duration": 20
+            }
+          }
+        ]
+      }
+    }
+  }
+}
