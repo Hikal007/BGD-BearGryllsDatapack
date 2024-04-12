@@ -15,6 +15,25 @@
                 "p": 0.53333336
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true,
+                  "eat_seconds": 1.6,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:regeneration",
+                        "duration": 40
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:melon_seeds"
