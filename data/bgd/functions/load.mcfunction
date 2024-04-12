@@ -15,3 +15,6 @@ scoreboard players set co bgd 0
 
 #火焰弹
 scoreboard players set fc bgd 0
+
+#打火石
+scoreboard players set fs bgd 0

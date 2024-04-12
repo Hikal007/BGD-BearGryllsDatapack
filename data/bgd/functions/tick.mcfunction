@@ -11,3 +11,8 @@ execute if score co bgd matches 70.. run scoreboard players reset co bgd
 execute if score fc bgd matches 31.. run schedule clear bgd:foods/fire_charge
 execute if score fc bgd matches 31.. run tag @a[tag=fc] remove fc
 execute if score fc bgd matches 31.. run scoreboard players reset fc bgd
+
+#打火石
+execute if score fs bgd matches 16.. run schedule clear bgd:foods/flint_and_steel
+execute if score fs bgd matches 16.. run tag @a[tag=fs] remove fs
+execute if score fs bgd matches 16.. run scoreboard players reset fs bgd
