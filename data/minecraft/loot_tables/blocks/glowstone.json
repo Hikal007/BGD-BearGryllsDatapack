@@ -26,7 +26,28 @@
                   }
                 }
               ],
-              "name": "minecraft:glowstone"
+              "name": "minecraft:glowstone",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:food": {
+                      "nutrition": 3,
+                      "saturation": 1.5,
+                      "can_always_eat": true,
+                      "eat_seconds": 1.6,
+                      "effects": [
+                        {
+                          "effect": {
+                            "id": "minecraft:night_vision",
+                            "duration": 800
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "type": "minecraft:item",
@@ -57,6 +78,15 @@
                 },
                 {
                   "function": "minecraft:explosion_decay"
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:food": {
+                      "nutrition": 1,
+                      "saturation": 1
+                    }
+                  }
                 }
               ],
               "name": "minecraft:glowstone_dust"

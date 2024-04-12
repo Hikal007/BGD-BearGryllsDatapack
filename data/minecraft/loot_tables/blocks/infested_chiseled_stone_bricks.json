@@ -29,7 +29,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:food": {
-                  "nutrition": 2,
+                  "nutrition": 1,
                   "saturation": 1
                 }
               }

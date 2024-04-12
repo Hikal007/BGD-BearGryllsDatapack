@@ -17,10 +17,18 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:food": {
-                  "nutrition": 1,
-                  "saturation": 1.5,
+                  "nutrition": 0,
+                  "saturation": 0,
                   "can_always_eat": true,
-                  "eat_seconds": 1.4
+                  "eat_seconds": 1.6,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:instant_health",
+                        "duration": 1
+                      }
+                    }
+                  ]
                 }
               }
             }

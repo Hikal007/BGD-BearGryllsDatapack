@@ -20,7 +20,19 @@
               }
             }
           ],
-          "name": "minecraft:cherry_door"
+          "name": "minecraft:cherry_door",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "eat_seconds": 1.6
+                }
+              }
+            }
+          ]
         }
       ],
       "rolls": 1.0
