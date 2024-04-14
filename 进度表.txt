@@ -97,21 +97,15 @@
   Lava bucket: +2 hunger, sets you on fire(-15 health)
   Minecart: +4 hunger
   Saddle: +4 hunger
-
 (√ Big_Jls) Iron door: +4 hunger
-
   Redstone: +1 hunger(矿物掉落已改)
-  Snowball: +1 hunger
   Leather: +1 hunger
-
 (√ Big_Jls) Brick: +1 hunger, nausea for 20 seconds
-
   Clay: -1 hunger, nausea for 20 seconds
   Sugarcane/paper: +1 hunger
 (√ Big_Jls) Book: +2 hunger
   Slimeball: +2 hunger
   Minecart with chest/furnace: +5 hunger
-  Egg: +2 hunger
   Compass: +3 hunger
   Fishing rod: +1 hunger
 (√ Big_Jls) Glowstone dust: +1 hunger
@@ -119,11 +113,8 @@
   bonemeal: -1 hunger, reverts your skin back to normal
   Bone: +1 hunger, nausea for 20 seconds
   Cake: +5 hunger
-
 (√ Hikal007) Bed: +4 hunger
-
   Redstone repeater: +2 hunger +2 hunger
-  Map: +4 hunger
   Shears: +2 hunger
 (√ Big_Jls) Pumpkin seeds: +1 hunger, regeneration for 2 seconds
 (√ Big_Jls) melon seeds: +1 hunger, regeneration for 2 seconds
@@ -142,6 +133,9 @@
   Eye of ender: -3 hunger, night vision for 40 seconds
   Crossbow：+2 hunger, strength for 20 seconds
   Bow: +2 hunger, strength for 20 seconds
+  Egg: +2 hunger
+  Snowball: +1 hunger
+  Map: +4 hunger
 
 Warn:
   Boat: +2 hunger（已写好未上传，无法食用）
