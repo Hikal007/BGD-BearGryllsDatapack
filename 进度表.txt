@@ -136,8 +136,7 @@
   Magma cream: -2 hunger, fire resistance for 30 seconds
   Brewing stand: -2 hunger
   Calderon: +4 hunger
-
-(√ Big_Jls) Glistering melon: +4 hunger
+(√ Big_Jls recipes) Glistering melon: +4 hunger
 
 互动物品:
   Eye of ender: -3 hunger, night vision for 40 seconds
@@ -151,11 +150,10 @@ In working:
     Spawn eggs: +3 hunger
     Bottle of enchanting: +2 hunger (需要修改箱子战利品表以及交易)
   (√ Big_Jls) Music disks: +1 hunger (需要修改怪物掉落物)（Hikal007 Add disc_5）
-    Glistering melon: +4 hunger (需要修改箱子战利品表、村民交易)
   (√ Big_Jls) Fire charge: -2 hunger, sets you on fire(-15 health) (需要添加function使玩家着火)
   (√ Big_Jls) Tnt: 1 tick speed? (永久提升？还是只有1tick)
-    Arrow: +1 hunger, launches an arrow into your knee(吃掉用箭换裤子)
-    Silverfish stone(infested_stone): +1 hunger 1.21更新后改为玩家食用会获得寄生的DEBUFF
+    Arrow: +1 hunger, launches an arrow into your knee(吃掉 裤子格会变成箭，已上传，/loot replace entity @s armor.legs loot bgd:arrow无效果)
+  (√ Big_Jls) Silverfish stone(infested_stone): +1 hunger (1.21更新后改为玩家食用会获得寄生的DEBUFF,现在无效果)
 
 custom自定义：
   (√ Xiaohuli) soul_torch: -1 hunger, night vision 3 for 60 seconds 
