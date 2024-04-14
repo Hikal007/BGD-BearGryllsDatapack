@@ -1,0 +1,20 @@
+{
+    "parent": "bgd:foods/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+                "minecraft:arrow"
+            ],
+            "count": 1
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bgd:foods/arrow"
+    }
+  }
+  
