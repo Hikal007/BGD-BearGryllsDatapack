@@ -71,17 +71,17 @@
 (√ Big_Jls) Flint and steel: -2 hunger, sets you on fire(-15 health)ew
   
 
-  Diamond: +5 hunger(矿物掉落已改)（合成表已改）
-  Iron ingot: +3 hunger
-  Gold ingot: +4 hunger
+(√ recipes) Diamond: +5 hunger
+(√ Big_Jls recipes) Iron ingot: +3 hunger
+(√ Big_Jls recipes) Gold ingot: +4 hunger
   Iron sword: +2 hunger, strength for 40 seconds
-(√ Big_Jls)  Wooden sword: +1 hunger, strength for 15 seconds
-(√ Big_Jls)  Wooden tools: +1 hunger, haste for 15 seconds
+(√ Big_Jls recipes) Wooden sword: +1 hunger, strength for 15 seconds
+(√ Big_Jls recipes) Wooden tools: +1 hunger, haste for 15 seconds
   Stone sword: +1 hunger, strength for 20 seconds
   Stone tools: +1 hunger, haste for 20 seconds
 (√ Hikal007 recipes)  Diamond sword: +4 hunger, strength for 60 seconds
 (√ Hikal007 recipes)  Diamond tools: +4 hunger, haste for 60 seconds
-  Bowl: +1 hunger
+(√ Big_Jls recipes) Bowl: +1 hunger
 (√ Hikal007 recipes)  Golden sword: +2 hunger, strength for 50 seconds
 (√ Hikal007 recipes)  Golden tools: +3 hunger, haste for 50 seconds
   Feather: -1 hunger, speed for 20 seconds
@@ -91,7 +91,7 @@
   Iron armor: +3 hunger, resistance for 35 seconds
   Diamond armor: +5 hunger, resistance for 60 seconds
   Golden armor: +4 hunger, resistance for 45 seconds
-  Painting: +1 hunger
+(√ Big_Jls recipes)  Painting: +1 hunger
 (√ Hikal007 recipes) Sign/wooden door: +1 hunger
   (Water)bucket: +2 hunger
   Lava bucket: +2 hunger, sets you on fire(-15 health)
