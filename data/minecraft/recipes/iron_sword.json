@@ -21,7 +21,15 @@
       "minecraft:food": {
         "nutrition": 2,
         "saturation": 1,
-        "can_always_eat": true
+        "can_always_eat": true,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:strength",
+              "duration": 800
+            }
+          }
+        ]
       }
     }
   }
