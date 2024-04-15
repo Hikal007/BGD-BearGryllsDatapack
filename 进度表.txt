@@ -88,7 +88,7 @@
 
   Feather: -1 hunger, speed for 20 seconds
   Gunpowder: -3 hunger
-  Leather armor: +1 hunger, resistance for 20 seconds
+(√ Big_Jls recipes) Leather armor: +1 hunger, resistance for 20 seconds
   Chain armor: +2 hunger, resistance for 50 seconds
   Iron armor: +3 hunger, resistance for 35 seconds
   Diamond armor: +5 hunger, resistance for 60 seconds
