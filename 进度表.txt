@@ -102,8 +102,8 @@
 (√ Hikal007 recipes) Minecart: +4 hunger
   Saddle: +4 hunger
 (√ Big_Jls) Iron door: +4 hunger
-  Redstone: +1 hunger(矿物掉落已改)
-  Leather: +1 hunger
+(√ Hikal007 recipes) Redstone: +1 hunger(矿物掉落已改)
+(√ Hikal007 recipes) Leather: +1 hunger(怪物掉落未改)
 (√ Big_Jls) Brick: +1 hunger, nausea for 20 seconds
 (√ Hikal007)  Clay: -1 hunger, nausea for 20 seconds
   Sugarcane/paper: +1 hunger
