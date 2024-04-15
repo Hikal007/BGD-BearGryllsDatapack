@@ -74,7 +74,7 @@
 (√ recipes) Diamond: +5 hunger
 (√ Big_Jls recipes) Iron ingot: +3 hunger
 (√ Big_Jls recipes) Gold ingot: +4 hunger
-  Iron sword: +2 hunger, strength for 40 seconds
+(√ Hikal007 recipes) Iron sword: +2 hunger, strength for 40 seconds
 (√ Big_Jls recipes) Wooden sword: +1 hunger, strength for 15 seconds
 (√ Big_Jls recipes) Wooden tools: +1 hunger, haste for 15 seconds
   Stone sword: +1 hunger, strength for 20 seconds
