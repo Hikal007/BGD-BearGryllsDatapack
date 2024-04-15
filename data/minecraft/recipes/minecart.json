@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:minecart",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 1,
+        "can_always_eat": true
+      }
+    }
+  }
+}
