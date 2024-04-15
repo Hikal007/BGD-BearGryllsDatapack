@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "minecraft:minecart"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:chest_minecart",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 1,
+        "can_always_eat": true
+      }
+    }
+  }
+}
