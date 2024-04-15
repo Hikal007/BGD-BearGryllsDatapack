@@ -84,6 +84,8 @@
 (√ Big_Jls recipes) Bowl: +1 hunger
 (√ Hikal007 recipes)  Golden sword: +2 hunger, strength for 50 seconds
 (√ Hikal007 recipes)  Golden tools: +3 hunger, haste for 50 seconds
+
+
   Feather: -1 hunger, speed for 20 seconds
   Gunpowder: -3 hunger
   Leather armor: +1 hunger, resistance for 20 seconds
@@ -91,11 +93,13 @@
   Iron armor: +3 hunger, resistance for 35 seconds
   Diamond armor: +5 hunger, resistance for 60 seconds
   Golden armor: +4 hunger, resistance for 45 seconds
+
+
 (√ Big_Jls recipes)  Painting: +1 hunger
 (√ Hikal007 recipes) Sign/wooden door: +1 hunger
   (Water)bucket: +2 hunger
   Lava bucket: +2 hunger, sets you on fire(-15 health)
-  Minecart: +4 hunger
+(√ Hikal007 recipes) Minecart: +4 hunger
   Saddle: +4 hunger
 (√ Big_Jls) Iron door: +4 hunger
   Redstone: +1 hunger(矿物掉落已改)
