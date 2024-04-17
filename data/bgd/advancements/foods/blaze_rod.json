@@ -1,0 +1,19 @@
+{
+    "parent": "bgd:foods/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+                "minecraft:blaze_rod"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bgd:foods/blaze_rod"
+    }
+  }
+  
