@@ -8,31 +8,22 @@
 (√ Big_Jls) Block of iron: +3 hunger
 (√ Big_Jls) Slabs: +1 hunger
 (√ Big_Jls) Bricks: +2 hunger
-
 (√ Big_Jls) Bookshelf: +3 hunger, you turn into twilight sparkle（发光30秒）
 (√ Xiaohuli) Moss stone: +1 hunger（翻译疑似苔石，暂且按照苔石写）
 (√ Big_Jls) Obsidian: +3 hunger, slowness 1 for 20 seconds（block写了）
-
 (√ Xiaohuli)Torch: -1 hunger, night vision for 30 seconds (1.21试炼大厅箱子已改)
 (√ Xiaohuli) Stairs: +1 hunger
 (√ Xiaohuli) Chest: +3 hunger
 (√ Xiaohuli) Diamond ore: -1 hunger, haste for 60 seconds
-
 (√ Xiaohuli) Block of diamond: +5 hunger, regeneration for 5 seconds(+4 health)
-
 (√ Big_Jls) Crafting table: +3 hunger
-
 (√ Big_Jls) Furnace: +2 hunger（熔炉 雪域村庄房屋 战利品宝箱没改） 
 (√ Xiaohuli) Ladder: +1 hunger
 (√ Big_Jls) Rail: +1 hunger（废弃矿井战利品箱子没改）（疑似所有铁轨都没没写）
-
 (√ Xiaohuli) Stone stairs: +1 hunger
-
 (√ Xiaohuli)  Lever/button: +1 hunger
 (√ Xiaohuli)  Pressure plates: +1 hunger
-
 (√ Xiaohuli) Redstone ore: -1 hunger, haste for 30 seconds
-
 (√ Xiaohuli)Redstone torch: -1 hunger, strength for 20 seconds
 (√ Xiaohuli) Ice: +1 hunger, slowness 1 for 30 seconds
 (√ Xiaohuli) Snow: +1 hunger
@@ -42,35 +33,25 @@
 (√ Big_Jls) Fence(gate): +1 hunger
 (√ Big_Jls) Pumpkin: +2 hunger, blindness for 30 seconds
 (√ Big_Jls) Netherrack: -2 hunger
-
 (√ Big_Jls) Soul sand: -3 hunger, slowness for 30 seconds
-
 (√ Big_Jls) Glowstone: +3 hunger, night vision for 40 seconds
 (√ Big_Jls) Jackolantern: +2 hunger, night vision for 40 seconds
-
 (√ Big_Jls) Trapdoor: +1 hunger
-
 (√ Big_Jls) Silverfish stone: +1 hunger(改名为infested)
-
 (√ Big_Jls) Stone bricks: +1 hunger
-
 (√ Big_Jls) Giant mushroom: +2 hunger
 (√ Big_Jls) Iron bars: +2 hunger
 (√ Big_Jls) Melon: +4 hunger
 (√ Big_Jls) Vines: +1 hunger
 (√ Big_Jls) Mycelium: +1 hunger, poison for 5 seconds(-4 health)
 (√ Big_Jls) Lilly pad: +1 hunger, regeneration for 3 seconds(+2 health)
-
 (√ Big_Jls) Netherbrick(stairs/fence): +1 hunger, fire resistance for 10 seconds
-
 (√ Hikal007)  Enchanting table: +3 hunger, resistance for 30 seconds
 (√ Hikal007)  End stone: -1 hunger, strength for 30 seconds
 (√ Hikal007)  Dragon egg: +4 hunger, strength for 2 minutes（仅炸落有效）
 (√ Hikal007) Redstone lamp(off): +3 hunger, night vision for 40 seconds
 (√ Hikal007 recipes) Iron tools: +2 hunger
 (√ Big_Jls) Flint and steel: -2 hunger, sets you on fire(-15 health)ew
-  
-
 (√ recipes) Diamond: +5 hunger
 (√ Big_Jls recipes) Iron ingot: +3 hunger
 (√ Big_Jls recipes) Gold ingot: +4 hunger
@@ -84,17 +65,13 @@
 (√ Big_Jls recipes) Bowl: +1 hunger
 (√ Hikal007 recipes)  Golden sword: +2 hunger, strength for 50 seconds
 (√ Hikal007 recipes)  Golden tools: +3 hunger, haste for 50 seconds
-
-
-  Feather: -1 hunger, speed for 20 seconds
-  Gunpowder: -3 hunger
+(√ Big_Jls entities) Feather: -1 hunger, speed for 20 seconds
+(√ Big_Jls entities) Gunpowder: -3 hunger
 (√ Big_Jls recipes) Leather armor: +1 hunger, resistance for 20 seconds
   Chain armor: +2 hunger, resistance for 50 seconds
   Iron armor: +3 hunger, resistance for 35 seconds
   Diamond armor: +5 hunger, resistance for 60 seconds
   Golden armor: +4 hunger, resistance for 45 seconds
-
-
 (√ Big_Jls recipes)  Painting: +1 hunger
 (√ Hikal007 recipes) Sign/wooden door: +1 hunger
   (Water)bucket: +2 hunger
@@ -122,13 +99,12 @@
   Shears: +2 hunger
 (√ Big_Jls) Pumpkin seeds: +1 hunger, regeneration for 2 seconds
 (√ Big_Jls) melon seeds: +1 hunger, regeneration for 2 seconds
-  Ender pearl: -3 hunger
- (√ Big_Jls) Blaze rod: -3 hunger, sets you on fire(-15 health)
-  Ghast tear: +1 hunger, regeneration for 4 seconds(+3 health)
+(√ Big_Jls) Blaze rod: -3 hunger, sets you on fire(-15 health)
+(√ Big_Jls) Ghast tear: +1 hunger, regeneration for 4 seconds(+3 health)
   Gold nugget: +1 hunger
   Nether wart: +1 hunger
 (√ Big_Jls) Blaze powder: -2 hunger, sets you on fire(-15 health)
-  Magma cream: -2 hunger, fire resistance for 30 seconds
+(√ Big_Jls) Magma cream: -2 hunger, fire resistance for 30 seconds
   Brewing stand: -2 hunger
   Calderon: +4 hunger
 (√ Big_Jls recipes) Glistering melon: +4 hunger
@@ -140,6 +116,7 @@
   Egg: +2 hunger
   Snowball: +1 hunger
   Map: +4 hunger
+  Ender pearl: -3 hunger
 
 Warn:
   Boat: +2 hunger（已写好未上传，无法食用）
@@ -174,7 +151,8 @@ custom自定义：
   (√ Big_Jls) emerald_ore: +3 hunger,hero_of_the_village 2 for 10s
   (√ Big_Jls) ink_sac: +1 hunger, blindness for 10s
   (√ Big_Jls) glow_ink_sac: +2 hunger, blindness and glowing for 10s
-  (√ Big_Jls) phantom_membrane: +2 hunger, slowness_fall for 30s
+  (√ Big_Jls) phantom_membrane: +2 hunger, slow_falling for 30s
+  (√ Big_Jls) bamboo: +1 hunger
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
 -1 hunger 
