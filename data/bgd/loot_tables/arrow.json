@@ -65,7 +65,7 @@
                   {
                     "attribute": "minecraft:generic.armor",
                     "name": "",
-                    "amount": 1,
+                    "amount": 0.25,
                     "operation": "add_multiplied_base",
                     "id": "0b4523f3-ad4c-4256-bd63-91c8dc8f553c",
                     "slot": "offhand"
