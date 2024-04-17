@@ -172,6 +172,8 @@ custom自定义：
   (√ Big_Jls) copper_ingot: +2 hunger
   (√ Big_Jls) emerald: +5 hunger
   (√ Big_Jls) emerald_ore: +3 hunger,hero_of_the_village 2 for 10s
+  (√ Big_Jls) ink_sac: +1 hunger, blindness for 10s
+  (√ Big_Jls) glow_ink_sac: +2 hunger, blindness and glowing for 10s
     
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
