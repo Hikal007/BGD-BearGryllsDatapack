@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:golden_carrot",
+      "id": "minecraft:enchanted_golden_apple",
       "count": 1
     },
     "title": [
@@ -18,7 +18,11 @@
         "strikethrough": false
       }
     ],
-    "description": "来看看什么能吃吧！！",
+    "description": {
+      "text": "来看看什么能吃吧！！",
+      "color": "gray",
+      "underlined": false
+    },
     "background": "minecraft:textures/block/honey_block_side.png",
     "frame": "task",
     "show_toast": true,
