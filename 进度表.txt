@@ -123,11 +123,11 @@
 (√ Big_Jls) Pumpkin seeds: +1 hunger, regeneration for 2 seconds
 (√ Big_Jls) melon seeds: +1 hunger, regeneration for 2 seconds
   Ender pearl: -3 hunger
-  Blaze rod: -3 hunger, sets you on fire(-15 health)
+ (√ Big_Jls) Blaze rod: -3 hunger, sets you on fire(-15 health)
   Ghast tear: +1 hunger, regeneration for 4 seconds(+3 health)
   Gold nugget: +1 hunger
   Nether wart: +1 hunger
-  Blaze powder: -2 hunger, sets you on fire(-15 health)
+(√ Big_Jls) Blaze powder: -2 hunger, sets you on fire(-15 health)
   Magma cream: -2 hunger, fire resistance for 30 seconds
   Brewing stand: -2 hunger
   Calderon: +4 hunger
@@ -169,7 +169,9 @@ custom自定义：
   (√ Big_Jls) chiseled_bookshelf: +3 hunger, glowing for 60 seconds 每隔5s会让附近20格内实体发光3s
   (√ Big_Jls) warped_nylium: -2 hunger, fire_resistance for 1s
   (√ Big_Jls) crimson_nylium: -2 hunger, fire_resistance for 1s
-
+  (√ Big_Jls) copper_ingot: +2 hunger
+  (√ Big_Jls) emerald: +5 hunger
+  (√ Big_Jls) emerald_ore: +3 hunger,hero_of_the_village 2 for 10s
     
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
