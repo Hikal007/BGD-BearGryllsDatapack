@@ -86,7 +86,7 @@
 (√ Hikal007 recipes) Sugarcane/paper: +1 hunger
 (√ Big_Jls) Book: +2 hunger
 (√ Hikal007 recipes) Slimeball: +2 hunger
-  Minecart with chest/furnace: +5 hunger
+(√ Hikal007 recipes) Minecart with chest/furnace: +5 hunger
   Compass: +3 hunger
   Fishing rod: +1 hunger
 (√ Big_Jls) Glowstone dust: +1 hunger
