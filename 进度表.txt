@@ -96,7 +96,7 @@
 (√ Hikal007 recipes)  Cake: +5 hunger
 (√ Hikal007) Bed: +4 hunger
   Redstone repeater: +2 hunger +2 hunger
-  Shears: +2 hunger
+(√ Hikal007 recipes) Shears: +2 hunger
 (√ Big_Jls) Pumpkin seeds: +1 hunger, regeneration for 2 seconds
 (√ Big_Jls) melon seeds: +1 hunger, regeneration for 2 seconds
 (√ Big_Jls) Blaze rod: -3 hunger, sets you on fire(-15 health)
