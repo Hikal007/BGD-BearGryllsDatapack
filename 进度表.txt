@@ -102,7 +102,7 @@
 (√ Big_Jls) Blaze rod: -3 hunger, sets you on fire(-15 health)
 (√ Big_Jls) Ghast tear: +1 hunger, regeneration for 4 seconds(+3 health)
 (√ Hikal007 recipes) Gold nugget: +1 hunger
-  Nether wart: +1 hunger
+(√ Hikal007 block) Nether wart: +1 hunger
 (√ Big_Jls) Blaze powder: -2 hunger, sets you on fire(-15 health)
 (√ Big_Jls) Magma cream: -2 hunger, fire resistance for 30 seconds
   Brewing stand: -2 hunger
