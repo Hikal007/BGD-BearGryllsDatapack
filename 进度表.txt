@@ -93,7 +93,7 @@
   Dyes other then bonemeal: -1 hunger, changes your skin
   bonemeal: -1 hunger, reverts your skin back to normal
   Bone: +1 hunger, nausea for 20 seconds
-  Cake: +5 hunger
+(√ Hikal007 recipes)  Cake: +5 hunger
 (√ Hikal007) Bed: +4 hunger
   Redstone repeater: +2 hunger +2 hunger
   Shears: +2 hunger
