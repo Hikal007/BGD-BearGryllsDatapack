@@ -127,10 +127,10 @@ In working:
   (√ Big_Jls) Music disks: +1 hunger (需要修改怪物掉落物)（Hikal007 Add disc_5）
   (√ Big_Jls) Fire charge: -2 hunger, sets you on fire(-15 health) (需要添加function使玩家着火)
   (√ Big_Jls) Tnt: 1 tick speed? (永久提升？还是只有1tick)
-    Arrow: +1 hunger, launches an arrow into your knee(吃掉 裤子格会变成箭，已上传，/loot replace entity @s armor.legs loot bgd:arrow无效果)
   (√ Big_Jls) Silverfish stone(infested_stone): +1 hunger (1.21更新后改为玩家食用会获得寄生的DEBUFF,现在无效果)
 
 custom自定义：
+  (√ Big_Jls) Arrow: +1 hunger, launches an arrow into your knee 给予玩家一根附魔箭
   (√ Xiaohuli) soul_torch: -1 hunger, night vision 3 for 60 seconds 
   (√ Big_Jls) Crying Obsidian: +3 hunger, slowness 3 for 30 seconds 下雨60秒
   (√ Xiaohuli) blast furnace: +3 hunger
@@ -141,7 +141,7 @@ custom自定义：
   (√ Big_Jls) Glass: instant damage 2 for 1 ticks
   (√ Ghost) stripped wood:+3 hunger
   (√ Big_Jls) Wood: +3 hunger(合成表没改，block改了)
-    flower pot: +1 hunger(花盆仙人掌、蘑菇写了)
+  (√ Big_Jls) flower pot: +1 hunger
   (√ Xiaohuli) glazed terracotta: +3 hunger
   (√ Big_Jls) chiseled_bookshelf: +3 hunger, glowing for 60 seconds 每隔5s会让附近20格内实体发光3s
   (√ Big_Jls) warped_nylium: -2 hunger, fire_resistance for 1s
@@ -153,6 +153,7 @@ custom自定义：
   (√ Big_Jls) glow_ink_sac: +2 hunger, blindness and glowing for 10s
   (√ Big_Jls) phantom_membrane: +2 hunger, slow_falling for 30s
   (√ Big_Jls) bamboo: +1 hunger
+  (√ Big_Jls) rabbit_foot: jump_boost for 10s 永久增加0.02跳跃高度
 
 # 满饱食度的情况下难以生效，可能由于存在饥饿耐度
 -1 hunger 
