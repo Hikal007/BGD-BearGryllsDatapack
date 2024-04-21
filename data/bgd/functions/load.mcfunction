@@ -24,3 +24,7 @@ scoreboard players set br bgd 0
 
 #烈焰粉
 scoreboard players set bp bgd 0
+
+#兔子脚
+scoreboard objectives add bgd.rabbit dummy
+scoreboard players reset @a bgd.rabbit
