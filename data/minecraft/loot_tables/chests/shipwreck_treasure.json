@@ -15,6 +15,15 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition":3,
+                  "saturation": 1.5
+                }
+              }
             }
           ],
           "name": "minecraft:iron_ingot",
@@ -31,6 +40,15 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 12
+                }
+              }
             }
           ],
           "name": "minecraft:gold_ingot",
@@ -55,7 +73,18 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 5
+          "weight": 5,
+          "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:food": {
+                      "nutrition": 5,
+                      "saturation": 2.5
+                    }
+                  }
+                }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -83,6 +112,16 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 1.5,
+                  "can_always_eat": true
+                }
+              }
             }
           ],
           "name": "minecraft:iron_nugget",
@@ -99,6 +138,16 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "can_always_eat": true,
+                  "saturation": 1
+                }
+              }
             }
           ],
           "name": "minecraft:gold_nugget",
@@ -115,6 +164,32 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 0.5,
+                  "can_always_eat": true,
+                  "eat_seconds": 2,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 300
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:luck",
+                        "amplifier": 4,
+                        "duration": 300
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:lapis_lazuli",

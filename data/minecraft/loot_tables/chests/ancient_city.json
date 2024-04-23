@@ -24,13 +24,12 @@
           "name": "minecraft:music_disc_otherside",
           "functions": [
             {
-              "function":"minecraft:set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:food": {
-                  "nutrition": 1,
+                  "nutrition": 2,
                   "saturation": 1,
-                  "can_always_eat": true,
-                  "eat_seconds": 1.6
+                  "can_always_eat": true
                 }
               }
             }
@@ -43,6 +42,15 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 1
+                }
+              }
             }
           ],
           "name": "minecraft:compass",
@@ -94,6 +102,24 @@
                 "min": 30.0
               },
               "treasure": true
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 2,
+                  "can_always_eat" : true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 1200
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:diamond_hoe",
@@ -118,6 +144,24 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation": 2.5,
+                  "can_always_eat" : true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:resistance",
+                        "duration": 1200
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:diamond_horse_armor",
@@ -195,6 +239,16 @@
                 "minecraft:swift_sneak"
               ],
               "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 1,
+                  "can_always_eat": true
+                }
+              }
             }
           ],
           "name": "minecraft:book",
@@ -380,6 +434,16 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 1,
+                  "can_always_eat": true
+                }
+              }
             }
           ],
           "name": "minecraft:book",
@@ -396,6 +460,16 @@
                 "min": 3.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 1,
+                  "can_always_eat": true
+                }
+              }
             }
           ],
           "name": "minecraft:book",
@@ -412,6 +486,24 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:nausea",
+                        "duration": 400
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:bone",
@@ -470,6 +562,32 @@
                 "min": 6.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.0,
+                  "can_always_eat": true,
+                  "eat_seconds": 1.5,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 200
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:hunger",
+                        "amplifier": 130,
+                        "duration": 20
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:coal",

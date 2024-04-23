@@ -15,6 +15,15 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1
+                }
+              }
             }
           ],
           "name": "minecraft:leather"
@@ -22,17 +31,50 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_chestplate",
-          "weight": 2
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_boots",
-          "weight": 2
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_helmet",
-          "weight": 2
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -53,7 +95,18 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_leggings",
-          "weight": 2
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",

@@ -15,6 +15,15 @@
                 "min": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation": 2.5
+                }
+              }
             }
           ],
           "name": "minecraft:diamond",
@@ -31,6 +40,15 @@
                 "min": 4.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition":3,
+                  "saturation": 1.5
+                }
+              }
             }
           ],
           "name": "minecraft:iron_ingot",
@@ -47,6 +65,15 @@
                 "min": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 12
+                }
+              }
             }
           ],
           "name": "minecraft:gold_ingot",
@@ -91,15 +118,75 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor"
+          "name": "minecraft:iron_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 1.5,
+                  "can_always_eat" : true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:resistance",
+                        "duration": 700
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor"
+          "name": "minecraft:golden_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 2,
+                  "can_always_eat" : true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:resistance",
+                        "duration": 900
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor"
+          "name": "minecraft:diamond_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation": 2.5,
+                  "can_always_eat" : true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:resistance",
+                        "duration": 1200
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -112,6 +199,24 @@
                 "min": 20.0
               },
               "treasure": true
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 2,
+                  "can_always_eat" : true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:strength",
+                        "duration": 1200
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:diamond_sword",
@@ -192,6 +297,24 @@
                 "min": 20.0
               },
               "treasure": true
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 2,
+                  "can_always_eat" : true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 1200
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:diamond_pickaxe",
@@ -208,6 +331,24 @@
                 "min": 20.0
               },
               "treasure": true
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 2,
+                  "can_always_eat" : true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 1200
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:diamond_shovel",
@@ -304,6 +445,16 @@
                 "min": 20.0
               },
               "treasure": true
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 1,
+                  "can_always_eat": true
+                }
+              }
             }
           ],
           "name": "minecraft:iron_pickaxe",

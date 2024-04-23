@@ -23,6 +23,16 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 1,
+                  "can_always_eat": true
+                }
+              }
             }
           ],
           "name": "minecraft:book",
@@ -31,7 +41,18 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_pickaxe",
-          "weight": 5
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 1
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:empty",
@@ -54,6 +75,15 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition":3,
+                  "saturation": 1.5
+                }
+              }
             }
           ],
           "name": "minecraft:iron_ingot",
@@ -70,6 +100,15 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 12
+                }
+              }
             }
           ],
           "name": "minecraft:gold_ingot",
@@ -86,6 +125,15 @@
                 "min": 4.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1
+                }
+              }
             }
           ],
           "name": "minecraft:redstone",
@@ -102,6 +150,32 @@
                 "min": 4.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 0.5,
+                  "can_always_eat": true,
+                  "eat_seconds": 2,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 300
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:luck",
+                        "amplifier": 4,
+                        "duration": 300
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:lapis_lazuli",
@@ -118,6 +192,15 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation": 2.5
+                }
+              }
             }
           ],
           "name": "minecraft:diamond",
@@ -134,6 +217,32 @@
                 "min": 3.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.0,
+                  "can_always_eat": true,
+                  "eat_seconds": 1.5,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 200
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:hunger",
+                        "amplifier": 130,
+                        "duration": 20
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:coal",
@@ -182,6 +291,25 @@
                 "min": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true,
+                  "eat_seconds": 1.6,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:regeneration",
+                        "duration": 40
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:melon_seeds",
@@ -198,6 +326,25 @@
                 "min": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true,
+                  "eat_seconds": 1.6,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:regeneration",
+                        "duration": 40
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:pumpkin_seeds",
@@ -240,6 +387,15 @@
                 "min": 4.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1
+                }
+              }
             }
           ],
           "name": "minecraft:rail",
@@ -256,6 +412,24 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:speed",
+                        "duration": 600
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:powered_rail",
@@ -272,6 +446,24 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:speed",
+                        "duration": 600
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:detector_rail",
@@ -288,6 +480,30 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:speed",
+                        "duration": 400
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:strength",
+                        "duration": 200
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:activator_rail",
@@ -316,15 +532,14 @@
                     {
                       "effect": {
                         "id": "minecraft:night_vision",
-                        "amplifier": 0,
                         "duration": 600
                       }
                     },
                     {
                       "effect": {
-                      "id": "minecraft:hunger",
-                      "amplifier": 40,
-                      "duration": 20
+                        "id": "minecraft:hunger",
+                        "amplifier": 40,
+                        "duration": 20
                       }
                     }
                   ]

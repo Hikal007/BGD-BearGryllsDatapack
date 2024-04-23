@@ -68,18 +68,68 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_hoe",
-          "weight": 15
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 2,
+                  "can_always_eat" : true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 1200
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_chestplate",
-          "weight": 5
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation": 2.5,
+                  "can_always_eat" : true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:resistance",
+                        "duration": 1200
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 1,
+                  "can_always_eat": true
+                }
+              }
             }
           ],
           "name": "minecraft:book",
@@ -106,6 +156,15 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition":3,
+                  "saturation": 1.5
+                }
+              }
             }
           ],
           "name": "minecraft:iron_ingot",
@@ -122,6 +181,15 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 12
+                }
+              }
             }
           ],
           "name": "minecraft:gold_ingot",
@@ -143,6 +211,25 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.5,
+                  "can_always_eat": true,
+                  "eat_seconds": 1.8,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:regeneration",
+                        "duration": 60
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:wheat",
@@ -151,6 +238,18 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bucket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 1,
+                  "can_always_eat": true
+                }
+              }
+            }
+          ],
           "weight": 10
         },
         {
@@ -164,6 +263,15 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1
+                }
+              }
             }
           ],
           "name": "minecraft:redstone",
@@ -180,6 +288,32 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.0,
+                  "can_always_eat": true,
+                  "eat_seconds": 1.5,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 200
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:hunger",
+                        "amplifier": 130,
+                        "duration": 20
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:coal",
@@ -196,6 +330,25 @@
                 "min": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true,
+                  "eat_seconds": 1.6,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:regeneration",
+                        "duration": 40
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:melon_seeds",
@@ -212,6 +365,25 @@
                 "min": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true,
+                  "eat_seconds": 1.6,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:regeneration",
+                        "duration": 40
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:pumpkin_seeds",
@@ -228,6 +400,25 @@
                 "min": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true,
+                  "eat_seconds": 1.6,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:regeneration",
+                        "duration": 40
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:beetroot_seeds",
@@ -254,6 +445,24 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:nausea",
+                        "duration": 400
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:bone",
@@ -270,6 +479,25 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:hunger",
+                        "amplifier": 120,
+                        "duration": 20
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:gunpowder",
@@ -302,6 +530,31 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:hunger",
+                        "amplifier": 40,
+                        "duration": 20
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:slowness",
+                        "duration": 800
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:string",

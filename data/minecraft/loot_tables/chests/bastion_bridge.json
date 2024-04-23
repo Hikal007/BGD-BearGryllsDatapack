@@ -50,6 +50,16 @@
                 "min": 10.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function":"minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true
+                }
+              }
             }
           ],
           "name": "minecraft:spectral_arrow"
@@ -80,6 +90,25 @@
                 "min": 3.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "can_always_eat": true,
+                  "saturation": 1,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:slowness",
+                        "amplifier": 2,
+                        "duration": 600
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:crying_obsidian"
@@ -91,6 +120,16 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
+            },
+            {
+              "function":"minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 1,
+                  "can_always_eat": true
+                }
+              }
             }
           ],
           "name": "minecraft:gold_block"
@@ -106,6 +145,15 @@
                 "min": 4.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 12
+                }
+              }
             }
           ],
           "name": "minecraft:gold_ingot"
@@ -121,6 +169,15 @@
                 "min": 4.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition":3,
+                  "saturation": 1.5
+                }
+              }
             }
           ],
           "name": "minecraft:iron_ingot"
@@ -132,6 +189,23 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:strength",
+                        "duration": 1000
+                      }
+                    }
+                  ],
+                  "saturation": 1
+                }
+              }
             }
           ],
           "name": "minecraft:golden_sword"
@@ -202,6 +276,23 @@
             },
             {
               "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 1000
+                      }
+                    }
+                  ],
+                  "saturation": 1
+                }
+              }
             }
           ],
           "name": "minecraft:golden_axe"
@@ -227,6 +318,31 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:hunger",
+                        "amplifier": 40,
+                        "duration": 20
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:slowness",
+                        "duration": 800
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:string"
@@ -242,6 +358,15 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1
+                }
+              }
             }
           ],
           "name": "minecraft:leather"
@@ -257,6 +382,16 @@
                 "min": 5.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1,
+                  "can_always_eat": true
+                }
+              }
             }
           ],
           "name": "minecraft:arrow"
@@ -272,6 +407,16 @@
                 "min": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 1.5,
+                  "can_always_eat": true
+                }
+              }
             }
           ],
           "name": "minecraft:iron_nugget"
@@ -287,6 +432,16 @@
                 "min": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "can_always_eat": true,
+                  "saturation": 1
+                }
+              }
             }
           ],
           "name": "minecraft:gold_nugget"

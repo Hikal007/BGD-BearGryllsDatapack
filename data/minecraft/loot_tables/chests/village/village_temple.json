@@ -15,6 +15,15 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 1
+                }
+              }
             }
           ],
           "name": "minecraft:redstone",
@@ -63,6 +72,32 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 0.5,
+                  "can_always_eat": true,
+                  "eat_seconds": 2,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 300
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:luck",
+                        "amplifier": 4,
+                        "duration": 300
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:lapis_lazuli"
@@ -78,6 +113,15 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 12
+                }
+              }
             }
           ],
           "name": "minecraft:gold_ingot"

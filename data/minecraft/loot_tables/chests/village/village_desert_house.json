@@ -62,7 +62,19 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:book"
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 1,
+                  "can_always_eat": true
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
