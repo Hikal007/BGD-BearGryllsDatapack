@@ -27,4 +27,6 @@ scoreboard players set bp bgd 0
 
 #兔子脚
 scoreboard objectives add bgd.rabbit dummy
+scoreboard objectives add bgd.rabbit.dead deathCount
 scoreboard players reset @a bgd.rabbit
+scoreboard players reset @a bgd.rabbit.dead

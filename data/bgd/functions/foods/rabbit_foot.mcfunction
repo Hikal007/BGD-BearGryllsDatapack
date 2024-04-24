@@ -1,5 +1,6 @@
 advancement revoke @s only bgd:foods/rabbit_foot
 scoreboard players add @s bgd.rabbit 1
+tellraw @s[scores={bgd.rabbit=..128}] {"text": "好像能跳的更高一点了","color": "gray"}
 execute as @a[scores={bgd.rabbit=129..129}] at @s run tellraw @s {"text": "好像最高就128层了","color": "gray"}
 execute as @a[scores={bgd.rabbit=129..129}] at @s run scoreboard players set @s bgd.rabbit 128
 execute as @a[scores={bgd.rabbit=128..128}] at @s run attribute @s minecraft:generic.jump_strength modifier add fea53df8-cf57-48d6-84d1-f33bd03dfd50 "新增128" 0.02 add_value

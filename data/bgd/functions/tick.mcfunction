@@ -26,3 +26,7 @@ execute if score bp bgd matches 32.. run scoreboard players reset bp bgd
 execute if score br bgd matches 42.. run schedule clear bgd:foods/blaze_rod
 execute if score br bgd matches 42.. run tag @a[tag=br] remove br
 execute if score br bgd matches 42.. run scoreboard players reset br bgd
+
+#兔子脚
+execute as @a[scores={bgd.rabbit.dead=1..}] at @s run scoreboard players reset @s bgd.rabbit
+execute as @a[scores={bgd.rabbit.dead=1..}] at @s run scoreboard players reset @s bgd.rabbit.dead
