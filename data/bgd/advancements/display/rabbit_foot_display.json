@@ -1,0 +1,2217 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot"
+    },
+    "title": "看他们像兔子一样",
+    "description": {
+      "text": "吃兔子脚会永久提高跳跃高度，但是死了就会重置",
+      "color": "gray"
+    }
+  },
+  "parent": "bgd:foods/root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 1
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 2
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 3
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 4
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 5
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 6
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "7": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 7
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "8": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 8
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "9": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 9
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "10": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 10
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "11": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 11
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "12": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 12
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "13": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 13
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "14": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 14
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "15": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 15
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "16": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 16
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "17": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 17
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "18": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 18
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "19": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 19
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "20": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 20
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "21": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 21
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "22": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 22
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "23": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 23
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "24": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 24
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "25": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 25
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "26": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 26
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "27": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 27
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "28": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 28
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "29": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 29
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "30": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 30
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "31": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 31
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "32": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 32
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "33": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 33
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "34": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 34
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "35": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 35
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "36": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 36
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "37": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 37
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "38": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 38
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "39": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 39
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "40": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 40
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "41": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 41
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "42": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 42
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "43": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 43
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "44": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 44
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "45": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 45
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "46": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 46
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "47": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 47
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "48": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 48
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "49": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 49
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "50": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 50
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "51": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 51
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "52": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 52
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "53": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 53
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "54": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 54
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "55": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 55
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "56": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 56
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "57": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 57
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "58": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 58
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "59": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 59
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "60": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 60
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "61": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 61
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "62": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 62
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "63": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 63
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "64": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 64
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "65": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 65
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "66": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 66
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "67": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 67
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "68": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 68
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "69": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 69
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "70": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 70
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "71": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 71
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "72": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 72
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "73": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 73
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "74": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 74
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "75": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 75
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "76": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 76
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "77": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 77
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "78": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 78
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "79": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 79
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "80": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 80
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "81": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 81
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "82": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 82
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "83": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 83
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "84": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 84
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "85": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 85
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "86": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 86
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "87": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 87
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "88": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 88
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "89": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 89
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "90": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 90
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "91": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 91
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "92": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 92
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "93": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 93
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "94": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 94
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "95": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 95
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "96": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 96
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "97": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 97
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "98": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 98
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "99": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 99
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    },
+    "100": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bgd.rabbit": 100
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:rabbit_foot"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1"
+    ],
+    [
+      "2"
+    ],
+    [
+      "3"
+    ],
+    [
+      "4"
+    ],
+    [
+      "5"
+    ],
+    [
+      "6"
+    ],
+    [
+      "7"
+    ],
+    [
+      "8"
+    ],
+    [
+      "9"
+    ],
+    [
+      "10"
+    ],
+    [
+      "11"
+    ],
+    [
+      "12"
+    ],
+    [
+      "13"
+    ],
+    [
+      "14"
+    ],
+    [
+      "15"
+    ],
+    [
+      "16"
+    ],
+    [
+      "17"
+    ],
+    [
+      "18"
+    ],
+    [
+      "19"
+    ],
+    [
+      "20"
+    ],
+    [
+      "21"
+    ],
+    [
+      "22"
+    ],
+    [
+      "23"
+    ],
+    [
+      "24"
+    ],
+    [
+      "25"
+    ],
+    [
+      "26"
+    ],
+    [
+      "27"
+    ],
+    [
+      "28"
+    ],
+    [
+      "29"
+    ],
+    [
+      "30"
+    ],
+    [
+      "31"
+    ],
+    [
+      "32"
+    ],
+    [
+      "33"
+    ],
+    [
+      "34"
+    ],
+    [
+      "35"
+    ],
+    [
+      "36"
+    ],
+    [
+      "37"
+    ],
+    [
+      "38"
+    ],
+    [
+      "39"
+    ],
+    [
+      "40"
+    ],
+    [
+      "41"
+    ],
+    [
+      "42"
+    ],
+    [
+      "43"
+    ],
+    [
+      "44"
+    ],
+    [
+      "45"
+    ],
+    [
+      "46"
+    ],
+    [
+      "47"
+    ],
+    [
+      "48"
+    ],
+    [
+      "49"
+    ],
+    [
+      "50"
+    ],
+    [
+      "51"
+    ],
+    [
+      "52"
+    ],
+    [
+      "53"
+    ],
+    [
+      "54"
+    ],
+    [
+      "55"
+    ],
+    [
+      "56"
+    ],
+    [
+      "57"
+    ],
+    [
+      "58"
+    ],
+    [
+      "59"
+    ],
+    [
+      "60"
+    ],
+    [
+      "61"
+    ],
+    [
+      "62"
+    ],
+    [
+      "63"
+    ],
+    [
+      "64"
+    ],
+    [
+      "65"
+    ],
+    [
+      "66"
+    ],
+    [
+      "67"
+    ],
+    [
+      "68"
+    ],
+    [
+      "69"
+    ],
+    [
+      "70"
+    ],
+    [
+      "71"
+    ],
+    [
+      "72"
+    ],
+    [
+      "73"
+    ],
+    [
+      "74"
+    ],
+    [
+      "75"
+    ],
+    [
+      "76"
+    ],
+    [
+      "77"
+    ],
+    [
+      "78"
+    ],
+    [
+      "79"
+    ],
+    [
+      "80"
+    ],
+    [
+      "81"
+    ],
+    [
+      "82"
+    ],
+    [
+      "83"
+    ],
+    [
+      "84"
+    ],
+    [
+      "85"
+    ],
+    [
+      "86"
+    ],
+    [
+      "87"
+    ],
+    [
+      "88"
+    ],
+    [
+      "89"
+    ],
+    [
+      "90"
+    ],
+    [
+      "91"
+    ],
+    [
+      "92"
+    ],
+    [
+      "93"
+    ],
+    [
+      "94"
+    ],
+    [
+      "95"
+    ],
+    [
+      "96"
+    ],
+    [
+      "97"
+    ],
+    [
+      "98"
+    ],
+    [
+      "99"
+    ],
+    [
+      "100"
+    ]
+  ]
+}

@@ -6,6 +6,7 @@ advancement revoke @a from bgd:foods/root
 advancement grant @a only bgd:foods/root
 difficulty hard
 scoreboard objectives add bgd dummy
+recipe take @a bgd:bedrock
 
 #雕纹书架
 scoreboard players set cb bgd 0
@@ -30,3 +31,6 @@ scoreboard objectives add bgd.rabbit dummy
 scoreboard objectives add bgd.rabbit.dead deathCount
 scoreboard players reset @a bgd.rabbit
 scoreboard players reset @a bgd.rabbit.dead
+
+#龙蛋
+scoreboard players set ed bgd 0

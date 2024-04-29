@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:chiseled_bookshelf"
+      },
+      "title": "我看到你了",
+      "description": {
+        "text": "怎么我自己也在发光呢？",
+        "color": "gray"
+      },
+      "frame": "task"
+    },
+    "parent": "bgd:foods/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:chiseled_bookshelf"
+            ]
+          }
+        }
+      }
+    }
+  }
+  

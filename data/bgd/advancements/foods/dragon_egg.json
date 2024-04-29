@@ -5,14 +5,14 @@
         "conditions": {
           "item": {
             "items": [
-              "minecraft:tnt"
+              "minecraft:dragon_egg"
             ]
           }
         }
       }
     },
     "rewards": {
-      "function": "bgd:foods/tnt"
+      "function": "bgd:foods/dragon_egg"
     }
   }
   

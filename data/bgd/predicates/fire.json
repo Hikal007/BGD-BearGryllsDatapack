@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "effects": {
+          "minecraft:fire_resistance": {}
+        }
+      }
+    }
+  }
+  

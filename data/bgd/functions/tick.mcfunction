@@ -30,3 +30,17 @@ execute if score br bgd matches 42.. run scoreboard players reset br bgd
 #兔子脚
 execute as @a[scores={bgd.rabbit.dead=1..}] at @s run scoreboard players reset @s bgd.rabbit
 execute as @a[scores={bgd.rabbit.dead=1..}] at @s run scoreboard players reset @s bgd.rabbit.dead
+
+#成就
+execute as @a[advancements={bgd:display/flint_and_steel_display=true,bgd:display/fire_charge_display=true,bgd:display/blaze_rod_display=true,bgd:display/blaze_powder_display=true},tag=!fire] at @s run function bgd:display/fire
+execute as @a[tag=fire,predicate=bgd:fire] at @s run effect give @s fire_resistance infinite
+
+#交互物品/掉落实体
+#龙蛋
+execute as @a[tag=!d_egg] at @s if items entity @s container.* minecraft:dragon_egg[!minecraft:food={nutrition:4,saturation:2,can_always_eat:true,effects:[{effect:{id:"strength",duration:2400}}]}] run function bgd:foods/fix/dragon_egg
+execute as @a[tag=d_egg] at @s if items entity @s container.* minecraft:dragon_egg[minecraft:food={nutrition:4,saturation:2,can_always_eat:true,effects:[{effect:{id:"strength",duration:2400}}]}] run tag @s remove d_egg
+
+execute if score ed bgd matches 1..1 run schedule clear bgd:foods/fix/dragon_egg_c
+execute if score ed bgd matches 1..1 run scoreboard players set ed bgd 0
+execute if score ed bgd matches 1..1 at @e[tag=ender_drgon] run summon item ~ ~1 ~ {Item:{id:"minecraft:ender_pearl"}}
+execute if score ed bgd matches 1..1 at @e[tag=ender_drgon] run summon item ~ ~1 ~ {Item:{id:"minecraft:ender_pearl"}}

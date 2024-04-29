@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_egg"
+    },
+    "title": "鸡肉味卡蹦脆",
+    "description": {
+      "text": "好奇是什么味道的？",
+      "color": "gray"
+    },
+    "frame": "challenge"
+  },
+  "parent": "bgd:foods/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dragon_egg"
+          ]
+        }
+      }
+    }
+  }
+}

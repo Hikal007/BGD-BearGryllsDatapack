@@ -81,7 +81,7 @@
                   {
                     "attribute": "minecraft:generic.max_health",
                     "name": "",
-                    "amount": 1,
+                    "amount": 0.1,
                     "operation": "add_multiplied_base",
                     "id": "7cf0e834-0416-4ce9-b6bc-332da488010c",
                     "slot": "offhand"

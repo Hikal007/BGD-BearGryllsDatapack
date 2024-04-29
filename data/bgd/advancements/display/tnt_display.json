@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": "轰~！啪！！",
+    "description": [
+      {
+        "text": "时间好像加速了？               ",
+        "color": "gray"
+      },
+      {
+        "text": "（该物品特殊效果需要修改服务器function权限等级）",
+        "color": "white"
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "bgd:foods/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tnt"
+          ]
+        }
+      }
+    }
+  }
+}
