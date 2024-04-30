@@ -7,7 +7,7 @@ BearGryllsDatapack 1.20.5+, this datapack reproduced the [BearGrylls module](htt
 # Installation&Gaming Methods
 The downloaded compressed file does not need to be decompressed and placed in the.minecraft\saves\<world name>\datapacks folder. After entering the world, simply enter **/reload**.
 
-** It is recommended to use the original server or spot for gameplay. To use the server for gameplay, you need to modify the permission level of the function in the server.properties file**
+**It is recommended to use the original server or spot for gameplay. To use the server for gameplay, you need to modify the permission level of the function in the server.properties file**
 
     function-permission-level=3
 
