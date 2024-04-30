@@ -1,4 +1,4 @@
-**ENGLISH** | [中文](https://github.com/Hikal007/BGD-BearGryllsDatapack/blob/main/README_CN.md)
+**ENGLISH** | [中文](https://github.com/Hikal007/BGD-BearGryllsDatapack/blob/main/README_CN.md) | [Русский](https://github.com/Hikal007/BGD-BearGryllsDatapack/blob/main/README_RU.md)
 
 # BGD-BearGryllsDatapack
 # ENGLISH
