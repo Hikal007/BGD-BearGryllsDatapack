@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge"
+    },
+    "title": "炎",
+    "description": {
+      "text": "下次吃点清淡的....",
+      "color": "gray"
+    },
+    "frame": "task"
+  },
+  "parent": "bgd:display/flint_and_steel_display",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:fire_charge"
+          ]
+        }
+      }
+    }
+  }
+}

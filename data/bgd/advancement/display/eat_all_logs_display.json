@@ -1,0 +1,122 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cherry_log"
+      },
+      "title": "草衣木食",
+      "description": {
+        "text": "我要吃遍天下木头！",
+        "color": "gray"
+      }
+    },
+    "parent": "bgd:foods/root",
+    "criteria": {
+      "oak_log": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:oak_log"
+            ]
+          }
+        }
+      },
+      "mangrove_log": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:mangrove_log"
+            ]
+          }
+        }
+      },
+      "jungle_log": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:jungle_log"
+            ]
+          }
+        }
+      },
+      "dark_oak_log": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:dark_oak_log"
+            ]
+          }
+        }
+      },
+      "cherry_log": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:cherry_log"
+            ]
+          }
+        }
+      },
+      "birch_log": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:birch_log"
+            ]
+          }
+        }
+      },
+      "acacia_log": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:acacia_log"
+            ]
+          }
+        }
+      },
+      "spruce_log": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:spruce_log"
+            ]
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "acacia_log"
+      ],
+      [
+        "birch_log"
+      ],
+      [
+        "oak_log"
+      ],
+      [
+        "mangrove_log"
+      ],
+      [
+        "jungle_log"
+      ],
+      [
+        "dark_oak_log"
+      ],
+      [
+        "cherry_log"
+      ],
+      [
+        "spruce_log"
+      ]
+    ]
+  }
+  

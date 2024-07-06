@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#bgd:enchantment_tag",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "0b4523f3-ad4c-4256-bd63-91c8dc8f553c",
+                  "attribute": "minecraft:generic.armor",
+                  "amount": 0.25,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "363ad565-541f-4839-9985-5e574eb39bef",
+                  "attribute": "minecraft:generic.movement_speed",
+                  "amount": -0.05,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "7cf0e834-0416-4ce9-b6bc-332da488010c",
+                  "attribute": "minecraft:generic.max_health",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_components",
+              "source": "block_entity"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

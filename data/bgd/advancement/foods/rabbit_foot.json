@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+                "minecraft:rabbit_foot"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bgd:foods/rabbit_foot"
+    }
+  }
+  
