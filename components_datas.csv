@@ -1,0 +1,345 @@
+id;components
+minecraft:acacia_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:acacia_chest_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:amethyst_block;{"minecraft:food": {"nutrition": 3,"saturation": 15,"effects": [{"effect": {"id": "minecraft:poison","amplifier": 1,"duration": 1000}},{"effect": {"id": "minecraft:night_vision","duration": 6000}}],"using_converts_to": {"id":"minecraft:amethyst_shard","components": {"minecraft:food": {"nutrition": 1,"saturation": 0}}}}}
+minecraft:andesite;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:andesite_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:anvil;{"minecraft:food": {"nutrition": 8,"saturation": 4}}
+minecraft:armor_stand;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:bamboo_block;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:bamboo_chest_raft;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:bamboo_mosaic;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:bamboo_raft;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:beacon;{"minecraft:food": {"nutrition": 20,"saturation": 20,"eat_seconds": 30,"effects": [{"effect": {"id": "minecraft:regeneration"}},{"effect": {"id": "minecraft:strength","duration": 1500}},{"effect": {"id": "minecraft:jump_boost","duration": 1500}},{"effect": {"id": "minecraft:resistance","duration": 1500}},{"effect": {"id": "minecraft:haste","duration": 1500}},{"effect": {"id": "minecraft:speed","duration": 1500}}]}}
+minecraft:beehive;{"minecraft:food": {"nutrition": 5,"saturation": 2.5,"eat_seconds": 2,"effects": [{"effect": {"id": "minecraft:oozing","duration": -1}}]}}
+minecraft:birch_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:birch_chest_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:blackstone_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:black_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:black_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:black_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:black_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:black_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:blue_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:blue_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:blue_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:blue_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:blue_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:bone_block;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:bone_meal;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:brewing_stand;{"minecraft:food": {"nutrition": 5,"saturation": 2.5,"effects": [{"effect": {"id": "minecraft:strength","amplifier": 1,"duration": 800}},{"effect": {"id": "minecraft:hunger","amplifier": 200,"duration": 20,"ambient": false,"show_particles": false,"show_icon": false}}],"using_converts_to": {"id": "minecraft:blaze_powder","components": {"minecraft:food": {"nutrition": 1,"saturation": 0,"effects": [{"effect": {"id": "minecraft:hunger","amplifier": 80,"duration": 20}}]}}}}}
+minecraft:brick_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:brown_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:brown_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:brown_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:brown_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:brown_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:brush
+minecraft:bucket
+minecraft:calibrated_sculk_sensor
+minecraft:candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:cartography_table
+minecraft:cauldron
+minecraft:chain;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:charcoal
+minecraft:cherry_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:cherry_chest_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:chiseled_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:chiseled_deepslate;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:chiseled_polished_blackstone;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:chiseled_quartz_block;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:chiseled_red_sandstone;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:chiseled_sandstone;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:chiseled_tuff;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:chiseled_tuff_bricks;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:coal;{"minecraft:food": {"nutrition": 1,"saturation": 1}}
+minecraft:coal_block;{"minecraft:food": {"nutrition": 10,"saturation": 1}}
+minecraft:cobbled_deepslate_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:cobblestone_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:comparator
+minecraft:composter
+minecraft:conduit
+minecraft:copper_block;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:copper_bulb;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:copper_door;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:copper_grate;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:copper_ingot;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:copper_trapdoor;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:cracked_deepslate_tiles;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:crafter
+minecraft:creeper_banner_pattern;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:crimson_hyphae
+minecraft:crossbow
+minecraft:cut_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:cut_red_sandstone;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:cut_sandstone;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:cyan_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:cyan_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:cyan_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:cyan_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:cyan_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:dark_oak_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:dark_oak_chest_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:dark_prismarine;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:daylight_detector
+minecraft:decorated_pot
+minecraft:deepslate;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:deepslate_brick_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:deepslate_tiles;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:deepslate_tile_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:diamond_boots
+minecraft:diamond_chestplate
+minecraft:diamond;{"minecraft:food": {"nutrition": 5,"saturation": 1}}
+minecraft:diamond_helmet
+minecraft:diamond_leggings
+minecraft:diorite
+minecraft:diorite_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:dried_kelp
+minecraft:dried_kelp_block
+minecraft:dripstone_block;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:dropper
+minecraft:dune_armor_trim_smithing_template
+minecraft:black_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:blue_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:brown_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:cyan_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:gray_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:gray_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:green_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:green_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:light_blue_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:light_blue_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:light_gray_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:light_gray_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:lime_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:lime_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:magenta_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:magenta_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:orange_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:orange_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:pink_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:pink_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:purple_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:purple_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:red_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:red_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:white_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:white_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:yellow_bed;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:yellow_carpet;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:emerald;{"minecraft:food": {"nutrition": 5,"saturation": 3.5}}
+minecraft:emerald_block;{"minecraft:food": {"nutrition": 15,"saturation": 7}}
+minecraft:ender_chest
+minecraft:end_crystal
+minecraft:end_rod
+minecraft:exposed_chiseled_copper;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:exposed_copper_bulb;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:exposed_copper_grate;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:exposed_cut_copper;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:fermented_spider_eye
+minecraft:fishing_rod
+minecraft:fletching_table
+minecraft:flower_banner_pattern;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:glass_bottle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:glow_item_frame
+minecraft:golden_boots
+minecraft:golden_chestplate
+minecraft:golden_helmet
+minecraft:golden_leggings
+minecraft:granite;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:granite_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:gray_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:gray_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:gray_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:gray_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:green_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:green_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:green_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:green_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:hay_block
+minecraft:honeycomb_block
+minecraft:honey_block
+minecraft:hopper
+minecraft:item_frame
+minecraft:jungle_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:jungle_chest_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:lantern;{"minecraft:food": {"nutrition": 1,"saturation": 0,"effects": [{"effect": {"id": "minecraft:night_vision","duration": 900}}]}}
+minecraft:lapis_lazuli;{"minecraft:food": {"nutrition": 1,"saturation": 0,"effects": [{"effect": {"id": "minecraft:instant_damage","amplifier": 2,"duration": 0}},{"effect": {"id": "minecraft:luck","amplifier": 0,"duration": -1}}]}}
+minecraft:lead
+minecraft:leather_boots
+minecraft:leather_chestplate
+minecraft:leather_helmet
+minecraft:leather_leggings
+minecraft:lectern
+minecraft:lightning_rod
+minecraft:light_blue_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:light_blue_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:light_blue_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:light_blue_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:light_gray_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:light_gray_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:light_gray_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:light_gray_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:lime_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:lime_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:lime_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:lime_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:lodestone
+minecraft:loom
+minecraft:mace
+minecraft:magenta_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:magenta_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:magenta_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:magenta_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:magma_block;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:magma_cream
+minecraft:mangrove_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:mangrove_chest_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:mojang_banner_pattern;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:moss_carpet
+minecraft:muddy_mangrove_roots
+minecraft:mud_brick_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:netherite_axe
+minecraft:netherite_block
+minecraft:netherite_boots
+minecraft:netherite_chestplate
+minecraft:netherite_helmet
+minecraft:netherite_hoe
+minecraft:netherite_ingot
+minecraft:netherite_leggings
+minecraft:netherite_pickaxe
+minecraft:netherite_scrap
+minecraft:netherite_shovel
+minecraft:netherite_sword
+minecraft:nether_brick;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:nether_brick_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:nether_wart_block;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:oak_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:oak_chest_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:observer
+minecraft:orange_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:orange_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:orange_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:orange_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:oxidized_chiseled_copper
+minecraft:oxidized_copper_bulb
+minecraft:oxidized_copper_grate
+minecraft:oxidized_cut_copper
+minecraft:packed_mud
+minecraft:pink_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:pink_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:pink_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:pink_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:polished_andesite
+minecraft:polished_basalt
+minecraft:polished_blackstone
+minecraft:polished_blackstone_brick_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:polished_blackstone_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:polished_deepslate;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:polished_deepslate_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:polished_diorite
+minecraft:polished_granite
+minecraft:polished_tuff;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:polished_tuff_slab;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:polished_tuff_stairs;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:polished_tuff_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:popped_chorus_fruit
+minecraft:prismarine;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:prismarine_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:purple_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:purple_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:purple_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:purple_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:purpur_block
+minecraft:purpur_pillar
+minecraft:quartz;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:quartz_block;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:quartz_pillar
+minecraft:raiser_armor_trim_smithing_template
+minecraft:raw_copper;{"minecraft:food": {"nutrition": 0,"saturation": 0,"effects": [{"effect": {"id": "minecraft:strength","amplifier": 0,"duration": 100}},{"effect": {"id": "minecraft:hunger","amplifier": 40,"duration": 20}}]}}
+minecraft:raw_copper_block;{"minecraft:food": {"nutrition": 1,"saturation": 0,"effects": [{"effect": {"id": "minecraft:strength","amplifier": 0,"duration": 100}}]}}
+minecraft:raw_gold;{"minecraft:food": {"nutrition": 1,"saturation": 0,"effects": [{"effect": {"id": "minecraft:strength","amplifier": 0,"duration": 100}},{"effect": {"id": "minecraft:hunger","amplifier": 40,"duration": 20}}]}}
+minecraft:raw_gold_block;{"minecraft:food": {"nutrition": 3,"saturation": 0,"effects": [{"effect": {"id": "minecraft:strength","amplifier": 0,"duration": 100}}]}}
+minecraft:raw_iron;{"minecraft:food": {"nutrition": 0,"saturation": 0,"effects": [{"effect": {"id": "minecraft:strength","amplifier": 0,"duration": 100}},{"effect": {"id": "minecraft:hunger","amplifier": 40,"duration": 20}}]}}
+minecraft:raw_iron_block;{"minecraft:food": {"nutrition": 2,"saturation": 2,"effects": [{"effect": {"id": "minecraft:strength","amplifier": 0,"duration": 100}}]}}
+minecraft:redstone_block;{"minecraft:food": {"nutrition": 3,"saturation": 0,"effects": [{"effect": {"id": "minecraft:strength","amplifier": 0,"duration": 200}}]}}
+minecraft:redstone;{"minecraft:food": {"nutrition": 1,"saturation": 0,"effects": [{"effect": {"id": "minecraft:strength","amplifier": 0,"duration": 20}}]}}
+minecraft:red_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:red_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:red_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:red_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:red_nether_brick_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:red_sandstone;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:red_sandstone_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:repeater;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:respawn_anchor;{"minecraft:food": {"nutrition": 0,"saturation": 0,"effects": [{"effect": {"id": "minecraft:regeneration","amplifier": 2,"duration": 600}}]}}
+minecraft:sandstone_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:scaffolding
+minecraft:sea_lantern;{"minecraft:food": {"nutrition": 1,"saturation": 0,"effects": [{"effect": {"id": "minecraft:night_vision","duration": 1200}}]}}
+minecraft:shield
+minecraft:shulker_box
+minecraft:skull_banner_pattern;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:slime_block
+minecraft:smithing_table
+minecraft:smoker
+minecraft:smooth_basalt;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:smooth_quartz;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:smooth_red_sandstone;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:smooth_sandstone;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:smooth_stone;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:soul_campfire
+minecraft:soul_lantern;{"minecraft:food": {"nutrition": 1,"saturation": 0,"effects": [{"effect": {"id": "minecraft:night_vision","duration": 1000}}]}}
+minecraft:spruce_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:spruce_chest_boat;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:stick;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:stone_brick_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:tripwire_hook;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:tuff_bricks;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:tuff_brick_slab;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:tuff_brick_stairs;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:tuff_brick_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:tuff_slab;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:tuff_stairs;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:tuff_wall;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:warped_hyphae;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:waxed_chiseled_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_copper_block;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_copper_bulb;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_copper_door;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_copper_grate;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_copper_trapdoor;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_cut_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_exposed_chiseled_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_exposed_copper_bulb;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_exposed_copper_door;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_exposed_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_exposed_copper_grate;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_exposed_copper_trapdoor;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_exposed_cut_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_oxidized_chiseled_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_oxidized_copper_bulb;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_oxidized_copper_door;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_oxidized_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_oxidized_copper_grate;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_oxidized_copper_trapdoor;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_oxidized_cut_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_weathered_chiseled_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_weathered_copper_bulb;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_weathered_copper_door;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_weathered_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_weathered_copper_grate;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_weathered_copper_trapdoor;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:waxed_weathered_cut_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:weathered_chiseled_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:weathered_copper_bulb;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:weathered_copper_grate;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:weathered_cut_copper;{"minecraft:food": {"nutrition": 4,"saturation": 1}}
+minecraft:white_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:white_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:white_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:white_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:wolf_armor;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:yellow_banner;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:yellow_candle;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:yellow_concrete_powder;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
+minecraft:yellow_dye;{"minecraft:food": {"nutrition": 2,"saturation": 1}}
