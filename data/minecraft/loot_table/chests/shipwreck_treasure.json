@@ -1,228 +1,228 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition":3,
-                  "saturation": 1.5
-                }
-              }
-            }
-          ],
-          "name": "minecraft:iron_ingot",
-          "weight": 90
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 4,
-                  "saturation": 12
-                }
-              }
-            }
-          ],
-          "name": "minecraft:gold_ingot",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:emerald",
-          "weight": 40
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 5,
-          "functions": [
+            "bonus_rolls": 0.0,
+            "entries": [
                 {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:food": {
-                      "nutrition": 5,
-                      "saturation": 2.5
-                    }
-                  }
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 5.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 3,
+                                    "saturation": 1.5
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:iron_ingot",
+                    "weight": 90
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 5.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 4,
+                                    "saturation": 12
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:gold_ingot",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 5.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:emerald",
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 5,
+                                    "saturation": 2.5
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:experience_bottle",
+                    "weight": 5
                 }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:experience_bottle",
-          "weight": 5
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 6.0,
-        "min": 3.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
+            ],
+            "rolls": {
                 "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 3,
-                  "saturation": 1.5,
-                  "can_always_eat": true
-                }
-              }
+                "max": 6.0,
+                "min": 3.0
             }
-          ],
-          "name": "minecraft:iron_nugget",
-          "weight": 50
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 10.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 3,
+                                    "saturation": 1.5,
+                                    "can_always_eat": true
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:iron_nugget",
+                    "weight": 50
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 10.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "can_always_eat": true,
+                                    "saturation": 1
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:gold_nugget",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 10.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 3,
+                                    "saturation": 0.5,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 2,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:haste",
+                                                "duration": 300
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:luck",
+                                                "amplifier": 4,
+                                                "duration": 300
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:lapis_lazuli",
+                    "weight": 20
+                }
+            ],
+            "rolls": {
                 "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 1,
-                  "can_always_eat": true,
-                  "saturation": 1
-                }
-              }
+                "max": 5.0,
+                "min": 2.0
             }
-          ],
-          "name": "minecraft:gold_nugget",
-          "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 3,
-                  "saturation": 0.5,
-                  "can_always_eat": true,
-                  "eat_seconds": 2,
-                  "effects": [
-                    {
-                      "effect": {
-                        "id": "minecraft:haste",
-                        "duration": 300
-                      }
-                    },
-                    {
-                      "effect": {
-                        "id": "minecraft:luck",
-                        "amplifier": 4,
-                        "duration": 300
-                      }
-                    }
-                  ]
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": 2.0,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:coast_armor_trim_smithing_template"
                 }
-              }
-            }
-          ],
-          "name": "minecraft:lapis_lazuli",
-          "weight": 20
+            ],
+            "rolls": 1.0
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 2.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:coast_armor_trim_smithing_template"
-        }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:chests/shipwreck_treasure"
+    ],
+    "random_sequence": "minecraft:chests/shipwreck_treasure"
 }

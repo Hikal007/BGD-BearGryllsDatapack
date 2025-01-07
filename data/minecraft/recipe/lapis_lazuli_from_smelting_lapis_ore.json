@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "cookingtime": 200,
+    "experience": 0.2,
+    "group": "lapis_lazuli",
+    "ingredient": {
+        "item": "minecraft:lapis_ore"
+    },
+    "result": {
+        "id": "minecraft:lapis_lazuli",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 0,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:instant_damage",
+                            "amplifier": 2,
+                            "duration": 0
+                        }
+                    },
+                    {
+                        "effect": {
+                            "id": "minecraft:luck",
+                            "amplifier": 0,
+                            "duration": -1
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

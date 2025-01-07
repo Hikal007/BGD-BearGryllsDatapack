@@ -3,16 +3,6 @@ import json
 from datetime import datetime
 import csv
 
-datapack_path = r'1.20.5-1.20.6.BGD-v1.0.2-Beta\data\minecraft'
-minecraft_path = r'data\minecraft'
-
-datapack_recipes_path = r'1.20.5-1.20.6.BGD-v1.0.2-Beta\data\minecraft\recipes'
-minecraft_recipes_path = r'data\minecraft\recipe'
-
-datapack_loot_tables_path = r'1.20.5-1.20.6.BGD-v1.0.2-Beta\data\minecraft\loot_tables'
-minecraft_loot_tables_path = r'data\minecraft\loot_table'
-
-
 """# 自定义except--→在文件中未找到对应的function键
 class NoFunctionFind(Exception):
     pass
@@ -45,7 +35,7 @@ def now_time():
 
 
 # 查找1.21未被修改的文件并存到directory.log
-def find():
+def find(datapack_path):
     os.remove('directory.log')
     files_to_keep = set()
     for root, _, files in os.walk(datapack_path):
@@ -68,7 +58,7 @@ def find():
 
 
 # 更新1.20.6recipe的格式成1.21
-def update_1_20_6_recipe_json():
+def update_1_20_6_recipe_json(datapack_recipes_path):
     components = {"components": {}}
     for filename in os.listdir(datapack_recipes_path):
         if filename.endswith('.json'):
@@ -90,7 +80,7 @@ def update_1_20_6_recipe_json():
 
 
 # 更新1.20.6loot_tables的格式成1.21
-def update_1_20_6_loot_tables_enchantments():
+def update_1_20_6_loot_tables_enchantments(datapack_loot_tables_path):
     log_file = 'update_loot_tables.log'
     os.remove(log_file)
     with open(log_file, 'a', encoding='utf-8') as f1:
@@ -138,6 +128,7 @@ def update_1_20_6_loot_tables_enchantments():
                     except json.JSONDecodeError as e:
                         print(f"Error decoding JSON in file {file_path}: {e}\n")
                         f1.write(f"[{now_time()}]Error decoding JSON in file {file_path}: {e}\n")
+
 
 """
 # 对1.21最新的recipe文件进行修改重写
@@ -228,7 +219,7 @@ def update_recipe_with_components(recipes_path, components_file, log_file):
         for row in reader:
             if row['components']:
                 try:
-                    components_dict[row['id']] = {'components':json.loads(row['components'])}
+                    components_dict[row['id']] = {'components': json.loads(row['components'])}
                 except json.JSONDecodeError as e:
                     with open(log_file, 'a', encoding='utf-8') as log:
                         log.write(f'[{now_time()}] JsonDecodeError -- {row['id']} -- {e}\n')
@@ -252,9 +243,108 @@ def update_recipe_with_components(recipes_path, components_file, log_file):
                     log.write(f'[{now_time()}] Error 读/写错误 {file_path}: {e}\n')
 
 
+# 获得战利品表blocks 的id
+def get_loot_table_blocks_id(minecraft_loot_tables_path):
+    id_dict = []
+    for root, dirs, files in os.walk(minecraft_loot_tables_path):
+        for file in files:
+            file_path = os.path.join(root, file)
+            try:
+                with open(file_path, 'r', encoding='utf-8') as jsonfile:
+                    data = json.load(jsonfile)
+                    if 'pools' in data:
+                        for pool in data['pools']:
+                            if "entries" in pool:
+                                for entry in pool['entries']:
+                                    name = entry['name']
+                                    id_dict.append({'id': name})
+            except Exception as e:
+                print(f'Error 读错误   {file_path}: {e}')
+
+    with open('loot_table_blocks_id_datas.csv', 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=['id', 'components'], delimiter=';')
+        writer.writeheader()
+        for id_dict in id_dict:
+            writer.writerow(id_dict)
+
+
+# 获得剩余战利品表blocks 的id
+def get_loot_table_blocks_left_id(minecraft_loot_tables_path):
+    get_loot_table_blocks_id(minecraft_loot_tables_path)
+    components_datas = []
+    id_dict = {}
+    with open('loot_table_blocks_id_datas.csv', 'r', encoding='utf-8') as id_csvfile:
+        id_reader = csv.DictReader(id_csvfile, delimiter=';')
+        for row in id_reader:
+            id_dict[row['id']] = row.copy()
+
+    with open('components_datas.csv', 'r', encoding='utf-8') as components_csvfile:
+        components_reader = csv.DictReader(components_csvfile, delimiter=';')
+        for row in components_reader:
+            if row['id'] in id_dict:
+                id_dict[row['id']]['components'] = row['components']
+                # print(row['components'])
+    # components_datas = list(id_dict.values())
+    # print(id_dict.values())
+    with open('loot_table_blocks_updated.csv', 'w', newline='', encoding='utf-8') as csvfile:
+        fieldnames = ['id', 'components']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=';')
+        writer.writeheader()
+        for data in id_dict.values():
+            writer.writerow(data)
+
+
+# 更新blocks
+def update_loot_table_blocks(minecraft_loot_tables_path):
+    log_file = 'loot_table_blocks_id_datas.log'
+    components_dict = {}
+    try:
+        os.remove(log_file)
+    except FileNotFoundError:
+        pass
+    get_loot_table_blocks_left_id(minecraft_loot_tables_path)
+    with open('loot_table_blocks_updated.csv', 'r', newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile, delimiter=';')
+        for row in reader:
+            if row['components']:
+                try:
+                    components_dict[row['id']] = {'functions': [
+                        {'function': 'minecraft:set_component', 'components': json.loads(row['components'])}]}
+                except json.JSONDecodeError as e:
+                    with open(log_file, 'a', encoding='utf-8') as log:
+                        log.write(f'[{now_time()}] JsonDecodeError -- {row['id']} -- {e}\n')
+    # print(components_dict)
+    for root, dirs, files in os.walk(rf'{minecraft_loot_tables_path}\blocks'):
+        for file in files:
+            file_path = os.path.join(root, file)
+            with open(file_path, 'r', encoding='utf-8') as jsonfile:
+                data = json.load(jsonfile)
+                try:
+                    if 'pools' in data:
+                        for pool in data['pools']:
+                            if 'entries' in pool:
+                                for entry in pool['entries']:
+                                    if entry['name'] in components_dict.keys():
+                                        entry.update(components_dict[f'{entry['name']}'])
+                                        with open(file_path, 'w', encoding='utf-8') as f:
+                                            json.dump(data, f, indent=4)
+                                        with open(log_file, 'a', encoding='utf-8') as log:
+                                            log.write(f'[{now_time()}] 已写入 -- {entry['name']}\n')
+                except KeyError as e:
+                    with open(log_file, 'a', encoding='utf-8') as log:
+                        log.write(f'[{now_time()}] 未找到key -- {row['id']} -- {e}\n')
+
+
 if __name__ == '__main__':
-    find()
-    # update_1_20_6_recipe_json()
-    # update_1_20_6_loot_tables_enchantments()
-    # recipe_ids = extract_recipe_ids(minecraft_recipes_path)
+    datapack_path = r'1.20.5-1.20.6.BGD-v1.0.2-Beta\data\minecraft'
+    minecraft_path = r'data\minecraft'
+    datapack_recipes_path = r'1.20.5-1.20.6.BGD-v1.0.2-Beta\data\minecraft\recipes'
+    minecraft_recipes_path = r'data\minecraft\recipe'
+    datapack_loot_tables_path = r'1.20.5-1.20.6.BGD-v1.0.2-Beta\data\minecraft\loot_tables'
+    minecraft_loot_tables_path = r'data\minecraft\loot_table'
+    find(datapack_path=datapack_path)
+    update_1_20_6_recipe_json(datapack_recipes_path=datapack_recipes_path)
+    update_1_20_6_loot_tables_enchantments(datapack_loot_tables_path=datapack_loot_tables_path)
+    recipe_ids = extract_recipe_ids(path=minecraft_recipes_path)
     update_recipe_with_components(minecraft_recipes_path, 'components_datas.csv', 'write_recipe_food.log')
+    update_loot_table_blocks(minecraft_loot_tables_path)

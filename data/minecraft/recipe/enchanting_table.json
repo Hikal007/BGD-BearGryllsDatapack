@@ -1,40 +1,32 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:obsidian"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:obsidian"
+        },
+        "B": {
+            "item": "minecraft:book"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
     },
-    "B": {
-      "item": "minecraft:book"
-    },
-    "D": {
-      "item": "minecraft:diamond"
-    }
-  },
-  "pattern": [
-    " B ",
-    "D#D",
-    "###"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:enchanting_table",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 3,
-        "saturation": 1,
-        "can_always_eat": true,
-        "eat_seconds": 1.6,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:resistance",
-              "duration": 600
+    "pattern": [
+        " B ",
+        "D#D",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:enchanting_table",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1,
+                "can_always_eat": true,
+                "eat_seconds": 1.8
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

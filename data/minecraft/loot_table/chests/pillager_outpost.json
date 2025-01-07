@@ -1,315 +1,315 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:crossbow"
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 1.0,
-        "min": 0.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 1,
-                  "saturation": 0.5,
-                  "can_always_eat": true,
-                  "eat_seconds": 1.8,
-                  "effects": [
-                    {
-                      "effect": {
-                        "id": "minecraft:regeneration",
-                        "duration": 60
-                      }
-                    }
-                  ]
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow"
                 }
-              }
+            ],
+            "rolls": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
             }
-          ],
-          "name": "minecraft:wheat",
-          "weight": 7
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:potato",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:carrot",
-          "weight": 5
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 2.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 5.0,
+                                "min": 3.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 0.5,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 1.8,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:regeneration",
+                                                "duration": 60
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:wheat",
+                    "weight": 7
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 5.0,
+                                "min": 2.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:potato",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 5.0,
+                                "min": 3.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:carrot",
+                    "weight": 5
+                }
+            ],
+            "rolls": {
                 "type": "minecraft:uniform",
                 "max": 3.0,
                 "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 3,
-                  "saturation": 1,
-                  "can_always_eat": true
-                }
-              }
             }
-          ],
-          "name": "minecraft:dark_oak_log"
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 1.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:experience_bottle",
-          "weight": 7
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 3.0,
+                                "min": 2.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 3,
+                                    "saturation": 1,
+                                    "can_always_eat": true
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:dark_oak_log"
+                }
+            ],
+            "rolls": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
+                "max": 3.0,
                 "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 0,
-                  "saturation": 0,
-                  "can_always_eat": true,
-                  "effects": [
-                    {
-                      "effect": {
-                        "id": "minecraft:hunger",
-                        "amplifier": 40,
-                        "duration": 20
-                      }
-                    },
-                    {
-                      "effect": {
-                        "id": "minecraft:slowness",
-                        "duration": 800
-                      }
-                    }
-                  ]
-                }
-              }
             }
-          ],
-          "name": "minecraft:string",
-          "weight": 4
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:experience_bottle",
+                    "weight": 7
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 6.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:hunger",
+                                                "amplifier": 40,
+                                                "duration": 20
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:slowness",
+                                                "duration": 800
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:string",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 7.0,
+                                "min": 2.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:arrow",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 3.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:tripwire_hook",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 3.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 3,
+                                    "saturation": 1.5
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:iron_ingot",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 2,
+                                    "saturation": 1,
+                                    "can_always_eat": true
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:book"
+                }
+            ],
+            "rolls": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
+                "max": 3.0,
                 "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 1,
-                  "saturation": 1,
-                  "can_always_eat": true
-                }
-              }
             }
-          ],
-          "name": "minecraft:arrow",
-          "weight": 4
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:goat_horn"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_instrument",
+                    "options": "#minecraft:regular_goat_horns"
+                }
+            ],
+            "rolls": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "max": 1.0,
+                "min": 0.0
             }
-          ],
-          "name": "minecraft:tripwire_hook",
-          "weight": 3
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition":3,
-                  "saturation": 1.5
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": 2.0,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:sentry_armor_trim_smithing_template"
                 }
-              }
-            }
-          ],
-          "name": "minecraft:iron_ingot",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 2,
-                  "saturation": 1,
-                  "can_always_eat": true
-                }
-              }
-            }
-          ],
-          "name": "minecraft:book"
+            ],
+            "rolls": 1.0
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 2.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:goat_horn"
-        }
-      ],
-      "functions": [
-        {
-          "function": "minecraft:set_instrument",
-          "options": "#minecraft:regular_goat_horns"
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 1.0,
-        "min": 0.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:sentry_armor_trim_smithing_template"
-        }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:chests/pillager_outpost"
+    ],
+    "random_sequence": "minecraft:chests/pillager_outpost"
 }

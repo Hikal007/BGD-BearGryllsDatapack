@@ -1,42 +1,42 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
+    "type": "minecraft:block",
+    "pools": [
         {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:jack_o_lantern",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 2,
-                  "saturation": 1,
-                  "can_always_eat": true,
-                  "eat_seconds": 1.6,
-                  "effects": [
-                    {
-                      "effect": {
-                        "id": "minecraft:night_vision",
-                        "duration": 800
-                      }
-                    }
-                  ]
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
                 }
-              }
-            }
-          ]
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:jack_o_lantern",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 2,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 1.6,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:night_vision",
+                                                "duration": 800
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1.0
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:blocks/jack_o_lantern"
+    ],
+    "random_sequence": "minecraft:blocks/jack_o_lantern"
 }

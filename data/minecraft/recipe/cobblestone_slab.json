@@ -1,22 +1,22 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:cobblestone"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "pattern": [
+        "###"
+    ],
+    "result": {
+        "count": 6,
+        "id": "minecraft:cobblestone_slab",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "###"
-  ],
-  "result": {
-    "count": 6,
-    "id": "minecraft:cobblestone_slab",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
-    }
-  }
 }

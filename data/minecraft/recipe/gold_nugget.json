@@ -1,20 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:gold_ingot"
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "id": "minecraft:gold_nugget",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 4,
+                "can_always_eat": true,
+                "eat_seconds": 2.3
+            }
+        }
     }
-  ],
-  "result": {
-    "count": 9,
-    "id": "minecraft:gold_nugget",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "can_always_eat": true,
-        "saturation": 1
-      }
-    }
-  }
 }

@@ -1,31 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:gold_ingot"
-    }
-  },
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:gold_block",
-    "functions": [
-      {
-        "function": "minecraft:set_components",
-        "components": {
-          "minecraft:food": {
-            "nutrition": 4,
-            "saturation": 4,
-            "can_always_eat": true,
-            "eat_seconds": 2.3
-          }
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:gold_ingot"
         }
-      }
-    ]
-  }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:gold_block",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 4,
+                "can_always_eat": true,
+                "eat_seconds": 2.3
+            }
+        }
+    }
 }

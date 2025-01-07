@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:soul_lantern",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_component",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 0,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:night_vision",
+                                                "duration": 1000
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:blocks/soul_lantern"
+}

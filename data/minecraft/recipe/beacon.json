@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "G": {
+            "item": "minecraft:glass"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "S": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "pattern": [
+        "GGG",
+        "GSG",
+        "OOO"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:beacon",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 20,
+                "saturation": 20,
+                "eat_seconds": 30,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:regeneration"
+                        }
+                    },
+                    {
+                        "effect": {
+                            "id": "minecraft:strength",
+                            "duration": 1500
+                        }
+                    },
+                    {
+                        "effect": {
+                            "id": "minecraft:jump_boost",
+                            "duration": 1500
+                        }
+                    },
+                    {
+                        "effect": {
+                            "id": "minecraft:resistance",
+                            "duration": 1500
+                        }
+                    },
+                    {
+                        "effect": {
+                            "id": "minecraft:haste",
+                            "duration": 1500
+                        }
+                    },
+                    {
+                        "effect": {
+                            "id": "minecraft:speed",
+                            "duration": 1500
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

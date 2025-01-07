@@ -1,36 +1,27 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "tag": "minecraft:planks"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "X": {
+            "item": "minecraft:book"
+        }
     },
-    "X": {
-      "item": "minecraft:book"
-    }
-  },
-  "pattern": [
-    "###",
-    "XXX",
-    "###"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:bookshelf",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 3,
-        "saturation": 1.5,
-        "can_always_eat": true,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:glowing",
-              "duration": 600
+    "pattern": [
+        "###",
+        "XXX",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:bookshelf",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

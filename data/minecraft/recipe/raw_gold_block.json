@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:raw_gold"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:raw_gold_block",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 0,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:strength",
+                            "amplifier": 0,
+                            "duration": 100
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

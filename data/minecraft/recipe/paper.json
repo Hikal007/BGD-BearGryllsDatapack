@@ -1,23 +1,32 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:sugar_cane"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:sugar_cane"
+        }
+    },
+    "pattern": [
+        "###"
+    ],
+    "result": {
+        "count": 3,
+        "id": "minecraft:paper",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "can_always_eat": true,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:slowness",
+                            "amplifier": 2,
+                            "duration": 600
+                        }
+                    }
+                ],
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "###"
-  ],
-  "result": {
-    "count": 3,
-    "id": "minecraft:paper",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1,
-        "can_always_eat": true
-      }
-    }
-  }
 }

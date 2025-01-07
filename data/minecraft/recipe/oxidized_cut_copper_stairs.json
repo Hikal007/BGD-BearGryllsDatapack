@@ -1,24 +1,24 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:oxidized_cut_copper"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:oxidized_cut_copper"
+        }
+    },
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:oxidized_cut_copper_stairs",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "result": {
-    "count": 4,
-    "id": "minecraft:oxidized_cut_copper_stairs",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
-    }
-  }
 }

@@ -1,36 +1,20 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.1,
-  "ingredient": {
-    "tag": "minecraft:smelts_to_glass"
-  },
-  "result": {
-    "id": "minecraft:glass",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1,
-        "can_always_eat": true,
-        "eat_seconds": 1.6,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:instant_damage",
-              "amplifier": 1,
-              "duration": 1
+    "type": "minecraft:smelting",
+    "category": "blocks",
+    "cookingtime": 200,
+    "experience": 0.1,
+    "ingredient": {
+        "tag": "minecraft:smelts_to_glass"
+    },
+    "result": {
+        "id": "minecraft:glass",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1,
+                "can_always_eat": true,
+                "eat_seconds": 1.8
             }
-          },
-          {
-            "effect": {
-              "id": "minecraft:hunger",
-              "amplifier": 180,
-              "duration": 20
-            }
-          }
-        ]
-      }
+        }
     }
-  }
 }

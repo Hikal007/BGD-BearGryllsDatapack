@@ -1,24 +1,24 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:bamboo_mosaic"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:bamboo_mosaic"
+        }
+    },
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:bamboo_mosaic_stairs",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "result": {
-    "count": 4,
-    "id": "minecraft:bamboo_mosaic_stairs",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
-    }
-  }
 }

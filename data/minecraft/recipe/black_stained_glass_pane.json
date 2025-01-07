@@ -1,26 +1,24 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "stained_glass_pane",
-  "key": {
-    "#": {
-      "item": "minecraft:black_stained_glass"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "stained_glass_pane",
+    "key": {
+        "#": {
+            "item": "minecraft:black_stained_glass"
+        }
+    },
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 16,
+        "id": "minecraft:black_stained_glass_pane",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 16,
-    "id": "minecraft:black_stained_glass_pane",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1,
-        "can_always_eat": true,
-        "eat_seconds": 1.6
-      }
-    }
-  }
 }

@@ -1,20 +1,21 @@
 {
-  "type": "minecraft:blasting",
-  "category": "misc",
-  "cookingtime": 100,
-  "experience": 0.7,
-  "group": "iron_ingot",
-  "ingredient": {
-    "item": "minecraft:deepslate_iron_ore"
-  },
-  "result": {
-    "id": "minecraft:iron_ingot",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 3,
-        "saturation": 1.5,
-        "can_always_eat": true
-      }
+    "type": "minecraft:blasting",
+    "category": "misc",
+    "cookingtime": 100,
+    "experience": 0.7,
+    "group": "iron_ingot",
+    "ingredient": {
+        "item": "minecraft:deepslate_iron_ore"
+    },
+    "result": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 3,
+                "can_always_eat": true,
+                "eat_seconds": 2.3
+            }
+        }
     }
-  }
 }

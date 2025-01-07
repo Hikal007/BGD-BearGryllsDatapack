@@ -1,48 +1,49 @@
 {
-  "type": "minecraft:smelting",
-  "category": "misc",
-  "cookingtime": 200,
-  "experience": 0.1,
-  "ingredient": [
-    {
-      "item": "minecraft:golden_pickaxe"
-    },
-    {
-      "item": "minecraft:golden_shovel"
-    },
-    {
-      "item": "minecraft:golden_axe"
-    },
-    {
-      "item": "minecraft:golden_hoe"
-    },
-    {
-      "item": "minecraft:golden_sword"
-    },
-    {
-      "item": "minecraft:golden_helmet"
-    },
-    {
-      "item": "minecraft:golden_chestplate"
-    },
-    {
-      "item": "minecraft:golden_leggings"
-    },
-    {
-      "item": "minecraft:golden_boots"
-    },
-    {
-      "item": "minecraft:golden_horse_armor"
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "cookingtime": 200,
+    "experience": 0.1,
+    "ingredient": [
+        {
+            "item": "minecraft:golden_pickaxe"
+        },
+        {
+            "item": "minecraft:golden_shovel"
+        },
+        {
+            "item": "minecraft:golden_axe"
+        },
+        {
+            "item": "minecraft:golden_hoe"
+        },
+        {
+            "item": "minecraft:golden_sword"
+        },
+        {
+            "item": "minecraft:golden_helmet"
+        },
+        {
+            "item": "minecraft:golden_chestplate"
+        },
+        {
+            "item": "minecraft:golden_leggings"
+        },
+        {
+            "item": "minecraft:golden_boots"
+        },
+        {
+            "item": "minecraft:golden_horse_armor"
+        }
+    ],
+    "result": {
+        "id": "minecraft:gold_nugget",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 4,
+                "can_always_eat": true,
+                "eat_seconds": 2.3
+            }
+        }
     }
-  ],
-  "result": {
-    "id": "minecraft:gold_nugget",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "can_always_eat": true,
-        "saturation": 1
-      }
-    }
-  }
 }

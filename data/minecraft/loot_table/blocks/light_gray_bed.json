@@ -1,44 +1,43 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
+    "type": "minecraft:block",
+    "pools": [
         {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "conditions": [
-            {
-              "block": "minecraft:light_gray_bed",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "part": "head"
-              }
-            }
-          ],
-          "name": "minecraft:light_gray_bed",
-          "functions": [
-            {
-              "function":"minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 4,
-                  "saturation": 1,
-                  "can_always_eat": true,
-                  "eat_seconds": 1.6
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
                 }
-              }
-            }
-          ]
-          
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "conditions": [
+                        {
+                            "block": "minecraft:light_gray_bed",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "part": "head"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:light_gray_bed",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 4,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 1.6
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1.0
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:blocks/light_gray_bed"
+    ],
+    "random_sequence": "minecraft:blocks/light_gray_bed"
 }

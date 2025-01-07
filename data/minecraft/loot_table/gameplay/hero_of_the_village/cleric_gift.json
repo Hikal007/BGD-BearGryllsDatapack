@@ -1,59 +1,59 @@
 {
-  "type": "minecraft:gift",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:gift",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:redstone",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 1,
-                  "saturation": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli",
-          "functions":[
+            "bonus_rolls": 0.0,
+            "entries": [
                 {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:food": {
-                      "nutrition": 3,
-                      "saturation": 0.5,
-                      "can_always_eat": true,
-                      "eat_seconds": 2,
-                      "effects": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:redstone",
+                    "functions": [
                         {
-                          "effect": {
-                            "id": "minecraft:haste",
-                            "duration": 300
-                          }
-                        },
-                        {
-                          "effect": {
-                            "id": "minecraft:luck",
-                            "amplifier": 4,
-                            "duration": 300
-                          }
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1
+                                }
+                            }
                         }
-                      ]
-                    }
-                  }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lapis_lazuli",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 3,
+                                    "saturation": 0.5,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 2,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:haste",
+                                                "duration": 300
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:luck",
+                                                "amplifier": 4,
+                                                "duration": 300
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
                 }
-          ]
+            ],
+            "rolls": 1.0
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:gameplay/hero_of_the_village/cleric_gift"
+    ],
+    "random_sequence": "minecraft:gameplay/hero_of_the_village/cleric_gift"
 }

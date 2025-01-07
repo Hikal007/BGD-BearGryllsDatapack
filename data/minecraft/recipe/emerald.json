@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:emerald_block"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "id": "minecraft:emerald",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 5,
+                "saturation": 3.5
+            }
+        }
+    }
+}

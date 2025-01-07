@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "pattern": [
+        "III",
+        " i ",
+        "iii"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:anvil",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 8,
+                "saturation": 4
+            }
+        }
+    }
+}

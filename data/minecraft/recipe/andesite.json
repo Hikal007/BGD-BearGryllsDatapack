@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "minecraft:diorite"
+        },
+        {
+            "item": "minecraft:cobblestone"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "id": "minecraft:andesite",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 1
+            }
+        }
+    }
+}

@@ -1,59 +1,59 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:entity",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 2,
-                  "saturation": 1,
-                  "can_always_eat": true,
-                  "effects": [
-                    {
-                      "effect": {
-                        "id": "minecraft:blindness",
-                        "duration": 200
-                      }
-                    },
-                    {
-                      "effect": {
-                        "id": "minecraft:glowing",
-                        "duration": 200
-                      }
-                    }
-                  ]
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 3.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:looting_enchant"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 2,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:blindness",
+                                                "duration": 200
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:glowing",
+                                                "duration": 200
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:glow_ink_sac"
                 }
-              }
-            }
-          ],
-          "name": "minecraft:glow_ink_sac"
+            ],
+            "rolls": 1.0
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:entities/glow_squid"
+    ],
+    "random_sequence": "minecraft:entities/glow_squid"
 }

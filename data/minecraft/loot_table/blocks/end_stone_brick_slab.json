@@ -48,8 +48,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "minecraft:end_stone_brick_slab",
-          
+          "name": "minecraft:end_stone_brick_slab"
         }
       ],
       "rolls": 1.0

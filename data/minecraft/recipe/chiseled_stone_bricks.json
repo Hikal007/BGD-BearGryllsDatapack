@@ -1,23 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:stone_brick_slab"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:stone_brick_slab"
+        }
+    },
+    "pattern": [
+        "#",
+        "#"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:chiseled_stone_bricks",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "#",
-    "#"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:chiseled_stone_bricks",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 2,
-        "saturation": 1
-      }
-    }
-  }
 }

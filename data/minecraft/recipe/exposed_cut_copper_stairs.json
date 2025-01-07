@@ -1,24 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:exposed_cut_copper"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:exposed_cut_copper"
+        }
+    },
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:exposed_cut_copper_stairs",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1,
+                "can_always_eat": true,
+                "eat_seconds": 1.8
+            }
+        }
     }
-  },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "result": {
-    "count": 4,
-    "id": "minecraft:exposed_cut_copper_stairs",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
-    }
-  }
 }

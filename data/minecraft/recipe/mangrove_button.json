@@ -1,25 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "redstone",
-  "group": "wooden_button",
-  "ingredients": [
-    {
-      "item": "minecraft:mangrove_planks"
-    }
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:mangrove_button",
-    "functions": [
-      {
-        "function": "minecraft:set_components",
-        "components": {
-          "minecraft:food": {
-            "nutrition": 1,
-            "saturation": 1
-          }
+    "type": "minecraft:crafting_shapeless",
+    "category": "redstone",
+    "group": "wooden_button",
+    "ingredients": [
+        {
+            "item": "minecraft:mangrove_planks"
         }
-      }
-    ]
-  }
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:mangrove_button",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
+    }
 }

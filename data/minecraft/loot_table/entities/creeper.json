@@ -1,86 +1,86 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:entity",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 0,
-                  "saturation": 0,
-                  "can_always_eat": true,
-                  "effects": [
-                    {
-                      "effect": {
-                        "id": "minecraft:hunger",
-                        "amplifier": 120,
-                        "duration": 20
-                      }
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:looting_enchant"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:hunger",
+                                                "amplifier": 120,
+                                                "duration": 20
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:gunpowder"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "killer",
+                    "predicate": {
+                        "type": "#minecraft:skeletons"
                     }
-                  ]
                 }
-              }
-            }
-          ],
-          "name": "minecraft:gunpowder"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "killer",
-          "predicate": {
-            "type": "#minecraft:skeletons"
-          }
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:tag",
-          "expand": true,
-          "name": "minecraft:creeper_drop_music_discs",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 1,
-                  "saturation": 1,
-                  "eat_seconds": 1.6
-                  }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:tag",
+                    "expand": true,
+                    "name": "minecraft:creeper_drop_music_discs",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "eat_seconds": 1.6
+                                }
+                            }
+                        }
+                    ]
                 }
-              }
-            ]
-          }
-        ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:entities/creeper"
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:entities/creeper"
 }

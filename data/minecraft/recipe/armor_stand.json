@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "_": {
+            "item": "minecraft:smooth_stone_slab"
+        }
+    },
+    "pattern": [
+        "///",
+        " / ",
+        "/_/"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:armor_stand",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 1
+            }
+        }
+    }
+}

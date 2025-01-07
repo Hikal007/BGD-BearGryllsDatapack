@@ -1,0 +1,56 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:amethyst_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_component",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 3,
+                                    "saturation": 15,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:poison",
+                                                "amplifier": 1,
+                                                "duration": 1000
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:night_vision",
+                                                "duration": 6000
+                                            }
+                                        }
+                                    ],
+                                    "using_converts_to": {
+                                        "id": "minecraft:amethyst_shard",
+                                        "components": {
+                                            "minecraft:food": {
+                                                "nutrition": 1,
+                                                "saturation": 0
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:blocks/amethyst_block"
+}

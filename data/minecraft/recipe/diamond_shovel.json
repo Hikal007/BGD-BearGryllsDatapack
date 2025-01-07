@@ -1,35 +1,27 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        },
+        "X": {
+            "item": "minecraft:diamond"
+        }
     },
-    "X": {
-      "item": "minecraft:diamond"
-    }
-  },
-  "pattern": [
-    "X",
-    "#",
-    "#"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:diamond_shovel",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 4,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:haste",
-              "duration": 1200
+    "pattern": [
+        "X",
+        "#",
+        "#"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:diamond_shovel",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
             }
-          }
-        ],
-        "saturation": 1
-      }
+        }
     }
-  }
 }

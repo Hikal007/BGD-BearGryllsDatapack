@@ -1,32 +1,24 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:diamond"
-    }
-  },
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:diamond_block",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 5,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:regeneration",
-              "duration": 100
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:diamond_block",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
             }
-          }
-        ],
-        "saturation": 1
-      }
+        }
     }
-  }
 }

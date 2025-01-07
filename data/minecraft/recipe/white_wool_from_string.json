@@ -1,25 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:string"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:string"
+        }
+    },
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:white_wool",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "##",
-    "##"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:white_wool",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1,
-        "can_always_eat": true,
-        "eat_seconds": 1.6
-      }
-    }
-  }
 }

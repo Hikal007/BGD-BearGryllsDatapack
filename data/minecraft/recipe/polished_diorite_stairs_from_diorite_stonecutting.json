@@ -1,16 +1,16 @@
 {
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:diorite"
-  },
-  "result": {
-    "count": 1,
-    "id": "minecraft:polished_diorite_stairs",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:diorite"
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:polished_diorite_stairs",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  }
 }

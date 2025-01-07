@@ -1,26 +1,27 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "iron_ingot",
-  "key": {
-    "#": {
-      "item": "minecraft:iron_nugget"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "iron_ingot",
+    "key": {
+        "#": {
+            "item": "minecraft:iron_nugget"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:iron_ingot",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 3,
+                "can_always_eat": true,
+                "eat_seconds": 2.3
+            }
+        }
     }
-  },
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:iron_ingot",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 3,
-        "saturation": 1.5,
-        "can_always_eat": true
-      }
-    }
-  }
 }

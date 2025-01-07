@@ -1,29 +1,27 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "beds",
-  "key": {
-    "#": {
-      "item": "minecraft:yellow_wool"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "beds",
+    "key": {
+        "#": {
+            "item": "minecraft:yellow_wool"
+        },
+        "X": {
+            "tag": "minecraft:planks"
+        }
     },
-    "X": {
-      "tag": "minecraft:planks"
+    "pattern": [
+        "###",
+        "XXX"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:yellow_bed",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "###",
-    "XXX"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:yellow_bed",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 4,
-        "saturation": 1,
-        "can_always_eat": true,
-        "eat_seconds": 1.6
-      }
-    }
-  }
 }

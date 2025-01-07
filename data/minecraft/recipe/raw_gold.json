@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:raw_gold_block"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "id": "minecraft:raw_gold",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 0,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:strength",
+                            "amplifier": 0,
+                            "duration": 100
+                        }
+                    },
+                    {
+                        "effect": {
+                            "id": "minecraft:hunger",
+                            "amplifier": 40,
+                            "duration": 20
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

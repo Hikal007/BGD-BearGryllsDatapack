@@ -1,42 +1,32 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": [
-      {
-        "item": "minecraft:sand"
-      },
-      {
-        "item": "minecraft:red_sand"
-      }
-    ],
-    "X": {
-      "item": "minecraft:gunpowder"
-    }
-  },
-  "pattern": [
-    "X#X",
-    "#X#",
-    "X#X"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:tnt",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 0,
-        "saturation": 0.5,
-        "can_always_eat": true,
-        "eat_seconds": 1.6,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:speed",
-              "duration": 20
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "#": [
+            {
+                "item": "minecraft:sand"
+            },
+            {
+                "item": "minecraft:red_sand"
             }
-          }
-        ]
-      }
+        ],
+        "X": {
+            "item": "minecraft:gunpowder"
+        }
+    },
+    "pattern": [
+        "X#X",
+        "#X#",
+        "X#X"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:tnt",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
+            }
+        }
     }
-  }
 }

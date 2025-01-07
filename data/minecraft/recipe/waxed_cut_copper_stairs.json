@@ -1,25 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "waxed_cut_copper_stairs",
-  "key": {
-    "#": {
-      "item": "minecraft:waxed_cut_copper"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "waxed_cut_copper_stairs",
+    "key": {
+        "#": {
+            "item": "minecraft:waxed_cut_copper"
+        }
+    },
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:waxed_cut_copper_stairs",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "result": {
-    "count": 4,
-    "id": "minecraft:waxed_cut_copper_stairs",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
-    }
-  }
 }

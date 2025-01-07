@@ -1,28 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:pumpkin"
-    }
-  ],
-  "result": {
-    "count": 4,
-    "id": "minecraft:pumpkin_seeds",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1,
-        "can_always_eat": true,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:regeneration",
-              "duration": 40
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:pumpkin"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:pumpkin_seeds",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

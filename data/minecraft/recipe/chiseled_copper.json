@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:cut_copper_slab"
+        }
+    },
+    "pattern": [
+        "#",
+        "#"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:chiseled_copper",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 1
+            }
+        }
+    }
+}

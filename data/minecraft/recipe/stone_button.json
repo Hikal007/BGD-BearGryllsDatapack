@@ -1,24 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "redstone",
-  "ingredients": [
-    {
-      "item": "minecraft:stone"
-    }
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:stone_button",
-    "functions": [
-      {
-        "function": "minecraft:set_components",
-        "components": {
-          "minecraft:food": {
-            "nutrition": 1,
-            "saturation": 1
-          }
+    "type": "minecraft:crafting_shapeless",
+    "category": "redstone",
+    "ingredients": [
+        {
+            "item": "minecraft:stone"
         }
-      }
-    ]
-  }
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:stone_button",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
+    }
 }

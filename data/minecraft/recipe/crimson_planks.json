@@ -1,22 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "planks",
-  "ingredients": [
-    {
-      "tag": "minecraft:crimson_stems"
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "planks",
+    "ingredients": [
+        {
+            "tag": "minecraft:crimson_stems"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:crimson_planks",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  ],
-  "result": {
-    "count": 4,
-    "id": "minecraft:crimson_planks",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 0.2,
-        "can_always_eat": true,
-        "eat_seconds": 1.7
-      }
-    }
-  }
 }

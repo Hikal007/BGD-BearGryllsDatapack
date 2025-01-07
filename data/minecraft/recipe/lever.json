@@ -1,31 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": {
-      "item": "minecraft:cobblestone"
-    },
-    "X": {
-      "item": "minecraft:stick"
-    }
-  },
-  "pattern": [
-    "X",
-    "#"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:lever",
-    "functions": [
-      {
-        "function": "minecraft:set_components",
-        "components": {
-          "minecraft:food": {
-            "nutrition": 1,
-            "saturation": 1
-          }
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "X": {
+            "item": "minecraft:stick"
         }
-      }
-    ]
-  }
+    },
+    "pattern": [
+        "X",
+        "#"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:lever",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
+    }
 }

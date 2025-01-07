@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:nether_wart"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:nether_wart_block",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 1
+            }
+        }
+    }
+}

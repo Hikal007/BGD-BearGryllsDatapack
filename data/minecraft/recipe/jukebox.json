@@ -1,41 +1,36 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "tag": "minecraft:planks"
-    },
-    "X": {
-      "item": "minecraft:diamond"
-    }
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:jukebox",
-    "functions": [
-      {
-        "function": "minecraft:set_components",
-        "components": {
-          "minecraft:food": {
-            "nutrition": 2,
-            "saturation": 1,
-            "effects": [
-              {
-                "effect": {
-                  "id": "minecraft:resistance",
-                  "amplifier": 0,
-                  "duration": 1200
-                }
-              }
-            ]
-          }
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "X": {
+            "item": "minecraft:diamond"
         }
-      }
-    ]
-  }
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:jukebox",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 1,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:resistance",
+                            "amplifier": 0,
+                            "duration": 1200
+                        }
+                    }
+                ]
+            }
+        }
+    }
 }

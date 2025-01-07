@@ -1,30 +1,28 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "stained_glass_pane",
-  "key": {
-    "#": {
-      "item": "minecraft:glass_pane"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "stained_glass_pane",
+    "key": {
+        "#": {
+            "item": "minecraft:glass_pane"
+        },
+        "$": {
+            "item": "minecraft:lime_dye"
+        }
     },
-    "$": {
-      "item": "minecraft:lime_dye"
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:lime_stained_glass_pane",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "###",
-    "#$#",
-    "###"
-  ],
-  "result": {
-    "count": 8,
-    "id": "minecraft:lime_stained_glass_pane",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1,
-        "can_always_eat": true,
-        "eat_seconds": 1.6
-      }
-    }
-  }
 }

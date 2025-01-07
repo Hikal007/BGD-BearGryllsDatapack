@@ -1,18 +1,18 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.1,
-  "ingredient": {
-    "item": "minecraft:stone_bricks"
-  },
-  "result": {
-    "id": "minecraft:cracked_stone_bricks",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 2,
-        "saturation": 1
-      }
+    "type": "minecraft:smelting",
+    "category": "blocks",
+    "cookingtime": 200,
+    "experience": 0.1,
+    "ingredient": {
+        "item": "minecraft:stone_bricks"
+    },
+    "result": {
+        "id": "minecraft:cracked_stone_bricks",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  }
 }

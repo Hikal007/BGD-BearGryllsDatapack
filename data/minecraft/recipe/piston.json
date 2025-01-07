@@ -1,42 +1,33 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": {
-      "item": "minecraft:cobblestone"
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "T": {
+            "tag": "minecraft:planks"
+        },
+        "X": {
+            "item": "minecraft:iron_ingot"
+        }
     },
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "T": {
-      "tag": "minecraft:planks"
-    },
-    "X": {
-      "item": "minecraft:iron_ingot"
-    }
-  },
-  "pattern": [
-    "TTT",
-    "#X#",
-    "#R#"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:piston",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 2,
-        "saturation": 1,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:jump_boost",
-              "amplifier": 0,
-              "duration": 300
+    "pattern": [
+        "TTT",
+        "#X#",
+        "#R#"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:piston",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

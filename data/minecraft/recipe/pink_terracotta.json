@@ -1,33 +1,28 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_terracotta",
-  "key": {
-    "#": {
-      "item": "minecraft:terracotta"
-    },
-    "X": {
-      "item": "minecraft:pink_dye"
-    }
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "count": 8,
-    "id": "minecraft:pink_terracotta",
-    "functions": [
-      {
-        "function": "minecraft:set_components",
-        "components": {
-          "minecraft:food": {
-            "nutrition": 3,
-            "saturation": 1
-          }
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "stained_terracotta",
+    "key": {
+        "#": {
+            "item": "minecraft:terracotta"
+        },
+        "X": {
+            "item": "minecraft:pink_dye"
         }
-      }
-    ]
-  }
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:pink_terracotta",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
+            }
+        }
+    }
 }

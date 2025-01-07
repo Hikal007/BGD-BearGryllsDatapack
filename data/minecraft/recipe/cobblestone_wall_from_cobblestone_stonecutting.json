@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:cobblestone"
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:cobblestone_wall",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 1
+            }
+        }
+    }
+}

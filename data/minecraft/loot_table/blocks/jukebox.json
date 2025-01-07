@@ -1,41 +1,41 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
+    "type": "minecraft:block",
+    "pools": [
         {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:jukebox",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:food": {
-                  "nutrition": 2,
-                  "saturation": 1,
-                  "effects": [
-                    {
-                      "effect": {
-                        "id": "minecraft:resistance",
-                        "amplifier": 0,
-                        "duration": 1200
-                      }
-                    }
-                  ]
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
                 }
-              }
-            }
-          ]
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:jukebox",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 2,
+                                    "saturation": 1,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:resistance",
+                                                "amplifier": 0,
+                                                "duration": 1200
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1.0
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:blocks/jukebox"
+    ],
+    "random_sequence": "minecraft:blocks/jukebox"
 }

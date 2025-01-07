@@ -1,204 +1,204 @@
 {
-  "type": "minecraft:gift",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:gift",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:white_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:orange_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:magenta_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:light_blue_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:yellow_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:lime_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pink_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gray_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:light_gray_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cyan_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:purple_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:blue_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brown_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:green_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:red_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:black_wool",
-          "components": {
-            "minecraft:food": {
-              "nutrition": 1,
-              "saturation": 1,
-              "can_always_eat": true,
-              "eat_seconds": 1.6
-            }
-          }
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:white_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:magenta_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_blue_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:yellow_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lime_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pink_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gray_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cyan_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:purple_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:brown_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:red_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:black_wool",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 1,
+                            "saturation": 1,
+                            "can_always_eat": true,
+                            "eat_seconds": 1.6
+                        }
+                    }
+                }
+            ],
+            "rolls": 1.0
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:gameplay/hero_of_the_village/shepherd_gift"
+    ],
+    "random_sequence": "minecraft:gameplay/hero_of_the_village/shepherd_gift"
 }

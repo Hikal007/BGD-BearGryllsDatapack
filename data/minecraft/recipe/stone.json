@@ -1,20 +1,18 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.1,
-  "ingredient": {
-    "item": "minecraft:cobblestone"
-  },
-  "result": {
-    "id": "minecraft:stone",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 0.5,
-        "can_always_eat": true,
-        "eat_seconds": 1.8
-      }
+    "type": "minecraft:smelting",
+    "category": "blocks",
+    "cookingtime": 200,
+    "experience": 0.1,
+    "ingredient": {
+        "item": "minecraft:cobblestone"
+    },
+    "result": {
+        "id": "minecraft:stone",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  }
 }
