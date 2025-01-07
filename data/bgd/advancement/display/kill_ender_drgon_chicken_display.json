@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:chicken_spawn_egg"
+      },
+      "title": "解放主世界",
+      "description": {
+        "text": "祝君好运",
+        "color": "gray"
+      },
+      "frame": "challenge",
+      "hidden": true
+    },
+    "parent": "bgd:display/dragon_egg_display",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:chicken",
+            "nbt": "{Tags:[\"ender_drgon\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }
+  

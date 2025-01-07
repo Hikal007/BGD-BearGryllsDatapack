@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+                "minecraft:flint_and_steel"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bgd:foods/flint_and_steel"
+    }
+  }
+  

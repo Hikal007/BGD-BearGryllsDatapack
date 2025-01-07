@@ -1,0 +1,164 @@
+Data pack format has been increased to 42.
+数据包格式已提升至42。
+
+1.20.6-1.21版本
+
+Resource pack format has been increased to 33.
+资源包格式已提升至33。
+
+Removed feature flag update_1_21.
+移除了功能标志update_1_21。
+
+The item argument for /give, /item, and /loot now supports removal of default components with the ! prefix.
+/give、/item和/loot的物品参数现在支持使用!前缀来移除默认组件。
+
+Enchantments are now data-driven.
+附魔现在是数据驱动的。
+
+Enchantments that show up in the game naturally are now defined with Enchantment Providers.
+游戏中自然出现的附魔现在由附魔提供者定义。
+
+Enchantment exclusivity is now controlled via tags.
+附魔的排他性现在通过标签来控制。
+
+Painting variants are now loaded from data packs from the painting_variant folder. The definition is as follows:
+画作的变体现在从painting_variant文件夹中的数据包加载。定义如下：
+width - width of painting between 1 and 16
+width-画作的宽度，介于1到16之间
+height - height of painting between 1 and 16
+height-画作的高度，介于1到16之间
+asset_id - id of sprite in the paintings atlas
+asset_id-画作图集中的精灵ID
+
+Added damage type campfire, which campfires use instead of in_fire.
+增加了营火伤害类型，营火现在使用此伤害类型，而不是in_fire。
+
+Added enchantment functionality tags curse, prevents_bee_spawns_when_mining, prevents_decorated_pot_shattering, prevents_ice_melting, prevents_infested_spawns, and smelts_loot.
+增加了附魔功能标签：诅咒、挖矿时阻止蜜蜂生成、阻止装饰陶罐碎裂、阻止冰融化、阻止被侵扰生物生成以及熔炼战利品。
+
+Added enchantment availability tags tradeable, on_traded_equipment, double_trade_price, in_enchanting_table, on_mob_spawn_equipment, and on_random_loot.
+增加了附魔可用性标签：可交易、交易装备上、交易价格翻倍、在附魔台上、生物生成时装备上以及随机战利品上。
+
+Added enchantment exlcusivity tags armor, boots, bow, crossbow, damage, mining, and riptide (found under the exclusive_set/ path).
+增加了附魔排他性标签：盔甲、靴子、弓、弩、伤害、采矿和激流（在exclusive_set/路径下找到）。
+
+Added damage tag burn_from_stepping, which represent burning damage from stepping on something - countered by the frost_walker enchantment.
+增加了伤害标签burn_from_stepping，表示踩踏造成的燃烧伤害，可通过frost_walker附魔来抵消。
+
+Target entity names in some condition are renamed:
+某些条件下的目标实体名称已重命名：
+killer is now attacker
+killer现在为attacker
+direct_killer is now direct_attacker
+direct_killer现在为direct_attacker
+killer_player is now attacking_player
+killer_player现在为attacking_player
+
+Added condition enchantment_active_check, which checks for active enchantments if the "Enchantment Active" parameters exists in the loot context.
+增加了条件enchantment_active_check，如果战利品上下文中存在“Enchantment Active”参数，则检查是否有激活的附魔。
+
+The random_chance condition is now a number provider.
+random_chance条件现在是一个数字提供者。
+
+The random_chance_with_looting condition is now renamed as random_chance_with_enchanted_bonus with the following field changes:
+random_chance_with_looting条件现已重命名为random_chance_with_enchanted_bonus，并进行了以下字段更改：
+looting_multiplier is removed
+looting_multiplier已被移除
+chance is now a level-based value
+chance现在是一个基于等级的值
+enchantment is added, containing the namespaced enchantment id
+增加了enchantment，包含命名空间附魔ID
+
+The enchanted_count_increase function is now renamed as enchanted_count_increase. There is a new field enchantment, which containers the namespaced enchantment id.
+enchanted_count_increase函数现已重命名为enchanted_count_increase。增加了一个新的字段enchantment，包含命名空间附魔ID。
+
+The enchant_randomly function has new formatting and fields.
+enchant_randomly函数有了新的格式和字段。
+enchantments is replaced by options, which is either an enchantment, list of enchantments, or enchantment tag
+enchantments被options替换，后者可以是附魔、附魔列表或附魔标签
+only_compatible is a new boolean field that only allows enchantments compatible with that item - defaults to true
+only_compatible是一个新的布尔字段，仅允许与该物品兼容的附魔，默认值为true
+
+The enchant_with_levels function has new formatting and removed fields.
+enchant_with_levels函数有了新的格式并移除了字段。
+treasure has been removed
+treasure已被移除
+options is a new field that is either an enchantment, list of enchantments, or enchantment tag
+options是一个新的字段，可以是附魔、附魔列表或附魔标签
+
+The copy_name function has its possible values for the source field changed: killer to attacking_entity, and killer_player to last_damage_player.
+copy_name函数的source字段的可能值已更改：killer更改为attacking_entity，killer_player更改为last_damage_player。
+
+Added number provider enchantment_level. It has the field amount, which is a level-based value based on the level of the enchantment.
+增加了数字提供者enchantment_level。它有一个字段amount，这是一个基于附魔等级的值。
+
+The enchantment field has been removed and replaced with enchantments, which is either an enchantment, list of enchantments, or enchantment tag.
+enchantment字段已被移除，并替换为enchantments，后者可以是附魔、附魔列表或附魔标签。
+
+Added optional entity flag is_on_ground, which matches the "on ground" state of the entity.
+增加了可选实体标志is_on_ground，用于匹配实体的“在地面上”状态。
+
+Added optional entity flag is_flying, which matches whether the entity is flying, such as via creative or elytra.
+增加了可选实体标志is_flying，用于匹配实体是否正在飞行，如通过创造模式或鞘翅飞行。
+
+Added optional location field can_see_sky, which matches exactly when the location has the maximum possible level of sky light.
+增加了可选位置字段can_see_sky，用于精确匹配位置具有最大可能天空光等级的情况。
+
+Added optional location field weather, which matches one of clear, raining, or thunder in the location's dimension.
+增加了可选位置字段weather，用于匹配位置维度中的晴朗、下雨或打雷天气。
+
+Added new entity sub-predicate movement, with these possible fields:
+增加了新的实体子谓词movement，具有以下可能的字段：
+x, y, and z - min/max limits for movement speed along the corresponding axes
+x、y和z-沿对应轴移动速度的最小/最大限制
+speed - min/max limits for overall movement speed
+speed-整体移动速度的最小/最大限制
+horizontal_speed - min/max limits for horizontal movement speed
+horizontal_speed-水平移动速度的最小/最大限制
+vertical_speed - min/max limits for vertical movement speed
+vertical_speed-垂直移动速度的最小/最大限制
+fall_distance - min/max limits for fall distance of entity, measured in blocks
+fall_distance-实体跌落距离的最小/最大限制，以方块为单位测量
+(all speeds are measured in blocks per second)
+（所有速度均以每秒方块数测量）
+
+Added new entity sub-predicate periodic_ticks, which is true every n (positive integer) ticks of the entity's lifetime.
+增加了新的实体子谓词periodic_ticks，该谓词在实体的生命周期中每n（正整数）个刻度为真。
+
+Attribute generic.attack_knockback now works on players.
+属性generic.attack_knockback现在对玩家生效。
+
+Added attribute generic.burning_time, which is a factor to how long an entity remains on fire after being ignited. Values can be between 0 and 1024, with a default of 1.
+增加了属性generic.burning_time，
+该属性决定了实体被点燃后保持燃烧的时间长短。值可以在0到1024之间，默认值为1。
+
+Added attribute generic.explosion_knockback_resistance, which is a factor to how much knockback an entity takes from an explosion. Values can be between 0 and 1, with a default of 0. A value of 1 completely reduces the knockback, whilst 0 provides no knockback reduction.
+增加了属性generic.explosion_knockback_resistance，
+
+该属性决定了实体从爆炸中受到的击退程度。值可以在0到1之间，默认值为0。值为1时完全减少击退，而0则不提供任何击退减免。
+Added attribute player.mining_efficiency, which is a factor added to the mining speed while using the correct tool for a block. Values can be between 0 and 1024, with a default of 0.
+添加了属性player.mining_efficiency，这是使用正确工具挖掘方块时添加到挖掘速度的因素。值可以在0到1024之间，默认值为0
+
+Added attribute generic.movement_efficiency, which controls how efficiently an entity moves through slowing/impeding terrain (such as a cobweb). Values can be between 0 and 1, with a default of 0. A value of 1 completely removes the movement penalty, whilst 0 provides no reduction to the penalty.
+添加了属性generic.movement_efficiency，它控制实体通过减速/阻碍地形（如蜘蛛网）移动的效率。值可以在0到1之间，默认值为0。值为1时完全消除移动惩罚，而0则不提供对惩罚的减少。
+
+Added attribute generic.oxygen_bonus, which is a value used in the equation to determine the chance an entity will not use up oxygen whilst underwater. Values can be between 0 and 1024, with a default of 0. If the value is above 0, this equation is used: 1 / (oxygen_bonus + 1).
+添加了属性generic.oxygen_bonus，这是用于确定实体在水下时不会消耗氧气的机会的方程中的值。值可以在0到1024之间，默认值为0。如果值大于0，则使用此方程：1 / (oxygen_bonus + 1)
+
+Added attribute player.sneaking_speed, which is a movement speed factor while a player is sneaking. Values can be between 0 and 1, with a default of 0.3. A value of 1 means sneaking is as fast as walking, whilst 0 prevents movement whilst sneaking.
+添加了属性player.sneaking_speed，这是玩家潜行时的移动速度因素。值可以在0到1之间，默认值为0.3。值为1意味着潜行速度与行走速度一样快，而0则阻止潜行时移动。
+
+Added attribute player.submerged_mining_speed, which is a mining speed factor while a player is submerged. Values can be between 0 and 20, with a default of 0.2. A value of 1 means mining submerged is as fast as mining on land, whilst 0 prevents mining whilst submerged.
+添加了属性player.submerged_mining_speed，这是玩家潜水时挖掘速度的因素。值可以在0到20之间，默认值为0.2。值为1意味着潜水挖掘速度与陆地挖掘速度一样快，而0则阻止潜水时挖掘。
+
+Added attribute player.sweeping_damage_ratio, which controls how much of the base attack damage gets transferred to secondary targets hit by a sweep attack. Values can be between 0 and 1, with a default of 0. A value of 1 means all of the base damage is transferred, whilst 0 prevents any damage from being transferred.
+添加了属性player.sweeping_damage_ratio，它控制基础攻击伤害中有多少转移到被横扫攻击击中的次要目标上。值可以在0到1之间，默认值为0。值为1意味着所有基础伤害都被转移，而0则阻止转移任何伤害。
+
+Added attribute generic.water_movement_efficiency, which controls how efficiently an entity moves when submerged. Values can be between 0 and 1, with a default of 0.
+添加了属性generic.water_movement_efficiency，它控制实体潜水时的移动效率。值可以在0到1之间，默认值为0。
+
+Added block predicate unobstructed, which tests if the selected block has no entities within the space of the block. It has the field offset, which is a list of three int offset coordinates, defaulting to [0, 0, 0].
+添加了块谓词unobstructed，它测试所选块的空间内是否有实体。它有一个字段offset，这是一个包含三个整数偏移坐标的列表，默认为[0, 0, 0]。
+
+The ShotFromCrossbow field has been removed from arrow-like projectile data, and is replaced with a weapon field containing an item stack representing the weapon the projectile was shot from.
+已从箭状投射物数据中移除ShotFromCrossbow字段，并替换为包含表示投射物发射武器的物品堆叠的weapon字段。

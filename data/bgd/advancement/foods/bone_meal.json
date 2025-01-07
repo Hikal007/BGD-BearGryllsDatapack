@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+                "minecraft:bone_meal"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bgd:foods/bone_meal"
+    }
+  }
+  
