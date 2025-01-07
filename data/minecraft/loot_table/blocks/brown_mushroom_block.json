@@ -1,92 +1,92 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:block",
+    "pools": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "conditions": [
+            "bonus_rolls": 0.0,
+            "entries": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
+                    "type": "minecraft:alternatives",
+                    "children": [
                         {
-                          "enchantment": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
-                    }
-                  }
-                }
-              ],
-              "name": "minecraft:brown_mushroom_block",
-              "functions": [
-                {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:food": {
-                      "nutrition": 2,
-                      "saturation": 1
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "functions": [
-                {
-                  "add": false,
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "max": 2.0,
-                    "min": -6.0
-                  },
-                  "function": "minecraft:set_count"
-                },
-                {
-                  "function": "minecraft:limit_count",
-                  "limit": {
-                    "min": 0.0
-                  }
-                },
-                {
-                  "function": "minecraft:explosion_decay"
-                },
-                {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:food": {
-                      "nutrition": 0,
-                      "saturation": 0,
-                      "can_always_eat": true,
-                      "eat_seconds": 1.6,
-                      "effects": [
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantment": "minecraft:silk_touch",
+                                                    "levels": {
+                                                        "min": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:brown_mushroom_block",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:food": {
+                                            "nutrition": 2,
+                                            "saturation": 1
+                                        }
+                                    }
+                                }
+                            ]
+                        },
                         {
-                          "effect": {
-                            "id": "minecraft:instant_health",
-                            "duration": 1
-                          }
+                            "type": "minecraft:item",
+                            "functions": [
+                                {
+                                    "add": false,
+                                    "count": {
+                                        "type": "minecraft:uniform",
+                                        "max": 2.0,
+                                        "min": -6.0
+                                    },
+                                    "function": "minecraft:set_count"
+                                },
+                                {
+                                    "function": "minecraft:limit_count",
+                                    "limit": {
+                                        "min": 0.0
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:explosion_decay"
+                                },
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:food": {
+                                            "nutrition": 0,
+                                            "saturation": 0,
+                                            "can_always_eat": true,
+                                            "eat_seconds": 1.6,
+                                            "effects": [
+                                                {
+                                                    "effect": {
+                                                        "id": "minecraft:instant_health",
+                                                        "duration": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:brown_mushroom"
                         }
-                      ]
-                    }
-                  }
+                    ]
                 }
-              ],
-              "name": "minecraft:brown_mushroom"
-            }
-          ]
+            ],
+            "rolls": 1.0
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:blocks/brown_mushroom_block"
+    ],
+    "random_sequence": "minecraft:blocks/brown_mushroom_block"
 }

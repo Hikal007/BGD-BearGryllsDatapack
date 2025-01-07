@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "131",
+    "323",
+    "131"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:obsidian"
+    },
+    "2": {
+      "item": "minecraft:nether_star"
+    },
+    "3": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "id": "minecraft:bedrock",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation": 1,
+        "can_always_eat": true,
+        "eat_seconds": 5,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:resistance",
+              "amplifier": 3,
+              "duration": 1000
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:hunger",
+              "amplifier": 150,
+              "duration": 120
+            }
+          }
+        ]
+      }
+    }
+  }
+}

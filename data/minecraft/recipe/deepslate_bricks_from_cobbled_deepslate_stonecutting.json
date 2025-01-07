@@ -1,16 +1,16 @@
 {
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:cobbled_deepslate"
-  },
-  "result": {
-    "count": 1,
-    "id": "minecraft:deepslate_bricks",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 2,
-        "saturation": 1
-      }
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:cobbled_deepslate"
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:deepslate_bricks",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  }
 }

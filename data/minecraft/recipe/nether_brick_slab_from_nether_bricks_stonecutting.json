@@ -1,25 +1,16 @@
 {
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:nether_bricks"
-  },
-  "result": {
-    "count": 2,
-    "id": "minecraft:nether_brick_slab",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1,
-        "can_always_eat": true,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:fire_resistance",
-              "duration": 200
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:nether_bricks"
+    },
+    "result": {
+        "count": 2,
+        "id": "minecraft:nether_brick_slab",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "minecraft:copper_block"
+        }
+    },
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:cut_copper",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 1
+            }
+        }
+    }
+}

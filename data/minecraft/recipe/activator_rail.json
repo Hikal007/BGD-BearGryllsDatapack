@@ -1,45 +1,30 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:redstone_torch"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_torch"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "X": {
+            "item": "minecraft:iron_ingot"
+        }
     },
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:iron_ingot"
-    }
-  },
-  "pattern": [
-    "XSX",
-    "X#X",
-    "XSX"
-  ],
-  "result": {
-    "count": 6,
-    "id": "minecraft:activator_rail",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1,
-        "can_always_eat": true,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:speed",
-              "duration": 400
+    "pattern": [
+        "XSX",
+        "X#X",
+        "XSX"
+    ],
+    "result": {
+        "count": 6,
+        "id": "minecraft:activator_rail",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
             }
-          },
-          {
-            "effect": {
-              "id": "minecraft:strength",
-              "duration": 200
-            }
-          }
-        ]
-      }
+        }
     }
-  }
 }

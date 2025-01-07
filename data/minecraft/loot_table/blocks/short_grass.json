@@ -1,92 +1,92 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:block",
+    "pools": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "conditions": [
+            "bonus_rolls": 0.0,
+            "entries": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "items": "minecraft:shears"
-                  }
-                }
-              ],
-              "name": "minecraft:short_grass",
-              "functions": [
-                {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:food": {
-                      "nutrition": 1,
-                      "saturation": 0.5,
-                      "can_always_eat": true,
-                      "eat_seconds": 1.8,
-                      "effects": [
+                    "type": "minecraft:alternatives",
+                    "children": [
                         {
-                          "effect": {
-                            "id": "minecraft:regeneration",
-                            "duration": 60
-                          }
-                        }
-                      ]
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "chance": 0.125,
-                  "condition": "minecraft:random_chance"
-                }
-              ],
-              "functions": [
-                {
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:uniform_bonus_count",
-                  "function": "minecraft:apply_bonus",
-                  "parameters": {
-                    "bonusMultiplier": 2
-                  }
-                },
-                {
-                  "function": "minecraft:explosion_decay"
-                },
-                {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:food": {
-                      "nutrition": 1,
-                      "saturation": 0.5,
-                      "can_always_eat": true,
-                      "eat_seconds": 1.8,
-                      "effects": [
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "items": "minecraft:shears"
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:short_grass",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:food": {
+                                            "nutrition": 1,
+                                            "saturation": 0.5,
+                                            "can_always_eat": true,
+                                            "eat_seconds": 1.8,
+                                            "effects": [
+                                                {
+                                                    "effect": {
+                                                        "id": "minecraft:regeneration",
+                                                        "duration": 60
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        },
                         {
-                          "effect": {
-                            "id": "minecraft:regeneration",
-                            "duration": 60
-                          }
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "chance": 0.125,
+                                    "condition": "minecraft:random_chance"
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "function": "minecraft:apply_bonus",
+                                    "parameters": {
+                                        "bonusMultiplier": 2
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:explosion_decay"
+                                },
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:food": {
+                                            "nutrition": 1,
+                                            "saturation": 0.5,
+                                            "can_always_eat": true,
+                                            "eat_seconds": 1.8,
+                                            "effects": [
+                                                {
+                                                    "effect": {
+                                                        "id": "minecraft:regeneration",
+                                                        "duration": 60
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:wheat_seeds"
                         }
-                      ]
-                    }
-                  }
+                    ]
                 }
-              ],
-              "name": "minecraft:wheat_seeds"
-            }
-          ]
+            ],
+            "rolls": 1.0
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:blocks/short_grass"
+    ],
+    "random_sequence": "minecraft:blocks/short_grass"
 }

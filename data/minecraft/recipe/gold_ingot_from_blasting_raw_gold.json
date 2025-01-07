@@ -1,20 +1,21 @@
 {
-  "type": "minecraft:blasting",
-  "category": "misc",
-  "cookingtime": 100,
-  "experience": 1.0,
-  "group": "gold_ingot",
-  "ingredient": {
-    "item": "minecraft:raw_gold"
-  },
-  "result": {
-    "id": "minecraft:gold_ingot",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 4,
-        "saturation": 2,
-        "can_always_eat": true
-      }
+    "type": "minecraft:blasting",
+    "category": "misc",
+    "cookingtime": 100,
+    "experience": 1.0,
+    "group": "gold_ingot",
+    "ingredient": {
+        "item": "minecraft:raw_gold"
+    },
+    "result": {
+        "id": "minecraft:gold_ingot",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 4,
+                "can_always_eat": true,
+                "eat_seconds": 2.3
+            }
+        }
     }
-  }
 }

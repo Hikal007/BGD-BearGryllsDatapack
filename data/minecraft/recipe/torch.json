@@ -1,48 +1,31 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ]
-  },
-  "pattern": [
-    "X",
-    "#"
-  ],
-  "result": {
-    "count": 4,
-    "id": "minecraft:torch",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 0,
-        "saturation": 0,
-        "can_always_eat": true,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:night_vision",
-              "amplifier": 0,
-              "duration": 600
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        },
+        "X": [
+            {
+                "item": "minecraft:coal"
+            },
+            {
+                "item": "minecraft:charcoal"
             }
-          },
-          {
-            "effect": {
-            "id": "minecraft:hunger",
-            "amplifier": 40,
-            "duration": 20
-            }
-          }
         ]
-      }
+    },
+    "pattern": [
+        "X",
+        "#"
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:torch",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
+            }
+        }
     }
-  }
 }

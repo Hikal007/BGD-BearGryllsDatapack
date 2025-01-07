@@ -1,27 +1,27 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:iron_ingot"
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "#": {
+            "item": "minecraft:iron_ingot"
+        },
+        "X": {
+            "item": "minecraft:redstone"
+        }
     },
-    "X": {
-      "item": "minecraft:redstone"
+    "pattern": [
+        " # ",
+        "#X#",
+        " # "
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:compass",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    " # ",
-    "#X#",
-    " # "
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:compass",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 3,
-        "saturation": 1
-      }
-    }
-  }
 }

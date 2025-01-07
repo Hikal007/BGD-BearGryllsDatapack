@@ -1,27 +1,27 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        },
+        "X": {
+            "item": "minecraft:iron_ingot"
+        }
     },
-    "X": {
-      "item": "minecraft:iron_ingot"
+    "pattern": [
+        "X X",
+        "X#X",
+        "X X"
+    ],
+    "result": {
+        "count": 16,
+        "id": "minecraft:rail",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "X X",
-    "X#X",
-    "X X"
-  ],
-  "result": {
-    "count": 16,
-    "id": "minecraft:rail",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
-    }
-  }
 }

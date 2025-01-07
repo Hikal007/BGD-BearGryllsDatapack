@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:blasting",
+    "category": "blocks",
+    "cookingtime": 100,
+    "experience": 0.7,
+    "group": "redstone",
+    "ingredient": {
+        "item": "minecraft:redstone_ore"
+    },
+    "result": {
+        "id": "minecraft:redstone",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 0,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:strength",
+                            "amplifier": 0,
+                            "duration": 20
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

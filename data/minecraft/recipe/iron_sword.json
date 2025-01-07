@@ -1,36 +1,29 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        },
+        "X": {
+            "item": "minecraft:iron_ingot"
+        }
     },
-    "X": {
-      "item": "minecraft:iron_ingot"
-    }
-  },
-  "pattern": [
-    "X",
-    "X",
-    "#"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:iron_sword",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 2,
-        "saturation": 1,
-        "can_always_eat": true,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:strength",
-              "duration": 800
+    "pattern": [
+        "X",
+        "X",
+        "#"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:iron_sword",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 3,
+                "can_always_eat": true,
+                "eat_seconds": 2.3
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

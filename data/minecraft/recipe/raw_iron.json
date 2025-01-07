@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:raw_iron_block"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "id": "minecraft:raw_iron",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:strength",
+                            "amplifier": 0,
+                            "duration": 100
+                        }
+                    },
+                    {
+                        "effect": {
+                            "id": "minecraft:hunger",
+                            "amplifier": 40,
+                            "duration": 20
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

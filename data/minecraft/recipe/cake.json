@@ -1,33 +1,33 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "A": {
-      "item": "minecraft:milk_bucket"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "A": {
+            "item": "minecraft:milk_bucket"
+        },
+        "B": {
+            "item": "minecraft:sugar"
+        },
+        "C": {
+            "item": "minecraft:wheat"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        }
     },
-    "B": {
-      "item": "minecraft:sugar"
-    },
-    "C": {
-      "item": "minecraft:wheat"
-    },
-    "E": {
-      "item": "minecraft:egg"
+    "pattern": [
+        "AAA",
+        "BEB",
+        "CCC"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:cake",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "AAA",
-    "BEB",
-    "CCC"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:cake",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 5,
-        "saturation": 1
-      }
-    }
-  }
 }

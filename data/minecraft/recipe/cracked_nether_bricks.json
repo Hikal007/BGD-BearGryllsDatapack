@@ -1,27 +1,18 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.1,
-  "ingredient": {
-    "item": "minecraft:nether_bricks"
-  },
-  "result": {
-    "id": "minecraft:cracked_nether_bricks",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1,
-        "can_always_eat": true,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:fire_resistance",
-              "duration": 200
+    "type": "minecraft:smelting",
+    "category": "blocks",
+    "cookingtime": 200,
+    "experience": 0.1,
+    "ingredient": {
+        "item": "minecraft:nether_bricks"
+    },
+    "result": {
+        "id": "minecraft:cracked_nether_bricks",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

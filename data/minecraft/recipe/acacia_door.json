@@ -1,25 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_door",
-  "key": {
-    "#": {
-      "item": "minecraft:acacia_planks"
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "group": "wooden_door",
+    "key": {
+        "#": {
+            "item": "minecraft:acacia_planks"
+        }
+    },
+    "pattern": [
+        "##",
+        "##",
+        "##"
+    ],
+    "result": {
+        "count": 3,
+        "id": "minecraft:acacia_door",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "##",
-    "##",
-    "##"
-  ],
-  "result": {
-    "count": 3,
-    "id": "minecraft:acacia_door",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
-    }
-  }
 }

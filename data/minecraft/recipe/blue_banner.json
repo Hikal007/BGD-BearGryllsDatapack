@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "banner",
+    "key": {
+        "#": {
+            "item": "minecraft:blue_wool"
+        },
+        "|": {
+            "item": "minecraft:stick"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        " | "
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:blue_banner",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 1
+            }
+        }
+    }
+}

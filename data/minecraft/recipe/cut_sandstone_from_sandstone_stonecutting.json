@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:sandstone"
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:cut_sandstone",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 1
+            }
+        }
+    }
+}

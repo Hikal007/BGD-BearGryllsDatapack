@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "#": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:redstone_block",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 0,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:strength",
+                            "amplifier": 0,
+                            "duration": 200
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

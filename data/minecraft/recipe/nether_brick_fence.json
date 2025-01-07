@@ -1,26 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:nether_brick"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:nether_brick"
+        },
+        "W": {
+            "item": "minecraft:nether_bricks"
+        }
     },
-    "W": {
-      "item": "minecraft:nether_bricks"
+    "pattern": [
+        "W#W",
+        "W#W"
+    ],
+    "result": {
+        "count": 6,
+        "id": "minecraft:nether_brick_fence",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "W#W",
-    "W#W"
-  ],
-  "result": {
-    "count": 6,
-    "id": "minecraft:nether_brick_fence",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
-    }
-  }
 }

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "G": {
+            "item": "minecraft:glowstone"
+        },
+        "O": {
+            "item": "minecraft:crying_obsidian"
+        }
+    },
+    "pattern": [
+        "OOO",
+        "GGG",
+        "OOO"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:respawn_anchor",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:regeneration",
+                            "amplifier": 2,
+                            "duration": 600
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

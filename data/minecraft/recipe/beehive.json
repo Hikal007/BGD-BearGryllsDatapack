@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "H": {
+            "item": "minecraft:honeycomb"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "pattern": [
+        "PPP",
+        "HHH",
+        "PPP"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:beehive",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 5,
+                "saturation": 2.5,
+                "eat_seconds": 2,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:oozing",
+                            "duration": -1
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

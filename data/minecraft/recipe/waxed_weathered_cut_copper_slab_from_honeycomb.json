@@ -1,23 +1,23 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "waxed_weathered_cut_copper_slab",
-  "ingredients": [
-    {
-      "item": "minecraft:weathered_cut_copper_slab"
-    },
-    {
-      "item": "minecraft:honeycomb"
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "waxed_weathered_cut_copper_slab",
+    "ingredients": [
+        {
+            "item": "minecraft:weathered_cut_copper_slab"
+        },
+        {
+            "item": "minecraft:honeycomb"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:waxed_weathered_cut_copper_slab",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:waxed_weathered_cut_copper_slab",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
-    }
-  }
 }

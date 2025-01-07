@@ -1,38 +1,30 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "pattern": [
-    "###",
-    "#X#",
-    "#O#"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:cobblestone"
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "###",
+        "#X#",
+        "#O#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "X": {
+            "item": "minecraft:bow"
+        },
+        "O": {
+            "item": "minecraft:redstone"
+        }
     },
-    "X": {
-      "item": "minecraft:bow"
-    },
-    "O": {
-      "item": "minecraft:redstone"
-    }
-  },
-  "result": {
-    "id": "minecraft:dispenser",
-    "count": 1,
-    "components": {
-      "minecraft:food": {
-        "nutrition": 2,
-        "saturation": 1,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:strength",
-              "duration": 600
+    "result": {
+        "id": "minecraft:dispenser",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

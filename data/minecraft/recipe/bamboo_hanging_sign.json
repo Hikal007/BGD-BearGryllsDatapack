@@ -1,28 +1,28 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "hanging_sign",
-  "key": {
-    "#": {
-      "item": "minecraft:stripped_bamboo_block"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "hanging_sign",
+    "key": {
+        "#": {
+            "item": "minecraft:stripped_bamboo_block"
+        },
+        "X": {
+            "item": "minecraft:chain"
+        }
     },
-    "X": {
-      "item": "minecraft:chain"
+    "pattern": [
+        "X X",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 6,
+        "id": "minecraft:bamboo_hanging_sign",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "X X",
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 6,
-    "id": "minecraft:bamboo_hanging_sign",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
-    }
-  }
 }

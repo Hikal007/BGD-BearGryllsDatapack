@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "H": {
+            "item": "minecraft:honeycomb"
+        },
+        "S": {
+            "item": "minecraft:string"
+        }
+    },
+    "pattern": [
+        "S",
+        "H"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:candle",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 1
+            }
+        }
+    }
+}

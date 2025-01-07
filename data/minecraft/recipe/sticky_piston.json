@@ -1,36 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "P": {
-      "item": "minecraft:piston"
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "P": {
+            "item": "minecraft:piston"
+        },
+        "S": {
+            "item": "minecraft:slime_ball"
+        }
     },
-    "S": {
-      "item": "minecraft:slime_ball"
-    }
-  },
-  "pattern": [
-    "S",
-    "P"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:sticky_piston",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 3,
-        "saturation": 1.5,
-        "can_always_eat": true,
-        "eat_seconds": 1.8,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:slowness",
-              "duration": 400
+    "pattern": [
+        "S",
+        "P"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:sticky_piston",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

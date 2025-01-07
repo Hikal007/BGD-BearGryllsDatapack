@@ -1,23 +1,23 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "group": "mossy_cobblestone",
-  "ingredients": [
-    {
-      "item": "minecraft:cobblestone"
-    },
-    {
-      "item": "minecraft:moss_block"
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "mossy_cobblestone",
+    "ingredients": [
+        {
+            "item": "minecraft:cobblestone"
+        },
+        {
+            "item": "minecraft:moss_block"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:mossy_cobblestone",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:mossy_cobblestone",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
-    }
-  }
 }

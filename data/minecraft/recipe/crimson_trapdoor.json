@@ -1,24 +1,24 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_trapdoor",
-  "key": {
-    "#": {
-      "item": "minecraft:crimson_planks"
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "group": "wooden_trapdoor",
+    "key": {
+        "#": {
+            "item": "minecraft:crimson_planks"
+        }
+    },
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 2,
+        "id": "minecraft:crimson_trapdoor",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "pattern": [
-    "###",
-    "###"
-  ],
-  "result": {
-    "count": 2,
-    "id": "minecraft:crimson_trapdoor",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 1
-      }
-    }
-  }
 }

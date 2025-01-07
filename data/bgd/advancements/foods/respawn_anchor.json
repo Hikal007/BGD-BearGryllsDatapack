@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+                "minecraft:respawn_anchor"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bgd:foods/respawn_anchor"
+    }
+  }

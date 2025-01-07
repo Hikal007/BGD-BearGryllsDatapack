@@ -1,107 +1,107 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:block",
+    "pools": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "conditions": [
+            "bonus_rolls": 0.0,
+            "entries": [
                 {
-                  "condition": "minecraft:any_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:match_tool",
-                      "predicate": {
-                        "items": "minecraft:shears"
-                      }
-                    },
-                    {
-                      "condition": "minecraft:match_tool",
-                      "predicate": {
-                        "predicates": {
-                          "minecraft:enchantments": [
-                            {
-                              "enchantment": "minecraft:silk_touch",
-                              "levels": {
-                                "min": 1
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  ]
-                }
-              ],
-              "name": "minecraft:cobweb",
-              "functions": [
-                {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:food": {
-                      "nutrition": 1,
-                      "saturation": 0.5,
-                      "can_always_eat": true,
-                      "eat_seconds": 1.8,
-                      "effects": [
+                    "type": "minecraft:alternatives",
+                    "children": [
                         {
-                          "effect": {
-                            "id": "minecraft:weakness",
-                            "duration": 400
-                          }
-                        }
-                      ]
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:survives_explosion"
-                }
-              ],
-              "name": "minecraft:string",
-              "functions": [
-                {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:food": {
-                      "nutrition": 1,
-                      "saturation": 0.5,
-                      "can_always_eat": true,
-                      "eat_seconds": 1.8,
-                      "effects": [
-                        {
-                          "effect": {
-                            "id": "minecraft:slowness",
-                            "duration": 800
-                          }
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:any_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "items": "minecraft:shears"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "predicates": {
+                                                    "minecraft:enchantments": [
+                                                        {
+                                                            "enchantment": "minecraft:silk_touch",
+                                                            "levels": {
+                                                                "min": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "name": "minecraft:cobweb",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:food": {
+                                            "nutrition": 1,
+                                            "saturation": 0.5,
+                                            "can_always_eat": true,
+                                            "eat_seconds": 1.8,
+                                            "effects": [
+                                                {
+                                                    "effect": {
+                                                        "id": "minecraft:weakness",
+                                                        "duration": 400
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
                         },
                         {
-                          "effect": {
-                            "id": "minecraft:hunger",
-                            "amplifier": 150,
-                            "duration": 20
-                          }
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                }
+                            ],
+                            "name": "minecraft:string",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:food": {
+                                            "nutrition": 1,
+                                            "saturation": 0.5,
+                                            "can_always_eat": true,
+                                            "eat_seconds": 1.8,
+                                            "effects": [
+                                                {
+                                                    "effect": {
+                                                        "id": "minecraft:slowness",
+                                                        "duration": 800
+                                                    }
+                                                },
+                                                {
+                                                    "effect": {
+                                                        "id": "minecraft:hunger",
+                                                        "amplifier": 150,
+                                                        "duration": 20
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
                         }
-                      ]
-                    }
-                  }
+                    ]
                 }
-              ]
-            }
-          ]
+            ],
+            "rolls": 1.0
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:blocks/cobweb"
+    ],
+    "random_sequence": "minecraft:blocks/cobweb"
 }

@@ -1,16 +1,16 @@
 {
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:bricks"
-  },
-  "result": {
-    "count": 1,
-    "id": "minecraft:brick_stairs",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 2,
-        "saturation": 1
-      }
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:bricks"
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:brick_stairs",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
+            }
+        }
     }
-  }
 }

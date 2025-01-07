@@ -1,36 +1,27 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "G": {
-      "item": "minecraft:glowstone"
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "G": {
+            "item": "minecraft:glowstone"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        }
     },
-    "R": {
-      "item": "minecraft:redstone"
-    }
-  },
-  "pattern": [
-    " R ",
-    "RGR",
-    " R "
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:redstone_lamp",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 3,
-        "saturation": 1,
-        "can_always_eat": true,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:night_vision",
-              "duration": 800
+    "pattern": [
+        " R ",
+        "RGR",
+        " R "
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:redstone_lamp",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

@@ -1,23 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "##",
-    "##"
-  ],
-  "key": {
-    "#": {
-      "tag": "minecraft:planks"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "id": "minecraft:crafting_table",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        }
     }
-  },
-  "result": {
-    "id": "minecraft:crafting_table",
-    "count": 1,
-    "components": {
-      "minecraft:food": {
-        "nutrition": 3,
-        "saturation": 1.5
-      }
-    }
-  }
 }

@@ -1,32 +1,24 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "equipment",
-  "ingredients": [
-    {
-      "item": "minecraft:iron_ingot"
-    },
-    {
-      "item": "minecraft:flint"
-    }
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:flint_and_steel",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 0,
-        "saturation": 0.0,
-        "can_always_eat": true,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:hunger",
-              "amplifier": 80,
-              "duration": 20
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:flint"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:flint_and_steel",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1,
+                "can_always_eat": true,
+                "eat_seconds": 1.8
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

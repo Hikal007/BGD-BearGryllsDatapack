@@ -1,28 +1,18 @@
 {
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "cookingtime": 200,
-  "experience": 0.15,
-  "ingredient": {
-    "item": "minecraft:wet_sponge"
-  },
-  "result": {
-    "id": "minecraft:sponge",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 0.5,
-        "can_always_eat": true,
-        "eat_seconds": 0.8,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:water_breathing",
-              "duration": 600
+    "type": "minecraft:smelting",
+    "category": "blocks",
+    "cookingtime": 200,
+    "experience": 0.15,
+    "ingredient": {
+        "item": "minecraft:wet_sponge"
+    },
+    "result": {
+        "id": "minecraft:sponge",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

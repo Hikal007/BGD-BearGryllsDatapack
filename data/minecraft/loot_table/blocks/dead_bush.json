@@ -1,88 +1,88 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:block",
+    "pools": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "conditions": [
+            "bonus_rolls": 0.0,
+            "entries": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "items": "minecraft:shears"
-                  }
-                }
-              ],
-              "name": "minecraft:dead_bush",
-              "functions": [
-                {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:food": {
-                      "nutrition": 1,
-                      "saturation": 1.5,
-                      "can_always_eat": true,
-                      "eat_seconds": 1.4,
-                      "effects": [
+                    "type": "minecraft:alternatives",
+                    "children": [
                         {
-                          "effect": {
-                            "id": "minecraft:regeneration",
-                            "duration": 40
-                          }
-                        }
-                      ]
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "functions": [
-                {
-                  "add": false,
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "max": 2.0,
-                    "min": 0.0
-                  },
-                  "function": "minecraft:set_count"
-                },
-                {
-                  "function": "minecraft:explosion_decay"
-                },
-                {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:food": {
-                      "nutrition": 0,
-                      "saturation": 0.0,
-                      "can_always_eat": true,
-                      "eat_seconds": 1.7,
-                      "effects": [
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "items": "minecraft:shears"
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:dead_bush",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:food": {
+                                            "nutrition": 1,
+                                            "saturation": 1.5,
+                                            "can_always_eat": true,
+                                            "eat_seconds": 1.4,
+                                            "effects": [
+                                                {
+                                                    "effect": {
+                                                        "id": "minecraft:regeneration",
+                                                        "duration": 40
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        },
                         {
-                          "effect": {
-                            "id": "minecraft:hunger",
-                            "amplifier": 100,
-                            "duration": 80
-                          }
+                            "type": "minecraft:item",
+                            "functions": [
+                                {
+                                    "add": false,
+                                    "count": {
+                                        "type": "minecraft:uniform",
+                                        "max": 2.0,
+                                        "min": 0.0
+                                    },
+                                    "function": "minecraft:set_count"
+                                },
+                                {
+                                    "function": "minecraft:explosion_decay"
+                                },
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:food": {
+                                            "nutrition": 0,
+                                            "saturation": 0.0,
+                                            "can_always_eat": true,
+                                            "eat_seconds": 1.7,
+                                            "effects": [
+                                                {
+                                                    "effect": {
+                                                        "id": "minecraft:hunger",
+                                                        "amplifier": 100,
+                                                        "duration": 80
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:stick"
                         }
-                      ]
-                    }
-                  }
+                    ]
                 }
-              ],
-              "name": "minecraft:stick"
-            }
-          ]
+            ],
+            "rolls": 1.0
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:blocks/dead_bush"
+    ],
+    "random_sequence": "minecraft:blocks/dead_bush"
 }

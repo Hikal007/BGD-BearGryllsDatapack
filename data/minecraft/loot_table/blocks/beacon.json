@@ -1,0 +1,65 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_component",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 20,
+                                    "saturation": 20,
+                                    "eat_seconds": 30,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:regeneration"
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:strength",
+                                                "duration": 1500
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:jump_boost",
+                                                "duration": 1500
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:resistance",
+                                                "duration": 1500
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:haste",
+                                                "duration": 1500
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:speed",
+                                                "duration": 1500
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:beacon"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:blocks/beacon"
+}

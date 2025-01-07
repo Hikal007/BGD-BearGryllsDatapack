@@ -1,29 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:hay_block"
-    }
-  ],
-  "result": {
-    "count": 9,
-    "id": "minecraft:wheat",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 0.5,
-        "can_always_eat": true,
-        "eat_seconds": 1.8,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:regeneration",
-              "duration": 60
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:hay_block"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "id": "minecraft:wheat",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

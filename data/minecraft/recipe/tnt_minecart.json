@@ -1,23 +1,22 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:tnt"
-    },
-    {
-      "item": "minecraft:minecart"
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:tnt"
+        },
+        {
+            "item": "minecraft:minecart"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:tnt_minecart",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1
+            }
+        }
     }
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:tnt_minecart",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 3,
-        "saturation": 1,
-        "can_always_eat": true
-      }
-    }
-  }
 }

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "M": {
+            "item": "minecraft:weathered_copper"
+        }
+    },
+    "pattern": [
+        " M ",
+        "M M",
+        " M "
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:weathered_copper_grate",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 1
+            }
+        }
+    }
+}

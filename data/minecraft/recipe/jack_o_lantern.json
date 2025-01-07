@@ -1,36 +1,28 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "A": {
-      "item": "minecraft:carved_pumpkin"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "A": {
+            "item": "minecraft:carved_pumpkin"
+        },
+        "B": {
+            "item": "minecraft:torch"
+        }
     },
-    "B": {
-      "item": "minecraft:torch"
-    }
-  },
-  "pattern": [
-    "A",
-    "B"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:jack_o_lantern",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 2,
-        "saturation": 1,
-        "can_always_eat": true,
-        "eat_seconds": 1.6,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:night_vision",
-              "duration": 800
+    "pattern": [
+        "A",
+        "B"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:jack_o_lantern",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 3,
+                "can_always_eat": true,
+                "eat_seconds": 2.3
             }
-          }
-        ]
-      }
+        }
     }
-  }
 }

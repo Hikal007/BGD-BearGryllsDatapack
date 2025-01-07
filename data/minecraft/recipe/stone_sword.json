@@ -1,35 +1,27 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        },
+        "X": {
+            "tag": "minecraft:stone_tool_materials"
+        }
     },
-    "X": {
-      "tag": "minecraft:stone_tool_materials"
-    }
-  },
-  "pattern": [
-    "X",
-    "X",
-    "#"
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecraft:stone_sword",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:strength",
-              "duration": 400
+    "pattern": [
+        "X",
+        "X",
+        "#"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:stone_sword",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
             }
-          }
-        ],
-        "saturation": 1
-      }
+        }
     }
-  }
 }

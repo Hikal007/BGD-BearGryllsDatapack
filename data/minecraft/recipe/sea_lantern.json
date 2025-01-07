@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "C": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "S": {
+            "item": "minecraft:prismarine_shard"
+        }
+    },
+    "pattern": [
+        "SCS",
+        "CCC",
+        "SCS"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:sea_lantern",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 0,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:night_vision",
+                            "duration": 1200
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
